@@ -37,9 +37,18 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
 - The root `README.md` ("# Code") and `pipeline_autonome_v3_3_harmonic_v1.py`
   already in this repository are left untouched by these pushes.
 
+- `air-quality/` — Air Quality × pipeline v3.3-H1, 10 controls,
+  completed 26 Oct 2026. Text archive only (protocol, report, synthesis
+  CSVs, data, scripts); PDF/zip/PNG listed in `figures/README.md`,
+  delivered in chat, kept locally.
+- `breast-cancer/` — Breast Cancer × pipeline v3.3-H1, 32 controls,
+  completed 25–26 Oct 2026. Text archive only (protocol, report,
+  synthesis CSVs, data, scripts); PDF/zip/PNG listed in
+  `figures/README.md`, delivered in chat, kept locally.
+
 ## Next backfills (most recent first) / Prochains dépôts (plus récents d'abord)
 
-Air Quality — Breast Cancer — then
+Earthquake/Tsunami, Controls batch, Multi-tipping — then
 Earthquake/Tsunami, Controls batch, Multi-tipping, in that order, on
 request / as checkpoints allow. Each backfill follows the same pattern:
 protocol + report + synthesis CSVs + data + scripts (text only), with a
