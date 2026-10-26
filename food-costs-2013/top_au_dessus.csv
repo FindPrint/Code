@@ -1,0 +1,14 @@
+controle,n_au_dessus,liste_au_dessus,min_au_dessus,max_en_dessous,agence_min_au_dessus,agence_max_en_dessous
+2012-10-01 00:00:00,12,California; Texas; New York; Florida; Mountain Plains; Puerto Rico; Illinois; Georgia; Louisiana; Ohio; New Jersey; North Carolina,8920038.0,8357868.0,North Carolina,Washington
+2012-11-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Georgia; Illinois; North Carolina; Ohio; Michigan; New Jersey,9018020.0,8402724.0,New Jersey,Washington
+2012-12-01 00:00:00,12,California; New York; Mountain Plains; Florida; Puerto Rico; Ohio; North Carolina; Georgia; Illinois; Michigan; Texas; New Jersey,8902786.0,7733802.0,New Jersey,Washington
+2013-01-01 00:00:00,12,California; New York; Texas; Mountain Plains; Florida; Pennsylvania; Puerto Rico; Illinois; Georgia; Michigan; New Jersey; Washington,8201217.0,7139525.0,Washington,Louisiana
+2013-02-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Georgia; Illinois; North Carolina; Michigan; Ohio; New Jersey,8948880.0,7856760.0,New Jersey,Washington
+2013-03-01 00:00:00,12,California; New York; Texas; Mountain Plains; Florida; Puerto Rico; Illinois; Georgia; Pennsylvania; Michigan; North Carolina; New Jersey,8591296.0,8474119.0,New Jersey,Ohio
+2013-04-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Illinois; Georgia; North Carolina; Pennsylvania; Michigan; New Jersey,9325388.0,8624054.0,New Jersey,Ohio
+2013-05-01 00:00:00,12,California; New York; Texas; Mountain Plains; Florida; Puerto Rico; Illinois; Pennsylvania; Georgia; Michigan; North Carolina; New Jersey,9130670.0,9096860.0,New Jersey,Ohio
+2013-06-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Michigan; Illinois; Georgia; North Carolina; Pennsylvania; Ohio,8893980.0,8832062.0,Ohio,New Jersey
+2013-07-01 00:00:00,12,California; New York; Texas; Mountain Plains; Florida; Puerto Rico; Pennsylvania; Georgia; North Carolina; Ohio; Illinois; New Jersey,8841066.0,7638512.0,New Jersey,Washington
+2013-08-01 00:00:00,12,California; New York; Florida; Mountain Plains; Puerto Rico; Georgia; Pennsylvania; North Carolina; Illinois; Michigan; Texas; Ohio,10155447.0,9248991.0,Ohio,New Jersey
+2013-09-01 00:00:00,12,California; Texas; Florida; Mountain Plains; Pennsylvania; Puerto Rico; New York; North Carolina; Georgia; Illinois; Michigan; Ohio,9219730.0,8596771.0,Ohio,New Jersey
+Cumulative Cost,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Illinois; Georgia; North Carolina; Pennsylvania; Michigan; Ohio,113207358.0,107731536.0,Ohio,New Jersey

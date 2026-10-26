@@ -1,0 +1,14 @@
+controle,n_au_dessus,liste_au_dessus,min_au_dessus,agence_min_au_dessus,max_en_dessous,agence_max_en_dessous
+2014-10-01 00:00:00,16,California; Texas; New York; Florida; Mountain Plains; Illinois; Puerto Rico; North Carolina; Georgia; Michigan; New Jersey; Ohio; Alabama; Washington; Pennsylvania; Arizona,7211240.0,Arizona,6689267.0,Indiana
+2014-11-01 00:00:00,12,California; New York; Texas; Mountain Plains; Florida; Puerto Rico; Illinois; Georgia; Michigan; Pennsylvania; North Carolina; Ohio,8670890.0,Ohio,8619354.0,New Jersey
+2014-12-01 00:00:00,12,California; Texas; New York; Florida; Mountain Plains; Pennsylvania; Illinois; Puerto Rico; North Carolina; Georgia; Michigan; Alabama,9188793.0,Alabama,8985757.0,Ohio
+2015-01-01 00:00:00,12,California; New York; Mountain Plains; Texas; Florida; Puerto Rico; Illinois; Pennsylvania; Georgia; Michigan; North Carolina; New Jersey,8989280.0,New Jersey,8388439.0,Maryland
+2015-02-01 00:00:00,13,California; Texas; New York; Florida; Mountain Plains; Puerto Rico; Ohio; Illinois; Georgia; Michigan; Pennsylvania; Maryland; New Jersey,7989509.0,New Jersey,7881532.0,Alabama
+2015-03-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Puerto Rico; Illinois; Pennsylvania; North Carolina; Georgia; Arizona; Tennessee,9344641.0,Tennessee,9265841.0,Michigan
+2015-04-01 00:00:00,12,California; New York; Texas; Florida; Mountain Plains; Pennsylvania; Illinois; Puerto Rico; North Carolina; Georgia; Michigan; Ohio,9022004.0,Ohio,8670263.0,New Jersey
+2015-05-01 00:00:00,12,California; Texas; New York; Florida; Mountain Plains; Puerto Rico; Illinois; Georgia; Pennsylvania; North Carolina; Michigan; New Jersey,8384120.0,New Jersey,8355243.0,Ohio
+2015-06-01 00:00:00,12,California; New York; Florida; Mountain Plains; Texas; Puerto Rico; Illinois; North Carolina; Georgia; Michigan; New Jersey; Washington,7475704.0,Washington,6328350.0,Alabama
+2015-07-01 00:00:00,12,California; Texas; New York; Mountain Plains; Florida; Puerto Rico; Ohio; Pennsylvania; North Carolina; Georgia; Michigan; Illinois,9328988.0,Illinois,9046162.0,New Jersey
+2015-08-01 00:00:00,12,California; Texas; New York; Florida; Mountain Plains; Pennsylvania; Puerto Rico; North Carolina; Georgia; Tennessee; Illinois; Michigan,9368011.0,Michigan,8907030.0,Alabama
+2015-09-01 00:00:00,12,California; New York; Mountain Plains; Florida; Texas; Puerto Rico; Pennsylvania; North Carolina; Georgia; Arizona; Illinois; Michigan,9616630.0,Michigan,8568137.0,New Jersey
+Cumulative Cost,12,California; Texas; New York; Florida; Mountain Plains; Puerto Rico; Illinois; Pennsylvania; North Carolina; Georgia; Michigan; New Jersey,103757360.0,New Jersey,101852969.0,Ohio

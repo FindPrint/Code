@@ -20,6 +20,10 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
   text push — they are delivered in chat and kept in the local archive.
   See the figures README for the list and how to add them via GitHub web
   upload if wanted.
+- `food-costs-2015/`, `food-costs-2014/`, `food-costs-2013/` — same
+  pattern, 14 controls each, completed 26 Oct 2026. Text archive only
+  (protocol, report, synthesis CSVs, data, scripts); PDF/zip/PNG listed
+  in each `figures/README.md`, delivered in chat, kept locally.
 
 ## What is NOT in this text push / Ce qui n'est PAS dans ce push texte
 
@@ -35,7 +39,7 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
 
 ## Next backfills (most recent first) / Prochains dépôts (plus récents d'abord)
 
-Food_Costs 2015, 2014, 2013 — Air Quality — Breast Cancer — then
+Air Quality — Breast Cancer — then
 Earthquake/Tsunami, Controls batch, Multi-tipping, in that order, on
 request / as checkpoints allow. Each backfill follows the same pattern:
 protocol + report + synthesis CSVs + data + scripts (text only), with a
