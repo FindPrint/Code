@@ -3,7 +3,7 @@ import json, glob
 from pathlib import Path
 import numpy as np, pandas as pd
 from scipy import stats
-BASE=Path(__file__).resolve().parents[1]  # repo root (portable)
+BASE=Path('/home/hatch/workspace/mushroom-v34')
 df=pd.read_csv(BASE/'data'/'mushrooms_pipeline.csv')
 cols=[c for c in df.columns if __import__('pandas').api.types.is_numeric_dtype(df[c])]
 # plateaux
@@ -27,15 +27,17 @@ for p in sorted(glob.glob(str(BASE/'results'/'ctrl_*'/'run_summary.json'))):
           'seuil_MC_brut_pct':round(s['raw_mc_threshold_pct'],2),'seuil_defaut_brut_pct':round(s['raw_default_threshold_pct'],2),
           'seuil_rigide1001_pct':s['rigid_1001_threshold_pct'],
           'ecart_MC_moins_defaut':round(s['mc_threshold_pct']-s['default_threshold_pct'],2),
-          'stabilite':s['stability_rating'],'stabilite_moy_pct':round(s['stability_mean'],2) if s['stability_mean'] else None,'stabilite_std':round(s['stability_std'],2),
+          'stabilite':s['stability_rating'],'stabilite_moy_pct':round(s['stability_mean'],2) if s['stability_mean'] is not None else None,'stabilite_std':round(s['stability_std'],2) if s['stability_std'] is not None else None,
           'score_MC':round(s['mc_score'],3),'w_MC':s['mc_w_size'],'n_candidats_MC':s['mc_n_candidates'],
           'scan_global_max':s.get('scan_max_score'),'scan_argmax_pct':s.get('scan_argmax_pct'),
           'valeur_controle_au_MC_mediane':cv.get('mediane'),
-          'flux_propres_mediane_pct':round(float(np.median(ths)),2),'flux_propres_IQR_pct':round(float(np.percentile(ths,75)-np.percentile(ths,25)),2),
+          'flux_propres_mediane_pct':round(float(np.median(ths)),2) if len(ths) else None,'flux_propres_IQR_pct':round(float(np.percentile(ths,75)-np.percentile(ths,25)),2) if len(ths) else None,
           'n_flux_a_pm5pts_du_MC':near,'score_propre_max':round(float(scs.max()),3) if len(scs) else None,
           'bruit':s.get('noise_label'),'duree_s':s['duration_s']})
         for r in pf: PF.append({'controle':c,**r})
-        f=pd.read_csv(BASE/'results'/f'ctrl_{c}'/'transition_F1F2.csv'); f.insert(0,'controle',c); F.append(f)
+        f1f2_path=BASE/'results'/f'ctrl_{c}'/'transition_F1F2.csv'
+        if f1f2_path.exists():
+            f=pd.read_csv(f1f2_path); f.insert(0,'controle',c); F.append(f)
     else:
         S.append({'controle':c,'statut':'ECHEC','n_lignes':None,'n_valides_controle':s['n_valides_controle'],
           'seuil_MC_pct':None,'seuil_defaut_pct':None,'seuil_MC_brut_pct':None,'seuil_defaut_brut_pct':None,'seuil_rigide1001_pct':None,

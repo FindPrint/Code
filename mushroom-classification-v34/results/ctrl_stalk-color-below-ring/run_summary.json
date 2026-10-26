@@ -1,0 +1,297 @@
+{
+  "dataset": "mushrooms_pipeline.csv (Kaggle uciml/mushroom-classification, fusion + encodage, voir PROTOCOLE.md)",
+  "control": "stalk-color-below-ring",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 8124,
+  "n_flux": 22,
+  "n_valides_controle": 8124,
+  "duration_s": 243.9,
+  "opt_threshold_pct": 98.06763285024154,
+  "mc_threshold_pct": 98.06763285024154,
+  "mc_score": 0.6478275636604627,
+  "mc_w_size": 57,
+  "mc_n_candidates": 622,
+  "mc_min_grp": 2,
+  "default_threshold_pct": 98.29268292682927,
+  "raw_mc_threshold_pct": 98.06763285024154,
+  "raw_default_threshold_pct": 98.29268292682927,
+  "rigid_1001_threshold_pct": 98.30000000000001,
+  "threshold_source": "monte_carlo",
+  "threshold_warnings": [],
+  "scan_fast_fallback_log": [],
+  "stability_rating": "VERY STABLE",
+  "stability_mean": 98.27467218771565,
+  "stability_std": 0.12172768856979728,
+  "noise_label": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+  "scores_moyens_par_Q": {
+    "Q1_Calme_vs_Chaos": 1.563,
+    "Q2_Tension_Seuil": 0.0,
+    "Q3_Agressivite": 1.563,
+    "Q4_Persistence": 0.21,
+    "Q5_Active_Reactive": 5.377,
+    "Q5_Actif_Receptif": 5.377
+  },
+  "per_flux": [
+    {
+      "flux": "class",
+      "seuil_propre_pct": 98.07,
+      "score_max": 1.085,
+      "top3_candidats": [
+        98.1,
+        98.2,
+        96.1
+      ]
+    },
+    {
+      "flux": "cap-shape",
+      "seuil_propre_pct": 93.72,
+      "score_max": 0.38,
+      "top3_candidats": [
+        93.7,
+        94.0,
+        98.7
+      ]
+    },
+    {
+      "flux": "cap-surface",
+      "seuil_propre_pct": 97.91,
+      "score_max": 1.612,
+      "top3_candidats": [
+        97.9,
+        98.1,
+        97.7
+      ]
+    },
+    {
+      "flux": "cap-color",
+      "seuil_propre_pct": 97.75,
+      "score_max": 1.334,
+      "top3_candidats": [
+        97.7,
+        97.4,
+        98.1
+      ]
+    },
+    {
+      "flux": "bruises",
+      "seuil_propre_pct": 97.91,
+      "score_max": 1.25,
+      "top3_candidats": [
+        97.9,
+        98.2,
+        98.4
+      ]
+    },
+    {
+      "flux": "odor",
+      "seuil_propre_pct": 99.19,
+      "score_max": 1.215,
+      "top3_candidats": [
+        99.2,
+        99.0,
+        98.9
+      ]
+    },
+    {
+      "flux": "gill-attachment",
+      "seuil_propre_pct": 98.07,
+      "score_max": 8.038,
+      "top3_candidats": [
+        98.1,
+        98.2,
+        97.9
+      ]
+    },
+    {
+      "flux": "gill-spacing",
+      "seuil_propre_pct": 45.25,
+      "score_max": 0.908,
+      "top3_candidats": [
+        45.2,
+        45.4,
+        45.6
+      ]
+    },
+    {
+      "flux": "gill-size",
+      "seuil_propre_pct": 77.94,
+      "score_max": 0.982,
+      "top3_candidats": [
+        77.9,
+        78.1,
+        73.8
+      ]
+    },
+    {
+      "flux": "gill-color",
+      "seuil_propre_pct": 97.42,
+      "score_max": 0.914,
+      "top3_candidats": [
+        97.4,
+        97.9,
+        98.2
+      ]
+    },
+    {
+      "flux": "stalk-shape",
+      "seuil_propre_pct": 84.7,
+      "score_max": 2.23,
+      "top3_candidats": [
+        84.7,
+        84.4,
+        83.7
+      ]
+    },
+    {
+      "flux": "stalk-root",
+      "seuil_propre_pct": 61.51,
+      "score_max": 1.049,
+      "top3_candidats": [
+        61.5,
+        61.7,
+        61.8
+      ]
+    },
+    {
+      "flux": "stalk-surface-above-ring",
+      "seuil_propre_pct": 84.7,
+      "score_max": 1.214,
+      "top3_candidats": [
+        84.7,
+        85.2,
+        86.3
+      ]
+    },
+    {
+      "flux": "stalk-surface-below-ring",
+      "seuil_propre_pct": 85.19,
+      "score_max": 1.116,
+      "top3_candidats": [
+        85.2,
+        86.0,
+        84.1
+      ]
+    },
+    {
+      "flux": "stalk-color-above-ring",
+      "seuil_propre_pct": 98.07,
+      "score_max": 5.138,
+      "top3_candidats": [
+        98.1,
+        98.2,
+        97.9
+      ]
+    },
+    {
+      "flux": "veil-type",
+      "seuil_propre_pct": 27.05,
+      "score_max": 0.0,
+      "top3_candidats": [
+        27.1,
+        27.2,
+        27.4
+      ]
+    },
+    {
+      "flux": "veil-color",
+      "seuil_propre_pct": 98.07,
+      "score_max": 3.264,
+      "top3_candidats": [
+        98.1,
+        97.9,
+        98.2
+      ]
+    },
+    {
+      "flux": "ring-number",
+      "seuil_propre_pct": 99.19,
+      "score_max": 1.625,
+      "top3_candidats": [
+        99.2,
+        99.0,
+        98.9
+      ]
+    },
+    {
+      "flux": "ring-type",
+      "seuil_propre_pct": 86.63,
+      "score_max": 1.408,
+      "top3_candidats": [
+        86.6,
+        86.3,
+        84.7
+      ]
+    },
+    {
+      "flux": "spore-print-color",
+      "seuil_propre_pct": 98.07,
+      "score_max": 1.648,
+      "top3_candidats": [
+        98.1,
+        98.7,
+        96.9
+      ]
+    },
+    {
+      "flux": "population",
+      "seuil_propre_pct": 99.19,
+      "score_max": 1.809,
+      "top3_candidats": [
+        99.2,
+        99.0,
+        98.9
+      ]
+    },
+    {
+      "flux": "habitat",
+      "seuil_propre_pct": 98.07,
+      "score_max": 2.525,
+      "top3_candidats": [
+        98.1,
+        97.7,
+        97.4
+      ]
+    }
+  ],
+  "landscape_peaks": [
+    {
+      "candidat_pct": 94.04,
+      "score": 0.852,
+      "rel_au_max": 0.552
+    },
+    {
+      "candidat_pct": 94.36,
+      "score": 0.869,
+      "rel_au_max": 0.562
+    },
+    {
+      "candidat_pct": 94.85,
+      "score": 0.893,
+      "rel_au_max": 0.578
+    },
+    {
+      "candidat_pct": 95.33,
+      "score": 0.894,
+      "rel_au_max": 0.579
+    },
+    {
+      "candidat_pct": 96.14,
+      "score": 0.924,
+      "rel_au_max": 0.598
+    },
+    {
+      "candidat_pct": 98.07,
+      "score": 1.544,
+      "rel_au_max": 1.0
+    }
+  ],
+  "scan_max_score": 1.544,
+  "scan_argmax_pct": 98.07,
+  "controle_valeur_au_seuil_mc": {
+    "mediane": 7.0,
+    "moyenne": 6.679,
+    "std": 0.663
+  },
+  "n_F1F2": 115
+}

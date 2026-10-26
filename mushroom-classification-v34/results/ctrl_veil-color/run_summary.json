@@ -1,0 +1,417 @@
+{
+  "dataset": "mushrooms_pipeline.csv (Kaggle uciml/mushroom-classification, fusion + encodage, voir PROTOCOLE.md)",
+  "control": "veil-color",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 8124,
+  "n_flux": 22,
+  "n_valides_controle": 8124,
+  "duration_s": 632.9,
+  "opt_threshold_pct": 53.5,
+  "mc_threshold_pct": 53.5,
+  "mc_score": 0.6970196789570673,
+  "mc_w_size": 861,
+  "mc_n_candidates": 801,
+  "mc_min_grp": 2,
+  "default_threshold_pct": 93.41463414634146,
+  "raw_mc_threshold_pct": 53.0,
+  "raw_default_threshold_pct": 93.41463414634146,
+  "rigid_1001_threshold_pct": 53.5,
+  "threshold_source": "monte_carlo",
+  "threshold_warnings": [],
+  "scan_fast_fallback_log": [],
+  "stability_rating": "VERY STABLE",
+  "stability_mean": 95.25,
+  "stability_std": 1.6723860200324565,
+  "noise_label": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+  "scores_moyens_par_Q": {
+    "Q1_Calme_vs_Chaos": 0.0,
+    "Q2_Tension_Seuil": 1035.305,
+    "Q3_Agressivite": 0.0,
+    "Q4_Persistence": 0.3,
+    "Q5_Active_Reactive": 20.685,
+    "Q5_Actif_Receptif": 20.685
+  },
+  "per_flux": [
+    {
+      "flux": "class",
+      "seuil_propre_pct": 49.0,
+      "score_max": 1.265,
+      "top3_candidats": [
+        49.0,
+        49.6,
+        49.8
+      ]
+    },
+    {
+      "flux": "cap-shape",
+      "seuil_propre_pct": 50.62,
+      "score_max": 0.523,
+      "top3_candidats": [
+        50.6,
+        49.5,
+        49.1
+      ]
+    },
+    {
+      "flux": "cap-surface",
+      "seuil_propre_pct": 49.88,
+      "score_max": 0.553,
+      "top3_candidats": [
+        49.9,
+        49.2,
+        50.0
+      ]
+    },
+    {
+      "flux": "cap-color",
+      "seuil_propre_pct": 60.0,
+      "score_max": 0.324,
+      "top3_candidats": [
+        60.0,
+        58.4,
+        54.9
+      ]
+    },
+    {
+      "flux": "bruises",
+      "seuil_propre_pct": 49.12,
+      "score_max": 0.936,
+      "top3_candidats": [
+        49.1,
+        49.9,
+        49.8
+      ]
+    },
+    {
+      "flux": "odor",
+      "seuil_propre_pct": 50.0,
+      "score_max": 0.633,
+      "top3_candidats": [
+        50.0,
+        52.8,
+        49.1
+      ]
+    },
+    {
+      "flux": "gill-attachment",
+      "seuil_propre_pct": 58.88,
+      "score_max": 0.777,
+      "top3_candidats": [
+        58.9,
+        57.4,
+        60.0
+      ]
+    },
+    {
+      "flux": "gill-spacing",
+      "seuil_propre_pct": 59.0,
+      "score_max": 0.405,
+      "top3_candidats": [
+        59.0,
+        58.9,
+        53.5
+      ]
+    },
+    {
+      "flux": "gill-size",
+      "seuil_propre_pct": 58.75,
+      "score_max": 0.95,
+      "top3_candidats": [
+        58.8,
+        50.2,
+        49.6
+      ]
+    },
+    {
+      "flux": "gill-color",
+      "seuil_propre_pct": 50.62,
+      "score_max": 0.256,
+      "top3_candidats": [
+        50.6,
+        50.0,
+        49.8
+      ]
+    },
+    {
+      "flux": "stalk-shape",
+      "seuil_propre_pct": 49.88,
+      "score_max": 0.567,
+      "top3_candidats": [
+        49.9,
+        49.2,
+        49.0
+      ]
+    },
+    {
+      "flux": "stalk-root",
+      "seuil_propre_pct": 53.5,
+      "score_max": 0.467,
+      "top3_candidats": [
+        53.5,
+        59.9,
+        52.4
+      ]
+    },
+    {
+      "flux": "stalk-surface-above-ring",
+      "seuil_propre_pct": 51.5,
+      "score_max": 1.004,
+      "top3_candidats": [
+        51.5,
+        49.1,
+        52.0
+      ]
+    },
+    {
+      "flux": "stalk-surface-below-ring",
+      "seuil_propre_pct": 51.5,
+      "score_max": 1.043,
+      "top3_candidats": [
+        51.5,
+        50.9,
+        52.6
+      ]
+    },
+    {
+      "flux": "stalk-color-above-ring",
+      "seuil_propre_pct": 58.88,
+      "score_max": 0.627,
+      "top3_candidats": [
+        58.9,
+        57.4,
+        59.1
+      ]
+    },
+    {
+      "flux": "stalk-color-below-ring",
+      "seuil_propre_pct": 58.88,
+      "score_max": 0.761,
+      "top3_candidats": [
+        58.9,
+        59.1,
+        60.0
+      ]
+    },
+    {
+      "flux": "veil-type",
+      "seuil_propre_pct": 48.88,
+      "score_max": 0.0,
+      "top3_candidats": [
+        48.9,
+        49.0,
+        49.1
+      ]
+    },
+    {
+      "flux": "ring-number",
+      "seuil_propre_pct": 54.5,
+      "score_max": 0.46,
+      "top3_candidats": [
+        54.5,
+        56.4,
+        55.4
+      ]
+    },
+    {
+      "flux": "ring-type",
+      "seuil_propre_pct": 52.0,
+      "score_max": 1.125,
+      "top3_candidats": [
+        52.0,
+        49.1,
+        53.5
+      ]
+    },
+    {
+      "flux": "spore-print-color",
+      "seuil_propre_pct": 49.12,
+      "score_max": 0.624,
+      "top3_candidats": [
+        49.1,
+        49.9,
+        50.6
+      ]
+    },
+    {
+      "flux": "population",
+      "seuil_propre_pct": 58.88,
+      "score_max": 0.729,
+      "top3_candidats": [
+        58.9,
+        56.8,
+        56.2
+      ]
+    },
+    {
+      "flux": "habitat",
+      "seuil_propre_pct": 58.38,
+      "score_max": 0.585,
+      "top3_candidats": [
+        58.4,
+        58.9,
+        60.0
+      ]
+    }
+  ],
+  "landscape_peaks": [
+    {
+      "candidat_pct": 49.12,
+      "score": 0.55,
+      "rel_au_max": 0.972
+    },
+    {
+      "candidat_pct": 49.38,
+      "score": 0.549,
+      "rel_au_max": 0.969
+    },
+    {
+      "candidat_pct": 49.88,
+      "score": 0.564,
+      "rel_au_max": 0.997
+    },
+    {
+      "candidat_pct": 50.25,
+      "score": 0.55,
+      "rel_au_max": 0.972
+    },
+    {
+      "candidat_pct": 50.62,
+      "score": 0.543,
+      "rel_au_max": 0.96
+    },
+    {
+      "candidat_pct": 50.88,
+      "score": 0.561,
+      "rel_au_max": 0.991
+    },
+    {
+      "candidat_pct": 51.62,
+      "score": 0.563,
+      "rel_au_max": 0.994
+    },
+    {
+      "candidat_pct": 52.0,
+      "score": 0.542,
+      "rel_au_max": 0.958
+    },
+    {
+      "candidat_pct": 52.38,
+      "score": 0.549,
+      "rel_au_max": 0.97
+    },
+    {
+      "candidat_pct": 52.62,
+      "score": 0.552,
+      "rel_au_max": 0.974
+    },
+    {
+      "candidat_pct": 53.12,
+      "score": 0.541,
+      "rel_au_max": 0.956
+    },
+    {
+      "candidat_pct": 53.5,
+      "score": 0.566,
+      "rel_au_max": 1.0
+    },
+    {
+      "candidat_pct": 54.0,
+      "score": 0.556,
+      "rel_au_max": 0.982
+    },
+    {
+      "candidat_pct": 54.25,
+      "score": 0.538,
+      "rel_au_max": 0.951
+    },
+    {
+      "candidat_pct": 54.62,
+      "score": 0.538,
+      "rel_au_max": 0.951
+    },
+    {
+      "candidat_pct": 55.0,
+      "score": 0.539,
+      "rel_au_max": 0.952
+    },
+    {
+      "candidat_pct": 55.25,
+      "score": 0.547,
+      "rel_au_max": 0.966
+    },
+    {
+      "candidat_pct": 55.5,
+      "score": 0.545,
+      "rel_au_max": 0.962
+    },
+    {
+      "candidat_pct": 55.75,
+      "score": 0.544,
+      "rel_au_max": 0.961
+    },
+    {
+      "candidat_pct": 56.25,
+      "score": 0.556,
+      "rel_au_max": 0.983
+    },
+    {
+      "candidat_pct": 56.5,
+      "score": 0.534,
+      "rel_au_max": 0.943
+    },
+    {
+      "candidat_pct": 56.88,
+      "score": 0.531,
+      "rel_au_max": 0.938
+    },
+    {
+      "candidat_pct": 57.38,
+      "score": 0.533,
+      "rel_au_max": 0.941
+    },
+    {
+      "candidat_pct": 57.62,
+      "score": 0.524,
+      "rel_au_max": 0.926
+    },
+    {
+      "candidat_pct": 57.88,
+      "score": 0.538,
+      "rel_au_max": 0.951
+    },
+    {
+      "candidat_pct": 58.12,
+      "score": 0.549,
+      "rel_au_max": 0.97
+    },
+    {
+      "candidat_pct": 58.88,
+      "score": 0.551,
+      "rel_au_max": 0.973
+    },
+    {
+      "candidat_pct": 59.38,
+      "score": 0.518,
+      "rel_au_max": 0.914
+    },
+    {
+      "candidat_pct": 59.75,
+      "score": 0.525,
+      "rel_au_max": 0.928
+    },
+    {
+      "candidat_pct": 60.0,
+      "score": 0.524,
+      "rel_au_max": 0.926
+    }
+  ],
+  "scan_max_score": 0.566,
+  "scan_argmax_pct": 53.5,
+  "controle_valeur_au_seuil_mc": {
+    "mediane": 0.0,
+    "moyenne": 0.0,
+    "std": 0.0
+  },
+  "n_F1F2": 115
+}

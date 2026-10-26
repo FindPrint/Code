@@ -1,0 +1,38 @@
+{
+  "dataset": "mushrooms_pipeline.csv (Kaggle uciml/mushroom-classification, fusion + encodage, voir PROTOCOLE.md)",
+  "control": "veil-type",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 8124,
+  "n_flux": 22,
+  "n_valides_controle": 8124,
+  "duration_s": 1098.1,
+  "opt_threshold_pct": NaN,
+  "mc_threshold_pct": NaN,
+  "mc_score": 0.0,
+  "mc_w_size": 135,
+  "mc_n_candidates": 363,
+  "mc_min_grp": 5,
+  "default_threshold_pct": NaN,
+  "raw_mc_threshold_pct": NaN,
+  "raw_default_threshold_pct": NaN,
+  "rigid_1001_threshold_pct": NaN,
+  "threshold_source": "monte_carlo",
+  "threshold_warnings": [
+    "ERREUR SEUIL : ni le Monte Carlo ni le scan par defaut n'ont produit de seuil valide (main_threshold = NaN). Les analyses post-seuil seront ignorees et le diagnostic bruit utilisera la valeur d'urgence 52,5 % (voir son propre avertissement).",
+    "REPLI SEUIL (diagnostic bruit) : seuil principal NaN, le diagnostic bruit utilise la valeur d'urgence fixe 52,5 % ; ce 52,5 % n'est PAS un seuil detecte."
+  ],
+  "scan_fast_fallback_log": [],
+  "stability_rating": "UNKNOWN",
+  "stability_mean": null,
+  "stability_std": null,
+  "noise_label": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+  "scores_moyens_par_Q": {
+    "Q1_Calme_vs_Chaos": 0.0,
+    "Q2_Tension_Seuil": 0.0,
+    "Q3_Agressivite": 0.0,
+    "Q4_Persistence": 0.142,
+    "Q5_Active_Reactive": 0.0,
+    "Q5_Actif_Receptif": 0.0
+  }
+}
