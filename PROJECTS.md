@@ -46,9 +46,18 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
   synthesis CSVs, data, scripts); PDF/zip/PNG listed in
   `figures/README.md`, delivered in chat, kept locally.
 
+- `earthquake-tsunami-v33h1/` — Earthquake/Tsunami × pipeline v3.3-H1,
+  13 controls, completed 25 Oct 2026. Key descriptive finding, in the
+  report: the Year ~2013 cut describes the file's field-filling history,
+  not a seismic regime. Text archive only.
+- `earthquake-tsunami-v33fixed/` — same protocol, pipeline v3.3 FIXED
+  (classic Monte Carlo, no harmonic guidance), 13 controls, completed
+  25 Oct 2026, with informational fluxes kept in a separate CSV.
+  Text archive only.
+
 ## Next backfills (most recent first) / Prochains dépôts (plus récents d'abord)
 
-Earthquake/Tsunami, Controls batch, Multi-tipping — then
+Controls batch, Multi-tipping — then
 Earthquake/Tsunami, Controls batch, Multi-tipping, in that order, on
 request / as checkpoints allow. Each backfill follows the same pattern:
 protocol + report + synthesis CSVs + data + scripts (text only), with a
