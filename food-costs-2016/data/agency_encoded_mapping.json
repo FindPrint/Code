@@ -1,0 +1,366 @@
+[
+  {
+    "code": 0,
+    "agence": "Connecticut"
+  },
+  {
+    "code": 1,
+    "agence": "Maine"
+  },
+  {
+    "code": 2,
+    "agence": "Massachusetts"
+  },
+  {
+    "code": 3,
+    "agence": "New Hampshire"
+  },
+  {
+    "code": 4,
+    "agence": "New York"
+  },
+  {
+    "code": 5,
+    "agence": "Rhode Island"
+  },
+  {
+    "code": 6,
+    "agence": "Vermont"
+  },
+  {
+    "code": 7,
+    "agence": "Indian Township, ME"
+  },
+  {
+    "code": 8,
+    "agence": "Pleasant Point, ME"
+  },
+  {
+    "code": 9,
+    "agence": "Seneca Nation, NY"
+  },
+  {
+    "code": 10,
+    "agence": "Delaware"
+  },
+  {
+    "code": 11,
+    "agence": "District of Columbia"
+  },
+  {
+    "code": 12,
+    "agence": "Maryland"
+  },
+  {
+    "code": 13,
+    "agence": "New Jersey"
+  },
+  {
+    "code": 14,
+    "agence": "Pennsylvania"
+  },
+  {
+    "code": 15,
+    "agence": "Puerto Rico"
+  },
+  {
+    "code": 16,
+    "agence": "Virginia"
+  },
+  {
+    "code": 17,
+    "agence": "Virgin Islands"
+  },
+  {
+    "code": 18,
+    "agence": "West Virginia"
+  },
+  {
+    "code": 19,
+    "agence": "Alabama"
+  },
+  {
+    "code": 20,
+    "agence": "Florida"
+  },
+  {
+    "code": 21,
+    "agence": "Georgia"
+  },
+  {
+    "code": 22,
+    "agence": "Kentucky"
+  },
+  {
+    "code": 23,
+    "agence": "Mississippi"
+  },
+  {
+    "code": 24,
+    "agence": "North Carolina"
+  },
+  {
+    "code": 25,
+    "agence": "South Carolina"
+  },
+  {
+    "code": 26,
+    "agence": "Tennessee"
+  },
+  {
+    "code": 27,
+    "agence": "Choctaw Indians, MS"
+  },
+  {
+    "code": 28,
+    "agence": "Eastern Cherokee, NC"
+  },
+  {
+    "code": 29,
+    "agence": "Illinois"
+  },
+  {
+    "code": 30,
+    "agence": "Indiana"
+  },
+  {
+    "code": 31,
+    "agence": "Michigan"
+  },
+  {
+    "code": 32,
+    "agence": "Minnesota"
+  },
+  {
+    "code": 33,
+    "agence": "Ohio"
+  },
+  {
+    "code": 34,
+    "agence": "Wisconsin"
+  },
+  {
+    "code": 35,
+    "agence": "Arkansas"
+  },
+  {
+    "code": 36,
+    "agence": "Louisiana"
+  },
+  {
+    "code": 37,
+    "agence": "New Mexico"
+  },
+  {
+    "code": 38,
+    "agence": "Oklahoma"
+  },
+  {
+    "code": 39,
+    "agence": "Texas"
+  },
+  {
+    "code": 40,
+    "agence": "Acoma, Canoncito & Laguna, NM"
+  },
+  {
+    "code": 41,
+    "agence": "Eight Northern Pueblos, NM"
+  },
+  {
+    "code": 42,
+    "agence": "Five Sandoval Pueblos, NM"
+  },
+  {
+    "code": 43,
+    "agence": "Isleta Pueblo, NM"
+  },
+  {
+    "code": 44,
+    "agence": "San Felipe Pueblo, NM"
+  },
+  {
+    "code": 45,
+    "agence": "Santo Domingo Tribe, NM"
+  },
+  {
+    "code": 46,
+    "agence": "Zuni Pueblo, NM"
+  },
+  {
+    "code": 47,
+    "agence": "Cherokee Nation, OK"
+  },
+  {
+    "code": 48,
+    "agence": "Chickasaw Nation, OK"
+  },
+  {
+    "code": 49,
+    "agence": "Choctaw Nation, OK"
+  },
+  {
+    "code": 50,
+    "agence": "Citizen Potawatomi Nation, OK"
+  },
+  {
+    "code": 51,
+    "agence": "Inter-Tribal Council, OK"
+  },
+  {
+    "code": 52,
+    "agence": "Muscogee Creek Nation, OK"
+  },
+  {
+    "code": 53,
+    "agence": "Osage Tribal Council, OK"
+  },
+  {
+    "code": 54,
+    "agence": "Otoe-Missouria Tribe, OK"
+  },
+  {
+    "code": 55,
+    "agence": "Wichita, Caddo & Delaware (WCD), OK"
+  },
+  {
+    "code": 56,
+    "agence": "Colorado"
+  },
+  {
+    "code": 57,
+    "agence": "Iowa"
+  },
+  {
+    "code": 58,
+    "agence": "Kansas"
+  },
+  {
+    "code": 59,
+    "agence": "Missouri"
+  },
+  {
+    "code": 60,
+    "agence": "Montana"
+  },
+  {
+    "code": 61,
+    "agence": "Nebraska"
+  },
+  {
+    "code": 62,
+    "agence": "North Dakota"
+  },
+  {
+    "code": 63,
+    "agence": "South Dakota"
+  },
+  {
+    "code": 64,
+    "agence": "Utah"
+  },
+  {
+    "code": 65,
+    "agence": "Wyoming"
+  },
+  {
+    "code": 66,
+    "agence": "Ute Mountain Ute Tribe, CO"
+  },
+  {
+    "code": 67,
+    "agence": "Omaha Sioux, NE"
+  },
+  {
+    "code": 68,
+    "agence": "Santee Sioux, NE"
+  },
+  {
+    "code": 69,
+    "agence": "Winnebago Tribe, NE"
+  },
+  {
+    "code": 70,
+    "agence": "Standing Rock Sioux Tribe, ND"
+  },
+  {
+    "code": 71,
+    "agence": "Three Affiliated Tribes, ND"
+  },
+  {
+    "code": 72,
+    "agence": "Cheyenne River Sioux, SD"
+  },
+  {
+    "code": 73,
+    "agence": "Rosebud Sioux, SD"
+  },
+  {
+    "code": 74,
+    "agence": "Northern Arapahoe, WY"
+  },
+  {
+    "code": 75,
+    "agence": "Shoshone Tribe, WY"
+  },
+  {
+    "code": 76,
+    "agence": "Mountain Plains"
+  },
+  {
+    "code": 77,
+    "agence": "Alaska"
+  },
+  {
+    "code": 78,
+    "agence": "American Samoa"
+  },
+  {
+    "code": 79,
+    "agence": "Arizona"
+  },
+  {
+    "code": 80,
+    "agence": "California"
+  },
+  {
+    "code": 81,
+    "agence": "Guam"
+  },
+  {
+    "code": 82,
+    "agence": "Hawaii"
+  },
+  {
+    "code": 83,
+    "agence": "Idaho"
+  },
+  {
+    "code": 84,
+    "agence": "Nevada"
+  },
+  {
+    "code": 85,
+    "agence": "Oregon"
+  },
+  {
+    "code": 86,
+    "agence": "Washington"
+  },
+  {
+    "code": 87,
+    "agence": "Northern Marianas"
+  },
+  {
+    "code": 88,
+    "agence": "Inter-Tribal Council, AZ"
+  },
+  {
+    "code": 89,
+    "agence": "Navajo Nation, AZ"
+  },
+  {
+    "code": 90,
+    "agence": "Inter-Tribal Council, NV"
+  }
+]
