@@ -55,9 +55,16 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
   25 Oct 2026, with informational fluxes kept in a separate CSV.
   Text archive only.
 
+- `multi-tipping/` — Multi-tipping benches (Ashkin-Teller + clock q=6,
+  22 Oct 2026) + Controls batch (35 runs, 25 Oct 2026): protocols,
+  reports, bench data CSVs, control synthesis, scripts. Text archive
+  only; PDFs (3.2 + 5.3 MB), per-run figures and zips listed in
+  `figures/README.md`, delivered in chat, kept locally.
+
 ## Next backfills (most recent first) / Prochains dépôts (plus récents d'abord)
 
-Controls batch, Multi-tipping — then
+Older projects (USGS, heart-attack, diabetes, quantum-ai, etc.) on
+request, most recent first. — then
 Earthquake/Tsunami, Controls batch, Multi-tipping, in that order, on
 request / as checkpoints allow. Each backfill follows the same pattern:
 protocol + report + synthesis CSVs + data + scripts (text only), with a

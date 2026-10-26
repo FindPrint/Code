@@ -1,0 +1,37 @@
+35 jobs, 2 travailleurs
+{"job": "at/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_s7/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_s7/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_s123/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s123/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_s123/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_s7/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_L36/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_L36/local_variance", "status": "SKIP déjà terminé"}
+{"job": "clock/magnetization", "status": "SKIP déjà terminé"}
+{"job": "clock/energy", "status": "SKIP déjà terminé"}
+{"job": "clock/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "clock/vortex_density", "status": "SKIP déjà terminé"}
+{"job": "clock/local_variance", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "null2/energy", "status": "SKIP déjà terminé"}
+{"job": "at_L36/energy", "status": "SKIP déjà terminé"}
+{"job": "null2/flip_rate", "status": "OK", "duree_s": 259.9, "global_pct": 17.857142857142858, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+{"job": "null2/local_variance", "status": "OK", "duree_s": 264.1, "global_pct": 28.185328185328185, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+LOT TERMINE

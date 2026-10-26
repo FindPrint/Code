@@ -1,0 +1,75 @@
+{"job": "at/magnetization_tau", "status": "OK", "duree_s": 291.2, "global_pct": 44.7103274559194, "global_T": [4.83, 0.189], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at/magnetization_s", "status": "OK", "duree_s": 295.4, "global_pct": 45.08816120906801, "global_T": [4.835, 0.252], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at/energy", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_prod", "status": "OK", "duree_s": 281.4, "global_pct": 44.7103274559194, "global_T": [4.8, 0.138], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at/flip_rate", "status": "OK", "duree_s": 282.0, "global_pct": 54.0983606557377, "global_T": [4.703, 0.091], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_s7/magnetization_s", "status": "OK", "duree_s": 282.1, "global_pct": 48.03493449781659, "global_T": [4.643, 0.11], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at/local_variance", "status": "OK", "duree_s": 289.2, "global_pct": 39.62804005722461, "global_T": [4.149, 0.767], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/energy", "status": "SKIP déjà terminé"}
+{"job": "at/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_prod", "status": "OK", "duree_s": 399.0, "global_pct": 47.74381368267831, "global_T": [4.578, 0.17], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s7/magnetization_tau", "status": "OK", "duree_s": 411.1, "global_pct": 47.598253275109165, "global_T": [4.656, 0.101], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_s7/flip_rate", "status": "OK", "duree_s": 415.2, "global_pct": 51.67394468704512, "global_T": [4.578, 0.085], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s7/energy", "status": "OK", "duree_s": 427.8, "global_pct": 51.7632241813602, "global_T": [4.592, 0.109], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s7/local_variance", "status": "OK", "duree_s": 404.1, "global_pct": 43.33333333333333, "global_T": [4.608, 1.002], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_s123/magnetization_s", "status": "OK", "duree_s": 439.0, "global_pct": 48.86649874055416, "global_T": [4.57, 0.177], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s123/magnetization_tau", "status": "OK", "duree_s": 407.7, "global_pct": 48.18049490538573, "global_T": [4.646, 0.207], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_s123/magnetization_prod", "status": "OK", "duree_s": 412.9, "global_pct": 48.86649874055416, "global_T": [4.592, 0.16], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s123/energy", "status": "OK", "duree_s": 442.2, "global_pct": 51.7632241813602, "global_T": [4.603, 0.104], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_s123/flip_rate", "status": "OK", "duree_s": 424.5, "global_pct": 50.946142649199416, "global_T": [4.533, 0.091], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_s123/local_variance", "status": "OK", "duree_s": 421.2, "global_pct": 41.9170243204578, "global_T": [4.073, 0.543], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_L36/magnetization_s", "status": "OK", "duree_s": 421.6, "global_pct": 46.050670640834575, "global_T": [4.741, 0.115], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_L36/magnetization_tau", "status": "OK", "duree_s": 415.6, "global_pct": 46.16541353383458, "global_T": [4.732, 0.104], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_L36/magnetization_prod", "status": "OK", "duree_s": 399.7, "global_pct": 46.050670640834575, "global_T": [4.705, 0.098], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_L36/energy", "status": "OK", "duree_s": 427.2, "global_pct": 53.53383458646616, "global_T": [4.689, 0.083], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "at_L36/flip_rate", "status": "OK", "duree_s": 423.9, "global_pct": 53.53383458646616, "global_T": [4.678, 0.062], "global_hit_T": "T1", "stabilite": "VERY STABLE"}
+{"job": "clock/magnetization", "status": "OK", "duree_s": 309.9, "global_pct": 15.335868187579216, "global_T": [1.1, 0.068], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "at_L36/local_variance", "status": "OK", "duree_s": 409.7, "global_pct": 41.87779433681073, "global_T": [4.358, 0.938], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "clock/energy", "status": "OK", "duree_s": 273.4, "global_pct": 84.91761723700888, "global_T": [1.089, 0.036], "global_hit_T": "hors", "stabilite": "MODERATELY STABLE"}
+{"job": "clock/flip_rate", "status": "OK", "duree_s": 254.8, "global_pct": 84.91761723700888, "global_T": [1.089, 0.022], "global_hit_T": "hors", "stabilite": "MODERATELY STABLE"}
+{"job": "clock/vortex_density", "status": "OK", "duree_s": 237.1, "global_pct": 84.15716096324462, "global_T": [1.076, 0.059], "global_hit_T": "hors", "stabilite": "UNSTABLE"}
+{"job": "clock/local_variance", "status": "OK", "duree_s": 269.0, "global_pct": 80.10139416983525, "global_T": [1.039, 0.1], "global_hit_T": "hors", "stabilite": "VERY STABLE"}
+{"job": "null2/magnetization_s", "status": "OK", "duree_s": 423.8, "global_pct": 81.8639798488665, "global_T": [null, null], "global_hit_T": null, "stabilite": "VERY STABLE"}
+{"job": "null2/magnetization_tau", "status": "OK", "duree_s": 422.7, "global_pct": 43.19899244332494, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+{"job": "null2/magnetization_prod", "status": "OK", "duree_s": 372.4, "global_pct": 8.011049723756907, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+{"job": "null2/energy", "status": "OK", "duree_s": 402.2, "global_pct": 86.44444444444444, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+{"job": "at/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_s7/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s7/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_s7/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_s123/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_s123/energy", "status": "SKIP déjà terminé"}
+{"job": "at_s123/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_s123/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_s7/local_variance", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "at_L36/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "at_L36/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "at_L36/local_variance", "status": "SKIP déjà terminé"}
+{"job": "clock/magnetization", "status": "SKIP déjà terminé"}
+{"job": "clock/energy", "status": "SKIP déjà terminé"}
+{"job": "clock/flip_rate", "status": "SKIP déjà terminé"}
+{"job": "clock/vortex_density", "status": "SKIP déjà terminé"}
+{"job": "clock/local_variance", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_s", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_tau", "status": "SKIP déjà terminé"}
+{"job": "null2/magnetization_prod", "status": "SKIP déjà terminé"}
+{"job": "null2/energy", "status": "SKIP déjà terminé"}
+{"job": "at_L36/energy", "status": "SKIP déjà terminé"}
+{"job": "null2/flip_rate", "status": "OK", "duree_s": 259.9, "global_pct": 17.857142857142858, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
+{"job": "null2/local_variance", "status": "OK", "duree_s": 264.1, "global_pct": 28.185328185328185, "global_T": [null, null], "global_hit_T": null, "stabilite": "UNSTABLE"}
