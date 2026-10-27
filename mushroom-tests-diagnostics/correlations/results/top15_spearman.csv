@@ -1,0 +1,16 @@
+paire,flux1,flux2,spearman
+gill-attachment / veil-color,gill-attachment,veil-color,0.934
+class / odor,class,odor,-0.771
+bruises / ring-type,bruises,ring-type,0.74
+stalk-surface-above-ring / ring-type,stalk-surface-above-ring,ring-type,0.68
+stalk-surface-below-ring / ring-type,stalk-surface-below-ring,ring-type,0.663
+bruises / odor,bruises,odor,0.651
+stalk-color-above-ring / stalk-color-below-ring,stalk-color-above-ring,stalk-color-below-ring,0.622
+odor / spore-print-color,odor,spore-print-color,0.617
+odor / ring-type,odor,ring-type,0.615
+stalk-root / habitat,stalk-root,habitat,0.602
+stalk-surface-above-ring / stalk-surface-below-ring,stalk-surface-above-ring,stalk-surface-below-ring,0.596
+class / ring-type,class,ring-type,-0.579
+gill-color / spore-print-color,gill-color,spore-print-color,0.575
+bruises / stalk-surface-above-ring,bruises,stalk-surface-above-ring,0.574
+class / spore-print-color,class,spore-print-color,-0.556

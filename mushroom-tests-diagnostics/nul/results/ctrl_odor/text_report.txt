@@ -1,0 +1,1173 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 1292
+Nombre de Points: 8124
+Seuil Critique (utilisé): 33.875%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.680
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 33.9%
+  Seuil par défaut: 97.1%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 33.9%
+  Seuil par défaut: 96.1%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 801
+  resolution: 0.125%
+  w_size: 1292
+  min_grp: 6
+  loupe autorisée: 21 à 801 seuils
+  témoin grille 1001 (même fenêtre): 34.5%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - ring-number_Higuchi: 3.585
+  - class_Higuchi: 2.124
+  - cap-surface_Higuchi: 2.107
+
+Q2_Tension_Seuil:
+  - spore-print-color_DFA: 67.764
+  - stalk-root_SampleEn: 23.043
+  - spore-print-color_Hurst: 21.283
+
+Q3_Agressivite:
+  - ring-number_Higuchi: 3.585
+  - class_Higuchi: 2.124
+  - cap-surface_Higuchi: 2.107
+
+Q4_Persistence:
+  - stalk-shape_Higuchi: 0.366
+  - stalk-shape_DFA: 0.366
+  - stalk-shape_Katz: 0.366
+
+Q5_Actif_Receptif:
+  - veil-type_Higuchi: 67.520
+  - veil-type_DFA: 67.520
+  - veil-type_Katz: 67.520
+
+
+SPECTRE D'ANCRES T_log
+----------------------------------------
+T_log = (d - 4) * ln(n)
+Q1 à Q5 restent calculées sur Higuchi, DFA, Katz, Hurst et SampleEn. Le spectre couvre les quatre classes du document T_log et ne moyenne pas les d. L'écart d_divergence - d_saturation est le signal, pas une erreur. Les signatures (entropie, β, H, SampleEn, Lyapunov, Δα, spectre de singularités) n'entrent pas dans T_log.
+
+class (n=8124, écart=9.355804609130022)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.005 T_log=-17.959
+    criticite: TwoNN d=2.679 T_log=-11.890
+    divergence: Levina-Bickel d=11.361 T_log=66.267
+    nulle: Dimension spectrale d=2.463 T_log=-13.838
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.005  T_log=-17.959
+      Katz (dimension) = 1.033  T_log=-26.706
+      Petrosian (dimension) = 1.012  T_log=-26.903
+      Sevcik (dimension) = 1.795  T_log=-19.852
+      Box-counting (dimension) = 1.000  T_log=-27.008
+      DFA (2-alpha) (dimension) = 1.192  T_log=-25.279
+      Entropie permutée (signature) = 0.539  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = N/A  T_log=N/A
+      Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 1.740  T_log=-20.342
+      TwoNN (dimension) = 2.679  T_log=-11.890
+      DANCo (dimension) = 4.249  T_log=2.241
+      Fisher (dimension) = 6.868  T_log=25.816
+    [divergence]
+      Levina-Bickel (dimension) = 11.361  T_log=66.267
+      PCA intrinsèque (dimension) = 3.401  T_log=-5.393
+      PCA locale (dimension) = 4.597  T_log=5.377
+      Dimension de graphe (dimension) = 1.264  T_log=-24.630
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 29.000  T_log=225.064
+    [nulle]
+      Pente spectrale (β) (signature) = 0.074  T_log=N/A
+      Dimension spectrale (dimension) = 2.463  T_log=-13.838
+      Hurst (H) (signature) = 0.839  T_log=N/A
+      Hurst (2-H) (dimension) = 1.161  T_log=-25.560
+      SampleEn (signature) = 0.216  T_log=N/A
+      Lyapunov (signature) = 1.396  T_log=N/A
+      Indice multifractal (Δα) (signature) = 4.258  T_log=N/A
+      Spectre de singularités (signature) = 1.058  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.008 T_log=-13.868
+      criticite: DANCo d=4.323 T_log=2.248
+      divergence: Levina-Bickel d=10.555 T_log=45.640
+      nulle: Dimension spectrale d=2.399 T_log=-11.148
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.008  T_log=-13.868
+        Katz (dimension) = 1.043  T_log=-20.584
+        Petrosian (dimension) = 1.015  T_log=-20.783
+        Sevcik (dimension) = 1.739  T_log=-15.740
+        Box-counting (dimension) = 1.000  T_log=-20.887
+        DFA (2-alpha) (dimension) = 1.230  T_log=-19.286
+        Entropie permutée (signature) = 0.535  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.933  T_log=-14.388
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 4.323  T_log=2.248
+        Fisher (dimension) = 6.496  T_log=17.378
+      [divergence]
+        Levina-Bickel (dimension) = 10.555  T_log=45.640
+        PCA intrinsèque (dimension) = 3.485  T_log=-3.586
+        PCA locale (dimension) = 3.693  T_log=-2.136
+        Dimension de graphe (dimension) = 1.293  T_log=-18.844
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 33.000  T_log=201.905
+      [nulle]
+        Pente spectrale (β) (signature) = 0.202  T_log=N/A
+        Dimension spectrale (dimension) = 2.399  T_log=-11.148
+        Hurst (H) (signature) = 0.823  T_log=N/A
+        Hurst (2-H) (dimension) = 1.177  T_log=-19.652
+        SampleEn (signature) = 0.240  T_log=N/A
+        Lyapunov (signature) = N/A  T_log=N/A
+        Indice multifractal (Δα) (signature) = 6.720  T_log=N/A
+        Spectre de singularités (signature) = 1.069  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.009 T_log=-17.646
+      criticite: DANCo d=4.416 T_log=3.687
+      divergence: Levina-Bickel d=11.568 T_log=67.080
+      nulle: Dimension spectrale d=2.475 T_log=-13.513
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.009  T_log=-17.646
+        Katz (dimension) = 1.034  T_log=-26.288
+        Petrosian (dimension) = 1.012  T_log=-26.485
+        Sevcik (dimension) = 1.792  T_log=-19.570
+        Box-counting (dimension) = 1.000  T_log=-26.590
+        DFA (2-alpha) (dimension) = 1.166  T_log=-25.119
+        Entropie permutée (signature) = 0.540  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.102  T_log=-16.827
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 4.416  T_log=3.687
+        Fisher (dimension) = 6.929  T_log=25.965
+      [divergence]
+        Levina-Bickel (dimension) = 11.568  T_log=67.080
+        PCA intrinsèque (dimension) = 3.337  T_log=-5.878
+        PCA locale (dimension) = 3.540  T_log=-4.075
+        Dimension de graphe (dimension) = 1.141  T_log=-25.339
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=26.590
+        Kolmogorov-LZ (dimension) = 29.000  T_log=221.583
+      [nulle]
+        Pente spectrale (β) (signature) = 0.049  T_log=N/A
+        Dimension spectrale (dimension) = 2.475  T_log=-13.513
+        Hurst (H) (signature) = 0.858  T_log=N/A
+        Hurst (2-H) (dimension) = 1.142  T_log=-25.327
+        SampleEn (signature) = 0.184  T_log=N/A
+        Lyapunov (signature) = 1.315  T_log=N/A
+        Indice multifractal (Δα) (signature) = 4.453  T_log=N/A
+        Spectre de singularités (signature) = 1.020  T_log=N/A
+
+cap-shape (n=8124, écart=6.294777099636047)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.002 T_log=-17.990
+    criticite: TwoNN d=3.490 T_log=-4.592
+    divergence: Levina-Bickel d=8.296 T_log=38.679
+    nulle: Dimension spectrale d=2.452 T_log=-13.934
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.002  T_log=-17.990
+      Katz (dimension) = 1.051  T_log=-26.544
+      Petrosian (dimension) = 1.021  T_log=-26.819
+      Sevcik (dimension) = 1.804  T_log=-19.768
+      Box-counting (dimension) = 1.090  T_log=-26.198
+      DFA (2-alpha) (dimension) = 1.289  T_log=-24.404
+      Entropie permutée (signature) = 0.829  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = 4.163  T_log=1.466
+      Grassberger-Procaccia (dimension) = 4.173  T_log=1.555
+      Information D1 (dimension) = 0.485  T_log=-31.647
+      Visibility Graph (dimension) = 1.797  T_log=-19.837
+      TwoNN (dimension) = 3.490  T_log=-4.592
+      DANCo (dimension) = 8.000  T_log=36.010
+      Fisher (dimension) = 7.403  T_log=30.638
+    [divergence]
+      Levina-Bickel (dimension) = 8.296  T_log=38.679
+      PCA intrinsèque (dimension) = 6.901  T_log=26.117
+      PCA locale (dimension) = 6.611  T_log=23.507
+      Dimension de graphe (dimension) = 1.398  T_log=-23.428
+      Homologie persistante (dimension) = 1.989  T_log=-18.100
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 60.000  T_log=504.144
+    [nulle]
+      Pente spectrale (β) (signature) = 0.095  T_log=N/A
+      Dimension spectrale (dimension) = 2.452  T_log=-13.934
+      Hurst (H) (signature) = 0.771  T_log=N/A
+      Hurst (2-H) (dimension) = 1.229  T_log=-24.945
+      SampleEn (signature) = 1.022  T_log=N/A
+      Lyapunov (signature) = N/A  T_log=N/A
+      Indice multifractal (Δα) (signature) = 0.334  T_log=N/A
+      Spectre de singularités (signature) = 1.121  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=1.982 T_log=-14.050
+      criticite: TwoNN d=2.682 T_log=-9.179
+      divergence: Levina-Bickel d=8.907 T_log=34.163
+      nulle: Dimension spectrale d=2.398 T_log=-11.154
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 1.982  T_log=-14.050
+        Katz (dimension) = 1.065  T_log=-20.436
+        Petrosian (dimension) = 1.026  T_log=-20.704
+        Sevcik (dimension) = 1.745  T_log=-15.698
+        Box-counting (dimension) = 1.051  T_log=-20.531
+        DFA (2-alpha) (dimension) = 1.340  T_log=-18.519
+        Entropie permutée (signature) = 0.815  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 3.867  T_log=-0.929
+        Grassberger-Procaccia (dimension) = 3.898  T_log=-0.709
+        Information D1 (dimension) = 1.262  T_log=-19.065
+        Visibility Graph (dimension) = 1.864  T_log=-14.872
+        TwoNN (dimension) = 2.682  T_log=-9.179
+        DANCo (dimension) = 6.230  T_log=15.529
+        Fisher (dimension) = 7.354  T_log=23.351
+      [divergence]
+        Levina-Bickel (dimension) = 8.907  T_log=34.163
+        PCA intrinsèque (dimension) = 6.869  T_log=19.978
+        PCA locale (dimension) = 6.432  T_log=16.931
+        Dimension de graphe (dimension) = 1.377  T_log=-18.259
+        Homologie persistante (dimension) = 2.188  T_log=-12.617
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 52.000  T_log=334.188
+      [nulle]
+        Pente spectrale (β) (signature) = 0.204  T_log=N/A
+        Dimension spectrale (dimension) = 2.398  T_log=-11.154
+        Hurst (H) (signature) = 0.739  T_log=N/A
+        Hurst (2-H) (dimension) = 1.261  T_log=-19.068
+        SampleEn (signature) = 0.729  T_log=N/A
+        Lyapunov (signature) = 1.335  T_log=N/A
+        Indice multifractal (Δα) (signature) = 4.172  T_log=N/A
+        Spectre de singularités (signature) = 1.098  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.003 T_log=-17.701
+      criticite: TwoNN d=3.198 T_log=-7.106
+      divergence: Levina-Bickel d=9.117 T_log=45.350
+      nulle: Dimension spectrale d=2.464 T_log=-13.617
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.003  T_log=-17.701
+        Katz (dimension) = 1.052  T_log=-26.126
+        Petrosian (dimension) = 1.021  T_log=-26.400
+        Sevcik (dimension) = 1.801  T_log=-19.487
+        Box-counting (dimension) = 1.079  T_log=-25.888
+        DFA (2-alpha) (dimension) = 1.264  T_log=-24.248
+        Entropie permutée (signature) = 0.831  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 3.590  T_log=-3.633
+        Grassberger-Procaccia (dimension) = 3.624  T_log=-3.335
+        Information D1 (dimension) = 1.033  T_log=-26.297
+        Visibility Graph (dimension) = 1.765  T_log=-19.809
+        TwoNN (dimension) = 3.198  T_log=-7.106
+        DANCo (dimension) = 7.079  T_log=27.288
+        Fisher (dimension) = 7.179  T_log=28.175
+      [divergence]
+        Levina-Bickel (dimension) = 9.117  T_log=45.350
+        PCA intrinsèque (dimension) = 7.172  T_log=28.110
+        PCA locale (dimension) = 6.522  T_log=22.355
+        Dimension de graphe (dimension) = 1.277  T_log=-24.136
+        Homologie persistante (dimension) = 2.770  T_log=-10.903
+        MFA (dimension) = 7.000  T_log=26.590
+        Kolmogorov-LZ (dimension) = 59.000  T_log=487.483
+      [nulle]
+        Pente spectrale (β) (signature) = 0.073  T_log=N/A
+        Dimension spectrale (dimension) = 2.464  T_log=-13.617
+        Hurst (H) (signature) = 0.780  T_log=N/A
+        Hurst (2-H) (dimension) = 1.220  T_log=-24.639
+        SampleEn (signature) = 1.007  T_log=N/A
+        Lyapunov (signature) = 1.482  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.313  T_log=N/A
+        Spectre de singularités (signature) = 1.114  T_log=N/A
+
+cap-surface (n=8124, écart=4.654932328713652)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.001 T_log=-18.000
+    criticite: TwoNN d=4.869 T_log=7.824
+    divergence: PCA locale d=6.656 T_log=23.907
+    nulle: Dimension spectrale d=2.462 T_log=-13.842
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.001  T_log=-18.000
+      Katz (dimension) = 1.046  T_log=-26.592
+      Petrosian (dimension) = 1.021  T_log=-26.819
+      Sevcik (dimension) = 1.776  T_log=-20.024
+      Box-counting (dimension) = 0.965  T_log=-27.324
+      DFA (2-alpha) (dimension) = 1.281  T_log=-24.479
+      Entropie permutée (signature) = 0.840  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = 3.589  T_log=-3.703
+      Grassberger-Procaccia (dimension) = 3.607  T_log=-3.538
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 1.679  T_log=-20.897
+      TwoNN (dimension) = 4.869  T_log=7.824
+      DANCo (dimension) = 8.000  T_log=36.010
+      Fisher (dimension) = 7.156  T_log=28.413
+    [divergence]
+      Levina-Bickel (dimension) = N/A  T_log=N/A
+      PCA intrinsèque (dimension) = 5.852  T_log=16.677
+      PCA locale (dimension) = 6.656  T_log=23.907
+      Dimension de graphe (dimension) = 1.259  T_log=-24.679
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 56.000  T_log=468.134
+    [nulle]
+      Pente spectrale (β) (signature) = 0.075  T_log=N/A
+      Dimension spectrale (dimension) = 2.462  T_log=-13.842
+      Hurst (H) (signature) = 0.826  T_log=N/A
+      Hurst (2-H) (dimension) = 1.174  T_log=-25.443
+      SampleEn (signature) = 1.021  T_log=N/A
+      Lyapunov (signature) = 1.509  T_log=N/A
+      Indice multifractal (Δα) (signature) = 0.282  T_log=N/A
+      Spectre de singularités (signature) = 1.196  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=1.999 T_log=-13.930
+      criticite: TwoNN d=4.198 T_log=1.382
+      divergence: Levina-Bickel d=9.307 T_log=36.951
+      nulle: Dimension spectrale d=2.431 T_log=-10.922
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 1.999  T_log=-13.930
+        Katz (dimension) = 1.061  T_log=-20.465
+        Petrosian (dimension) = 1.027  T_log=-20.701
+        Sevcik (dimension) = 1.768  T_log=-15.537
+        Box-counting (dimension) = 0.994  T_log=-20.927
+        DFA (2-alpha) (dimension) = 1.348  T_log=-18.465
+        Entropie permutée (signature) = 0.845  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 4.563  T_log=3.921
+        Grassberger-Procaccia (dimension) = 4.614  T_log=4.274
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.044  T_log=-13.620
+        TwoNN (dimension) = 4.198  T_log=1.382
+        DANCo (dimension) = 8.000  T_log=27.849
+        Fisher (dimension) = 7.215  T_log=22.381
+      [divergence]
+        Levina-Bickel (dimension) = 9.307  T_log=36.951
+        PCA intrinsèque (dimension) = 5.792  T_log=12.474
+        PCA locale (dimension) = 6.898  T_log=20.175
+        Dimension de graphe (dimension) = 1.379  T_log=-18.245
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 86.000  T_log=570.904
+      [nulle]
+        Pente spectrale (β) (signature) = 0.137  T_log=N/A
+        Dimension spectrale (dimension) = 2.431  T_log=-10.922
+        Hurst (H) (signature) = 0.788  T_log=N/A
+        Hurst (2-H) (dimension) = 1.212  T_log=-19.411
+        SampleEn (signature) = 1.067  T_log=N/A
+        Lyapunov (signature) = 1.531  T_log=N/A
+        Indice multifractal (Δα) (signature) = 4.138  T_log=N/A
+        Spectre de singularités (signature) = 1.184  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.001 T_log=-17.716
+      criticite: TwoNN d=4.106 T_log=0.938
+      divergence: Levina-Bickel d=10.044 T_log=53.573
+      nulle: Dimension spectrale d=2.463 T_log=-13.621
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.001  T_log=-17.716
+        Katz (dimension) = 1.047  T_log=-26.174
+        Petrosian (dimension) = 1.021  T_log=-26.400
+        Sevcik (dimension) = 1.773  T_log=-19.741
+        Box-counting (dimension) = 0.965  T_log=-26.901
+        DFA (2-alpha) (dimension) = 1.269  T_log=-24.205
+        Entropie permutée (signature) = 0.844  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 3.553  T_log=-3.963
+        Grassberger-Procaccia (dimension) = 3.631  T_log=-3.275
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.136  T_log=-16.522
+        TwoNN (dimension) = 4.106  T_log=0.938
+        DANCo (dimension) = 6.977  T_log=26.384
+        Fisher (dimension) = 7.236  T_log=28.678
+      [divergence]
+        Levina-Bickel (dimension) = 10.044  T_log=53.573
+        PCA intrinsèque (dimension) = 5.895  T_log=16.792
+        PCA locale (dimension) = 6.700  T_log=23.931
+        Dimension de graphe (dimension) = 1.271  T_log=-24.192
+        Homologie persistante (dimension) = 3.720  T_log=-2.483
+        MFA (dimension) = 8.000  T_log=35.453
+        Kolmogorov-LZ (dimension) = 56.000  T_log=460.893
+      [nulle]
+        Pente spectrale (β) (signature) = 0.074  T_log=N/A
+        Dimension spectrale (dimension) = 2.463  T_log=-13.621
+        Hurst (H) (signature) = 0.838  T_log=N/A
+        Hurst (2-H) (dimension) = 1.162  T_log=-25.151
+        SampleEn (signature) = 1.008  T_log=N/A
+        Lyapunov (signature) = 1.624  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.266  T_log=N/A
+        Spectre de singularités (signature) = 1.202  T_log=N/A
+
+cap-color (n=8124, écart=7.483515652059925)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.003 T_log=-17.978
+    criticite: TwoNN d=4.577 T_log=5.195
+    divergence: Levina-Bickel d=9.487 T_log=49.393
+    nulle: Dimension spectrale d=2.471 T_log=-13.765
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.003  T_log=-17.978
+      Katz (dimension) = 1.052  T_log=-26.542
+      Petrosian (dimension) = 1.023  T_log=-26.801
+      Sevcik (dimension) = 1.759  T_log=-20.178
+      Box-counting (dimension) = 1.391  T_log=-23.485
+      DFA (2-alpha) (dimension) = 1.371  T_log=-23.664
+      Entropie permutée (signature) = 0.918  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = 3.827  T_log=-1.555
+      Grassberger-Procaccia (dimension) = 3.832  T_log=-1.511
+      Information D1 (dimension) = 1.734  T_log=-20.398
+      Visibility Graph (dimension) = 2.019  T_log=-17.836
+      TwoNN (dimension) = 4.577  T_log=5.195
+      DANCo (dimension) = 6.087  T_log=18.790
+      Fisher (dimension) = 7.341  T_log=30.081
+    [divergence]
+      Levina-Bickel (dimension) = 9.487  T_log=49.393
+      PCA intrinsèque (dimension) = 7.213  T_log=28.927
+      PCA locale (dimension) = 6.733  T_log=24.607
+      Dimension de graphe (dimension) = 1.399  T_log=-23.414
+      Homologie persistante (dimension) = 2.630  T_log=-12.330
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 85.000  T_log=729.209
+    [nulle]
+      Pente spectrale (β) (signature) = 0.058  T_log=N/A
+      Dimension spectrale (dimension) = 2.471  T_log=-13.765
+      Hurst (H) (signature) = 0.762  T_log=N/A
+      Hurst (2-H) (dimension) = 1.238  T_log=-24.864
+      SampleEn (signature) = 1.225  T_log=N/A
+      Lyapunov (signature) = 0.669  T_log=N/A
+      Indice multifractal (Δα) (signature) = 0.014  T_log=N/A
+      Spectre de singularités (signature) = 1.000  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=1.985 T_log=-14.030
+      criticite: TwoNN d=5.229 T_log=8.553
+      divergence: Levina-Bickel d=8.829 T_log=33.618
+      nulle: Dimension spectrale d=2.440 T_log=-10.859
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 1.985  T_log=-14.030
+        Katz (dimension) = 1.065  T_log=-20.435
+        Petrosian (dimension) = 1.028  T_log=-20.690
+        Sevcik (dimension) = 1.687  T_log=-16.106
+        Box-counting (dimension) = 1.261  T_log=-19.067
+        DFA (2-alpha) (dimension) = 1.420  T_log=-17.960
+        Entropie permutée (signature) = 0.903  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 3.916  T_log=-0.586
+        Grassberger-Procaccia (dimension) = 3.996  T_log=-0.028
+        Information D1 (dimension) = 1.246  T_log=-19.172
+        Visibility Graph (dimension) = 2.150  T_log=-12.882
+        TwoNN (dimension) = 5.229  T_log=8.553
+        DANCo (dimension) = 6.277  T_log=15.852
+        Fisher (dimension) = 7.300  T_log=22.978
+      [divergence]
+        Levina-Bickel (dimension) = 8.829  T_log=33.618
+        PCA intrinsèque (dimension) = 6.895  T_log=20.152
+        PCA locale (dimension) = 6.682  T_log=18.671
+        Dimension de graphe (dimension) = 1.676  T_log=-16.183
+        Homologie persistante (dimension) = 2.477  T_log=-10.602
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 79.000  T_log=522.168
+      [nulle]
+        Pente spectrale (β) (signature) = 0.119  T_log=N/A
+        Dimension spectrale (dimension) = 2.440  T_log=-10.859
+        Hurst (H) (signature) = 0.749  T_log=N/A
+        Hurst (2-H) (dimension) = 1.251  T_log=-19.143
+        SampleEn (signature) = 1.396  T_log=N/A
+        Lyapunov (signature) = 0.958  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.084  T_log=N/A
+        Spectre de singularités (signature) = 1.000  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.005 T_log=-17.686
+      criticite: TwoNN d=4.941 T_log=8.344
+      divergence: Levina-Bickel d=9.047 T_log=44.732
+      nulle: Dimension spectrale d=2.487 T_log=-13.406
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.005  T_log=-17.686
+        Katz (dimension) = 1.053  T_log=-26.119
+        Petrosian (dimension) = 1.023  T_log=-26.382
+        Sevcik (dimension) = 1.757  T_log=-19.885
+        Box-counting (dimension) = 1.382  T_log=-23.202
+        DFA (2-alpha) (dimension) = 1.360  T_log=-23.395
+        Entropie permutée (signature) = 0.923  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = 3.623  T_log=-3.340
+        Grassberger-Procaccia (dimension) = 3.641  T_log=-3.185
+        Information D1 (dimension) = 1.442  T_log=-22.673
+        Visibility Graph (dimension) = 2.089  T_log=-16.938
+        TwoNN (dimension) = 4.941  T_log=8.344
+        DANCo (dimension) = 5.595  T_log=14.137
+        Fisher (dimension) = 7.150  T_log=27.922
+      [divergence]
+        Levina-Bickel (dimension) = 9.047  T_log=44.732
+        PCA intrinsèque (dimension) = 7.296  T_log=29.215
+        PCA locale (dimension) = 6.589  T_log=22.946
+        Dimension de graphe (dimension) = 1.453  T_log=-22.573
+        Homologie persistante (dimension) = 2.523  T_log=-13.088
+        MFA (dimension) = 7.000  T_log=26.590
+        Kolmogorov-LZ (dimension) = 87.000  T_log=735.657
+      [nulle]
+        Pente spectrale (β) (signature) = 0.025  T_log=N/A
+        Dimension spectrale (dimension) = 2.487  T_log=-13.406
+        Hurst (H) (signature) = 0.759  T_log=N/A
+        Hurst (2-H) (dimension) = 1.241  T_log=-24.455
+        SampleEn (signature) = 1.199  T_log=N/A
+        Lyapunov (signature) = 0.937  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.023  T_log=N/A
+        Spectre de singularités (signature) = 1.010  T_log=N/A
+
+bruises (n=8124, écart=11.311974992421)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.001 T_log=-17.997
+    criticite: DANCo d=4.225 T_log=2.028
+    divergence: Levina-Bickel d=13.313 T_log=83.840
+    nulle: Dimension spectrale d=2.438 T_log=-14.064
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.001  T_log=-17.997
+      Katz (dimension) = 1.035  T_log=-26.697
+      Petrosian (dimension) = 1.012  T_log=-26.901
+      Sevcik (dimension) = 1.796  T_log=-19.838
+      Box-counting (dimension) = 0.991  T_log=-27.086
+      DFA (2-alpha) (dimension) = 1.142  T_log=-25.729
+      Entropie permutée (signature) = 0.544  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = N/A  T_log=N/A
+      Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 2.038  T_log=-17.665
+      TwoNN (dimension) = N/A  T_log=N/A
+      DANCo (dimension) = 4.225  T_log=2.028
+      Fisher (dimension) = 6.610  T_log=23.500
+    [divergence]
+      Levina-Bickel (dimension) = 13.313  T_log=83.840
+      PCA intrinsèque (dimension) = 3.525  T_log=-4.274
+      PCA locale (dimension) = 4.881  T_log=7.928
+      Dimension de graphe (dimension) = 1.278  T_log=-24.508
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 2.000  T_log=-18.005
+    [nulle]
+      Pente spectrale (β) (signature) = 0.124  T_log=N/A
+      Dimension spectrale (dimension) = 2.438  T_log=-14.064
+      Hurst (H) (signature) = 0.897  T_log=N/A
+      Hurst (2-H) (dimension) = 1.103  T_log=-26.080
+      SampleEn (signature) = 0.380  T_log=N/A
+      Lyapunov (signature) = 1.767  T_log=N/A
+      Indice multifractal (Δα) (signature) = 4.007  T_log=N/A
+      Spectre de singularités (signature) = 1.004  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.029 T_log=-13.722
+      criticite: TwoNN d=2.645 T_log=-9.434
+      divergence: Levina-Bickel d=10.113 T_log=42.557
+      nulle: Dimension spectrale d=2.392 T_log=-11.194
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.029  T_log=-13.722
+        Katz (dimension) = 1.047  T_log=-20.563
+        Petrosian (dimension) = 1.016  T_log=-20.777
+        Sevcik (dimension) = 1.747  T_log=-15.688
+        Box-counting (dimension) = 0.966  T_log=-21.122
+        DFA (2-alpha) (dimension) = 1.172  T_log=-19.692
+        Entropie permutée (signature) = 0.555  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.066  T_log=-13.466
+        TwoNN (dimension) = 2.645  T_log=-9.434
+        DANCo (dimension) = 5.947  T_log=13.553
+        Fisher (dimension) = 6.696  T_log=18.772
+      [divergence]
+        Levina-Bickel (dimension) = 10.113  T_log=42.557
+        PCA intrinsèque (dimension) = 3.716  T_log=-1.976
+        PCA locale (dimension) = 4.723  T_log=5.034
+        Dimension de graphe (dimension) = 1.225  T_log=-19.320
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 50.000  T_log=320.263
+      [nulle]
+        Pente spectrale (β) (signature) = 0.215  T_log=N/A
+        Dimension spectrale (dimension) = 2.392  T_log=-11.194
+        Hurst (H) (signature) = 0.912  T_log=N/A
+        Hurst (2-H) (dimension) = 1.088  T_log=-20.274
+        SampleEn (signature) = 0.485  T_log=N/A
+        Lyapunov (signature) = 1.808  T_log=N/A
+        Indice multifractal (Δα) (signature) = 8.131  T_log=N/A
+        Spectre de singularités (signature) = 1.000  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.000 T_log=-17.723
+      criticite: DANCo d=5.927 T_log=17.084
+      divergence: Levina-Bickel d=11.009 T_log=62.124
+      nulle: Dimension spectrale d=2.434 T_log=-13.876
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.000  T_log=-17.723
+        Katz (dimension) = 1.035  T_log=-26.278
+        Petrosian (dimension) = 1.012  T_log=-26.483
+        Sevcik (dimension) = 1.794  T_log=-19.554
+        Box-counting (dimension) = 0.991  T_log=-26.667
+        DFA (2-alpha) (dimension) = 1.127  T_log=-25.460
+        Entropie permutée (signature) = 0.546  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.936  T_log=-18.296
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 5.927  T_log=17.084
+        Fisher (dimension) = 6.614  T_log=23.169
+      [divergence]
+        Levina-Bickel (dimension) = 11.009  T_log=62.124
+        PCA intrinsèque (dimension) = 3.310  T_log=-6.113
+        PCA locale (dimension) = 4.701  T_log=6.218
+        Dimension de graphe (dimension) = 0.855  T_log=-27.876
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=26.590
+        Kolmogorov-LZ (dimension) = 2.000  T_log=-17.727
+      [nulle]
+        Pente spectrale (β) (signature) = 0.131  T_log=N/A
+        Dimension spectrale (dimension) = 2.434  T_log=-13.876
+        Hurst (H) (signature) = 0.908  T_log=N/A
+        Hurst (2-H) (dimension) = 1.092  T_log=-25.772
+        SampleEn (signature) = 0.331  T_log=N/A
+        Lyapunov (signature) = 1.696  T_log=N/A
+        Indice multifractal (Δα) (signature) = 5.086  T_log=N/A
+        Spectre de singularités (signature) = 1.012  T_log=N/A
+
+gill-attachment (n=8124, écart=3.466911765565347)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.007 T_log=-17.941
+    criticite: Fisher d=4.420 T_log=3.778
+    divergence: PCA intrinsèque d=5.474 T_log=13.270
+    nulle: Dimension spectrale d=2.433 T_log=-14.108
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.007  T_log=-17.941
+      Katz (dimension) = 1.024  T_log=-26.794
+      Petrosian (dimension) = 1.002  T_log=-26.991
+      Sevcik (dimension) = 1.605  T_log=-21.563
+      Box-counting (dimension) = 0.932  T_log=-27.622
+      DFA (2-alpha) (dimension) = 1.290  T_log=-24.394
+      Entropie permutée (signature) = 0.127  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = N/A  T_log=N/A
+      Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 1.269  T_log=-24.590
+      TwoNN (dimension) = N/A  T_log=N/A
+      DANCo (dimension) = N/A  T_log=N/A
+      Fisher (dimension) = 4.420  T_log=3.778
+    [divergence]
+      Levina-Bickel (dimension) = N/A  T_log=N/A
+      PCA intrinsèque (dimension) = 5.474  T_log=13.270
+      PCA locale (dimension) = N/A  T_log=N/A
+      Dimension de graphe (dimension) = N/A  T_log=N/A
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = N/A  T_log=N/A
+      Kolmogorov-LZ (dimension) = 2.000  T_log=-18.005
+    [nulle]
+      Pente spectrale (β) (signature) = 0.134  T_log=N/A
+      Dimension spectrale (dimension) = 2.433  T_log=-14.108
+      Hurst (H) (signature) = 0.751  T_log=N/A
+      Hurst (2-H) (dimension) = 1.249  T_log=-24.767
+      SampleEn (signature) = N/A  T_log=N/A
+      Lyapunov (signature) = 0.168  T_log=N/A
+      Indice multifractal (Δα) (signature) = 0.829  T_log=N/A
+      Spectre de singularités (signature) = 1.082  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.013 T_log=-13.831
+      criticite: Fisher d=5.609 T_log=11.205
+      divergence: MFA d=4.000 T_log=0.000
+      nulle: Dimension spectrale d=2.346 T_log=-11.519
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.013  T_log=-13.831
+        Katz (dimension) = 1.031  T_log=-20.674
+        Petrosian (dimension) = 1.003  T_log=-20.868
+        Sevcik (dimension) = 1.516  T_log=-17.294
+        Box-counting (dimension) = 0.971  T_log=-21.086
+        DFA (2-alpha) (dimension) = 1.318  T_log=-18.673
+        Entropie permutée (signature) = 0.139  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.290  T_log=-18.870
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = N/A  T_log=N/A
+        Fisher (dimension) = 5.609  T_log=11.205
+      [divergence]
+        Levina-Bickel (dimension) = N/A  T_log=N/A
+        PCA intrinsèque (dimension) = 5.535  T_log=10.685
+        PCA locale (dimension) = N/A  T_log=N/A
+        Dimension de graphe (dimension) = N/A  T_log=N/A
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 4.000  T_log=0.000
+        Kolmogorov-LZ (dimension) = 2.000  T_log=-13.924
+      [nulle]
+        Pente spectrale (β) (signature) = 0.309  T_log=N/A
+        Dimension spectrale (dimension) = 2.346  T_log=-11.519
+        Hurst (H) (signature) = 0.788  T_log=N/A
+        Hurst (2-H) (dimension) = 1.212  T_log=-19.414
+        SampleEn (signature) = N/A  T_log=N/A
+        Lyapunov (signature) = 0.091  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.799  T_log=N/A
+        Spectre de singularités (signature) = 1.028  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.005 T_log=-17.678
+      criticite: Fisher d=2.893 T_log=-9.814
+      divergence: MFA d=1.000 T_log=-26.590
+      nulle: Dimension spectrale d=2.434 T_log=-13.884
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.005  T_log=-17.678
+        Katz (dimension) = 1.024  T_log=-26.379
+        Petrosian (dimension) = 1.002  T_log=-26.573
+        Sevcik (dimension) = 1.595  T_log=-21.312
+        Box-counting (dimension) = 0.932  T_log=-27.195
+        DFA (2-alpha) (dimension) = 1.293  T_log=-23.995
+        Entropie permutée (signature) = 0.123  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.273  T_log=-24.172
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = N/A  T_log=N/A
+        Fisher (dimension) = 2.893  T_log=-9.814
+      [divergence]
+        Levina-Bickel (dimension) = N/A  T_log=N/A
+        PCA intrinsèque (dimension) = 4.464  T_log=4.117
+        PCA locale (dimension) = N/A  T_log=N/A
+        Dimension de graphe (dimension) = N/A  T_log=N/A
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 1.000  T_log=-26.590
+        Kolmogorov-LZ (dimension) = 2.000  T_log=-17.727
+      [nulle]
+        Pente spectrale (β) (signature) = 0.133  T_log=N/A
+        Dimension spectrale (dimension) = 2.434  T_log=-13.884
+        Hurst (H) (signature) = 0.749  T_log=N/A
+        Hurst (2-H) (dimension) = 1.251  T_log=-24.362
+        SampleEn (signature) = N/A  T_log=N/A
+        Lyapunov (signature) = 0.154  T_log=N/A
+        Indice multifractal (Δα) (signature) = 0.782  T_log=N/A
+        Spectre de singularités (signature) = 1.087  T_log=N/A
+
+gill-spacing (n=8124, écart=7.98991042042222)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.003 T_log=-17.977
+    criticite: DANCo d=5.016 T_log=9.144
+    divergence: Levina-Bickel d=9.993 T_log=53.952
+    nulle: Dimension spectrale d=2.458 T_log=-13.880
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.003  T_log=-17.977
+      Katz (dimension) = 1.038  T_log=-26.665
+      Petrosian (dimension) = 1.009  T_log=-26.928
+      Sevcik (dimension) = 1.766  T_log=-20.113
+      Box-counting (dimension) = 1.000  T_log=-27.008
+      DFA (2-alpha) (dimension) = 1.209  T_log=-25.125
+      Entropie permutée (signature) = 0.432  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = N/A  T_log=N/A
+      Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 1.551  T_log=-22.043
+      TwoNN (dimension) = N/A  T_log=N/A
+      DANCo (dimension) = 5.016  T_log=9.144
+      Fisher (dimension) = 6.925  T_log=26.328
+    [divergence]
+      Levina-Bickel (dimension) = 9.993  T_log=53.952
+      PCA intrinsèque (dimension) = 5.473  T_log=13.257
+      PCA locale (dimension) = 3.306  T_log=-6.247
+      Dimension de graphe (dimension) = 1.951  T_log=-18.446
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 2.000  T_log=-18.005
+    [nulle]
+      Pente spectrale (β) (signature) = 0.084  T_log=N/A
+      Dimension spectrale (dimension) = 2.458  T_log=-13.880
+      Hurst (H) (signature) = 0.845  T_log=N/A
+      Hurst (2-H) (dimension) = 1.155  T_log=-25.608
+      SampleEn (signature) = 0.311  T_log=N/A
+      Lyapunov (signature) = 2.770  T_log=N/A
+      Indice multifractal (Δα) (signature) = 5.218  T_log=N/A
+      Spectre de singularités (signature) = 1.070  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.038 T_log=-13.663
+      criticite: DANCo d=4.493 T_log=3.430
+      divergence: Levina-Bickel d=13.151 T_log=63.708
+      nulle: Dimension spectrale d=2.396 T_log=-11.170
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.038  T_log=-13.663
+        Katz (dimension) = 1.050  T_log=-20.538
+        Petrosian (dimension) = 1.012  T_log=-20.806
+        Sevcik (dimension) = 1.705  T_log=-15.978
+        Box-counting (dimension) = 0.942  T_log=-21.290
+        DFA (2-alpha) (dimension) = 1.165  T_log=-19.737
+        Entropie permutée (signature) = 0.440  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.591  T_log=-16.775
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 4.493  T_log=3.430
+        Fisher (dimension) = 6.547  T_log=17.731
+      [divergence]
+        Levina-Bickel (dimension) = 13.151  T_log=63.708
+        PCA intrinsèque (dimension) = 5.183  T_log=8.240
+        PCA locale (dimension) = 3.102  T_log=-6.252
+        Dimension de graphe (dimension) = 1.496  T_log=-17.436
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 42.000  T_log=264.565
+      [nulle]
+        Pente spectrale (β) (signature) = 0.209  T_log=N/A
+        Dimension spectrale (dimension) = 2.396  T_log=-11.170
+        Hurst (H) (signature) = 0.886  T_log=N/A
+        Hurst (2-H) (dimension) = 1.114  T_log=-20.094
+        SampleEn (signature) = 0.379  T_log=N/A
+        Lyapunov (signature) = N/A  T_log=N/A
+        Indice multifractal (Δα) (signature) = 8.354  T_log=N/A
+        Spectre de singularités (signature) = 1.064  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.014 T_log=-17.604
+      criticite: TwoNN d=2.740 T_log=-11.170
+      divergence: Levina-Bickel d=10.114 T_log=54.191
+      nulle: Dimension spectrale d=2.465 T_log=-13.603
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.014  T_log=-17.604
+        Katz (dimension) = 1.039  T_log=-26.241
+        Petrosian (dimension) = 1.009  T_log=-26.508
+        Sevcik (dimension) = 1.764  T_log=-19.814
+        Box-counting (dimension) = 1.000  T_log=-26.590
+        DFA (2-alpha) (dimension) = 1.200  T_log=-24.820
+        Entropie permutée (signature) = 0.436  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 1.684  T_log=-20.531
+        TwoNN (dimension) = 2.740  T_log=-11.170
+        DANCo (dimension) = 4.258  T_log=2.285
+        Fisher (dimension) = 6.785  T_log=24.681
+      [divergence]
+        Levina-Bickel (dimension) = 10.114  T_log=54.191
+        PCA intrinsèque (dimension) = 4.955  T_log=8.461
+        PCA locale (dimension) = 3.341  T_log=-5.842
+        Dimension de graphe (dimension) = 1.639  T_log=-20.925
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 6.000  T_log=17.727
+        Kolmogorov-LZ (dimension) = 2.000  T_log=-17.727
+      [nulle]
+        Pente spectrale (β) (signature) = 0.070  T_log=N/A
+        Dimension spectrale (dimension) = 2.465  T_log=-13.603
+        Hurst (H) (signature) = 0.841  T_log=N/A
+        Hurst (2-H) (dimension) = 1.159  T_log=-25.184
+        SampleEn (signature) = 0.317  T_log=N/A
+        Lyapunov (signature) = N/A  T_log=N/A
+        Indice multifractal (Δα) (signature) = 5.359  T_log=N/A
+        Spectre de singularités (signature) = 1.095  T_log=N/A
+
+gill-size (n=8124, écart=7.014407108716212)
+  Ancres retenues (une par classe, sans moyenne) :
+    saturation: Higuchi d=2.006 T_log=-17.952
+    criticite: DANCo d=5.001 T_log=9.015
+    divergence: Levina-Bickel d=9.020 T_log=45.195
+    nulle: Dimension spectrale d=2.448 T_log=-13.975
+  Tous les estimateurs :
+    [saturation]
+      Higuchi (dimension) = 2.006  T_log=-17.952
+      Katz (dimension) = 1.036  T_log=-26.682
+      Petrosian (dimension) = 1.011  T_log=-26.905
+      Sevcik (dimension) = 1.792  T_log=-19.874
+      Box-counting (dimension) = 1.000  T_log=-27.008
+      DFA (2-alpha) (dimension) = 1.174  T_log=-25.438
+      Entropie permutée (signature) = 0.522  T_log=N/A
+    [criticite]
+      Corrélation D2 (dimension) = N/A  T_log=N/A
+      Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+      Information D1 (dimension) = N/A  T_log=N/A
+      Visibility Graph (dimension) = 1.790  T_log=-19.892
+      TwoNN (dimension) = N/A  T_log=N/A
+      DANCo (dimension) = 5.001  T_log=9.015
+      Fisher (dimension) = 6.989  T_log=26.909
+    [divergence]
+      Levina-Bickel (dimension) = 9.020  T_log=45.195
+      PCA intrinsèque (dimension) = 3.939  T_log=-0.545
+      PCA locale (dimension) = 4.041  T_log=0.370
+      Dimension de graphe (dimension) = 0.902  T_log=-27.888
+      Homologie persistante (dimension) = N/A  T_log=N/A
+      MFA (dimension) = 7.000  T_log=27.008
+      Kolmogorov-LZ (dimension) = 52.000  T_log=432.124
+    [nulle]
+      Pente spectrale (β) (signature) = 0.105  T_log=N/A
+      Dimension spectrale (dimension) = 2.448  T_log=-13.975
+      Hurst (H) (signature) = 0.851  T_log=N/A
+      Hurst (2-H) (dimension) = 1.149  T_log=-25.667
+      SampleEn (signature) = 0.504  T_log=N/A
+      Lyapunov (signature) = N/A  T_log=N/A
+      Indice multifractal (Δα) (signature) = 4.385  T_log=N/A
+      Spectre de singularités (signature) = 1.131  T_log=N/A
+  Avant le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=1.991 T_log=-13.987
+      criticite: DANCo d=4.633 T_log=4.404
+      divergence: Levina-Bickel d=7.458 T_log=24.078
+      nulle: Hurst (2-H) d=1.133 T_log=-19.958
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 1.991  T_log=-13.987
+        Katz (dimension) = 1.045  T_log=-20.574
+        Petrosian (dimension) = 1.014  T_log=-20.792
+        Sevcik (dimension) = 1.727  T_log=-15.826
+        Box-counting (dimension) = 1.000  T_log=-20.887
+        DFA (2-alpha) (dimension) = 1.177  T_log=-19.654
+        Entropie permutée (signature) = 0.490  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.141  T_log=-12.940
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 4.633  T_log=4.404
+        Fisher (dimension) = 6.642  T_log=18.394
+      [divergence]
+        Levina-Bickel (dimension) = 7.458  T_log=24.078
+        PCA intrinsèque (dimension) = 4.277  T_log=1.927
+        PCA locale (dimension) = 3.841  T_log=-1.110
+        Dimension de graphe (dimension) = 1.463  T_log=-17.663
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=20.887
+        Kolmogorov-LZ (dimension) = 37.000  T_log=229.754
+      [nulle]
+        Pente spectrale (β) (signature) = N/A  T_log=N/A
+        Dimension spectrale (dimension) = N/A  T_log=N/A
+        Hurst (H) (signature) = 0.867  T_log=N/A
+        Hurst (2-H) (dimension) = 1.133  T_log=-19.958
+        SampleEn (signature) = 0.286  T_log=N/A
+        Lyapunov (signature) = N/A  T_log=N/A
+        Indice multifractal (Δα) (signature) = 8.574  T_log=N/A
+        Spectre de singularités (signature) = 1.014  T_log=N/A
+  Après le seuil :
+    Ancres retenues (une par classe, sans moyenne) :
+      saturation: Higuchi d=2.005 T_log=-17.683
+      criticite: DANCo d=3.865 T_log=-1.194
+      divergence: Levina-Bickel d=10.061 T_log=53.722
+      nulle: Dimension spectrale d=2.441 T_log=-13.818
+    Tous les estimateurs :
+      [saturation]
+        Higuchi (dimension) = 2.005  T_log=-17.683
+        Katz (dimension) = 1.037  T_log=-26.262
+        Petrosian (dimension) = 1.012  T_log=-26.486
+        Sevcik (dimension) = 1.790  T_log=-19.585
+        Box-counting (dimension) = 1.000  T_log=-26.590
+        DFA (2-alpha) (dimension) = 1.167  T_log=-25.112
+        Entropie permutée (signature) = 0.525  T_log=N/A
+      [criticite]
+        Corrélation D2 (dimension) = N/A  T_log=N/A
+        Grassberger-Procaccia (dimension) = N/A  T_log=N/A
+        Information D1 (dimension) = N/A  T_log=N/A
+        Visibility Graph (dimension) = 2.019  T_log=-17.558
+        TwoNN (dimension) = N/A  T_log=N/A
+        DANCo (dimension) = 3.865  T_log=-1.194
+        Fisher (dimension) = 6.988  T_log=26.485
+      [divergence]
+        Levina-Bickel (dimension) = 10.061  T_log=53.722
+        PCA intrinsèque (dimension) = 3.898  T_log=-0.908
+        PCA locale (dimension) = 3.486  T_log=-4.551
+        Dimension de graphe (dimension) = 1.223  T_log=-24.613
+        Homologie persistante (dimension) = N/A  T_log=N/A
+        MFA (dimension) = 7.000  T_log=26.590
+        Kolmogorov-LZ (dimension) = 54.000  T_log=443.167
+      [nulle]
+        Pente spectrale (β) (signature) = 0.118  T_log=N/A
+        Dimension spectrale (dimension) = 2.441  T_log=-13.818
+        Hurst (H) (signature) = 0.877  T_log=N/A
+        Hurst (2-H) (dimension) = 1.123  T_log=-25.503
+        SampleEn (signature) = 0.457  T_log=N/A
+        Lyapunov (signature) = 1.686  T_log=N/A
+        Indice multifractal (Δα) (signature) = 4.522  T_log=N/A
+        Spectre de singularités (signature) = 1.105  T_log=N/A
+
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance
+Score moyen proxy: nan
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 22 flux
+
+Score moyen de proxy de variance: nan (échelle 0-1)
+Score maximum: nan, Score minimum: nan
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. class (score: nan)
+     - Q5 ratio: 0.08 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: -0.168
+  2. cap-shape (score: nan)
+     - Q5 ratio: 0.13 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: -0.259
+  3. cap-surface (score: nan)
+     - Q5 ratio: 0.06 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: -0.283
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. spore-print-color (score: nan)
+     - Hurst moyen: nan
+  2. population (score: nan)
+     - Hurst moyen: nan
+  3. habitat (score: nan)
+     - Hurst moyen: nan
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+class:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-shape:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-surface:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-color:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+bruises:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-attachment:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-spacing:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-size:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-color:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-shape:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-root:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-surface-above-ring:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-surface-below-ring:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-above-ring:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-below-ring:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-type:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-color:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-number:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-type:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+spore-print-color:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+population:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+habitat:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: UNSTABLE
+Moyenne: 18.321428571428573%
+Écart-type: 35.28277562710141
+
+================================================================================
+Rapport généré le: 2026-10-27 15:17:25
+================================================================================

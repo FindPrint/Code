@@ -1,0 +1,34 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.493
+  règle: pi
+  n_candidates: 801, resolution: 0.125%
+  w_size: 861, min_grp: 2
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+/usr/lib/python3/dist-packages/scipy/stats/_stats_py.py:5445: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  warnings.warn(stats.ConstantInputWarning(warn_msg))
+✓ Optimisation terminée - Meilleur score: 0.479
+  règle: pi
+  n_candidates: 801, resolution: 0.125%
+  w_size: 861, min_grp: 2
+✓ Résultats JSON exportés: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class/noise_diagnostic.png
+{
+  "control": "class",
+  "status": "OK",
+  "n_pts": 8124,
+  "opt_threshold_pct": 51.0,
+  "mc_threshold_pct": 51.0,
+  "default_threshold_pct": 58.536585365853654,
+  "raw_mc_threshold_pct": 51.0,
+  "stability_rating": "UNSTABLE",
+  "stability_std": 10.209450862057269,
+  "duration_s": 648.1
+}
+DUREE 648.1s -> /home/hatch/workspace/mushroom-tests/encodage/results/ctrl_class

@@ -1,0 +1,16 @@
+paire,flux1,flux2,cramer_v
+gill-attachment / stalk-color-above-ring,gill-attachment,stalk-color-above-ring,0.978
+gill-attachment / stalk-color-below-ring,gill-attachment,stalk-color-below-ring,0.978
+class / odor,class,odor,0.971
+gill-attachment / veil-color,gill-attachment,veil-color,0.955
+gill-attachment / spore-print-color,gill-attachment,spore-print-color,0.827
+stalk-color-above-ring / veil-color,stalk-color-above-ring,veil-color,0.816
+gill-size / gill-color,gill-size,gill-color,0.784
+gill-attachment / gill-color,gill-attachment,gill-color,0.78
+stalk-color-below-ring / ring-number,stalk-color-below-ring,ring-number,0.772
+stalk-color-above-ring / ring-number,stalk-color-above-ring,ring-number,0.771
+bruises / ring-type,bruises,ring-type,0.768
+odor / gill-size,odor,gill-size,0.761
+class / spore-print-color,class,spore-print-color,0.753
+odor / ring-number,odor,ring-number,0.743
+ring-number / ring-type,ring-number,ring-type,0.714

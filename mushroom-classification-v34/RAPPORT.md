@@ -2,6 +2,10 @@
 
 **Protocole gelé avant tout run :** `PROTOCOLE.md` (26 oct. 2026). Données : Kaggle `uciml/mushroom-classification`, zip SHA-256 `4e688b…`, CSV `mushrooms.csv` SHA-256 `f0284c…`, fichier de travail `mushrooms_pipeline.csv` SHA-256 `fa6e5c…` (8 124 lignes × 23 colonnes, 0 doublon exact). Pipeline : `Tlog_v3_4_harmonic_v3.py` SHA-256 `81092eb6…` (v3.4-H3 : scan rapide vérifié bit-identique, repli Monte Carlo journalisé, F1/F2 avant ET après seuil). Paramètres : mode stable, w_size initial 80, test cohen_d, graine 42, HARMONIC_PROB 0,45, sans triangulation complète, contrôle exclu des 22 flux analysés, ordre des lignes préservé, 2 runs en parallèle, design résumable (un run avec `run_summary.json` est sauté, un run partiel est jeté et relancé de zéro).
 
+## Provenance (à nommer partout, règle permanente du 27 oct. 2026)
+
+Source : *The Audubon Society Field Guide to North American Mushrooms* (1981, G. H. Lincoff, Knopf, pp. 500–525), donateur Jeff Schlimmer (27 avril 1987), UCI Machine Learning Repository dataset n° 73 (https://archive.ics.uci.edu/dataset/73/mushroom), miroir Kaggle `uciml/mushroom-classification`. Les 8 124 lignes sont des descriptions d'échantillons **hypothétiques** de 23 espèces d'*Agaricus*/*Lepiota*, pas des spécimens mesurés. Couleurs et odeurs = mots humains du guide, aucune mesure instrumentale ni chimique. Détail complet, sources et hachages : `PROVENANCE.md`.
+
 ## Verdict
 
 - **23 runs, 22 seuils Monte Carlo, 1 échec mesuré pré-enregistré.** Tous les runs sauf veil-type ont `threshold_source = monte_carlo`, 0 avertissement, 0 repli de scan rapide.

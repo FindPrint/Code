@@ -9,6 +9,14 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
 
 ## Projects / Projets
 
+- `mushroom-tests-diagnostics/` — 3 diagnostic tests on the mushroom
+  lot (encoding / null / correlations), 27 Oct 2026, protocol frozen
+  before runs. Test 1: 3/3 encoding-sensitive. Test 2: 3/3 null scores
+  beat the real scores. Test 3: dominant fluxes strongly correlated
+  (Spearman up to 0.934, Cramér's V up to 0.978). Text archive here:
+  protocol, provenance, report, synthesis CSVs, per-run text results,
+  scripts, null data + permutation record. PDF (33 pages, 4.8 MB),
+  figures and results zip via browser upload / in chat.
 - `mushroom-classification-v34/` — Mushroom Classification × pipeline
   Tlog v3.4-H3, lot restarted from zero 26 Oct 2026, COMPLETED
   26 Oct 2026 18:56 EDT (23/23 runs, 22 Monte Carlo thresholds, 1

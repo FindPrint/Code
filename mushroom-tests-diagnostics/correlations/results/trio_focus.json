@@ -1,0 +1,14 @@
+{
+  "spearman_trio": {
+    "stalk-color-above-ring/stalk-color-below-ring": 0.622,
+    "stalk-color-above-ring/ring-type": 0.43,
+    "stalk-color-below-ring/ring-type": 0.359
+  },
+  "cramer_trio": {
+    "stalk-color-above-ring/stalk-color-below-ring": 0.635,
+    "stalk-color-above-ring/ring-type": 0.673,
+    "stalk-color-below-ring/ring-type": 0.665
+  },
+  "accord_exact_stalk_color_pct": 62.38,
+  "n_lignes": 8124
+}

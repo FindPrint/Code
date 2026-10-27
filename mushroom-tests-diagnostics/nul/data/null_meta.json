@@ -1,0 +1,60 @@
+{
+  "source": "/home/hatch/workspace/mushroom-v34/data/mushrooms_pipeline.csv",
+  "source_sha256": "fa6e5cebe8e26faaa803873c7cd01f9d9f4c6b9bafe2884270572a0002fda0ee",
+  "seed": 1234,
+  "method": "np.random.default_rng(1234).permutation",
+  "n_rows": 8124,
+  "files": {
+    "class": {
+      "path": "data/mushrooms_null_class.csv",
+      "sha256": "18c1291a14ba7dfffdc7475065c89ef72d99ab76d507e2dbf6c99b3ee30e940d",
+      "permutation_sha256": "6df1051b155a04cc8ebd28e319ba4653903542439ef47a3eb7c7b16264c920e9",
+      "permutation_first10": [
+        4457,
+        3882,
+        457,
+        4760,
+        7306,
+        3684,
+        6198,
+        2647,
+        6221,
+        1260
+      ]
+    },
+    "odor": {
+      "path": "data/mushrooms_null_odor.csv",
+      "sha256": "8cc07f9919d2fe7cfadb13794b57e6042d77ebf86e3eeb456219657aec26ec73",
+      "permutation_sha256": "6df1051b155a04cc8ebd28e319ba4653903542439ef47a3eb7c7b16264c920e9",
+      "permutation_first10": [
+        4457,
+        3882,
+        457,
+        4760,
+        7306,
+        3684,
+        6198,
+        2647,
+        6221,
+        1260
+      ]
+    },
+    "cap-surface": {
+      "path": "data/mushrooms_null_cap-surface.csv",
+      "sha256": "bbb54c807ae1f9784c39cc199af5561f7d15048783144ee585dd35b565c20a16",
+      "permutation_sha256": "6df1051b155a04cc8ebd28e319ba4653903542439ef47a3eb7c7b16264c920e9",
+      "permutation_first10": [
+        4457,
+        3882,
+        457,
+        4760,
+        7306,
+        3684,
+        6198,
+        2647,
+        6221,
+        1260
+      ]
+    }
+  }
+}

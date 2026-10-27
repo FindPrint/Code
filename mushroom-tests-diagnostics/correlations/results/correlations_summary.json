@@ -1,0 +1,210 @@
+{
+  "dataset_encode": {
+    "path": "/home/hatch/workspace/mushroom-v34/data/mushrooms_pipeline.csv",
+    "sha256": "fa6e5cebe8e26faaa803873c7cd01f9d9f4c6b9bafe2884270572a0002fda0ee"
+  },
+  "dataset_brut": {
+    "path": "/home/hatch/workspace/mushroom-v34/data/raw/mushrooms.csv",
+    "sha256": "f0284c7a4210c4b0793713de9c45841d66f9bb27f6408f8bfedb6b34e6d6f53c"
+  },
+  "n_lignes": 8124,
+  "n_colonnes": 23,
+  "top15_spearman": [
+    {
+      "paire": "gill-attachment / veil-color",
+      "flux1": "gill-attachment",
+      "flux2": "veil-color",
+      "spearman": 0.934
+    },
+    {
+      "paire": "class / odor",
+      "flux1": "class",
+      "flux2": "odor",
+      "spearman": -0.771
+    },
+    {
+      "paire": "bruises / ring-type",
+      "flux1": "bruises",
+      "flux2": "ring-type",
+      "spearman": 0.74
+    },
+    {
+      "paire": "stalk-surface-above-ring / ring-type",
+      "flux1": "stalk-surface-above-ring",
+      "flux2": "ring-type",
+      "spearman": 0.68
+    },
+    {
+      "paire": "stalk-surface-below-ring / ring-type",
+      "flux1": "stalk-surface-below-ring",
+      "flux2": "ring-type",
+      "spearman": 0.663
+    },
+    {
+      "paire": "bruises / odor",
+      "flux1": "bruises",
+      "flux2": "odor",
+      "spearman": 0.651
+    },
+    {
+      "paire": "stalk-color-above-ring / stalk-color-below-ring",
+      "flux1": "stalk-color-above-ring",
+      "flux2": "stalk-color-below-ring",
+      "spearman": 0.622
+    },
+    {
+      "paire": "odor / spore-print-color",
+      "flux1": "odor",
+      "flux2": "spore-print-color",
+      "spearman": 0.617
+    },
+    {
+      "paire": "odor / ring-type",
+      "flux1": "odor",
+      "flux2": "ring-type",
+      "spearman": 0.615
+    },
+    {
+      "paire": "stalk-root / habitat",
+      "flux1": "stalk-root",
+      "flux2": "habitat",
+      "spearman": 0.602
+    },
+    {
+      "paire": "stalk-surface-above-ring / stalk-surface-below-ring",
+      "flux1": "stalk-surface-above-ring",
+      "flux2": "stalk-surface-below-ring",
+      "spearman": 0.596
+    },
+    {
+      "paire": "class / ring-type",
+      "flux1": "class",
+      "flux2": "ring-type",
+      "spearman": -0.579
+    },
+    {
+      "paire": "gill-color / spore-print-color",
+      "flux1": "gill-color",
+      "flux2": "spore-print-color",
+      "spearman": 0.575
+    },
+    {
+      "paire": "bruises / stalk-surface-above-ring",
+      "flux1": "bruises",
+      "flux2": "stalk-surface-above-ring",
+      "spearman": 0.574
+    },
+    {
+      "paire": "class / spore-print-color",
+      "flux1": "class",
+      "flux2": "spore-print-color",
+      "spearman": -0.556
+    }
+  ],
+  "top15_cramer": [
+    {
+      "paire": "gill-attachment / stalk-color-above-ring",
+      "flux1": "gill-attachment",
+      "flux2": "stalk-color-above-ring",
+      "cramer_v": 0.978
+    },
+    {
+      "paire": "gill-attachment / stalk-color-below-ring",
+      "flux1": "gill-attachment",
+      "flux2": "stalk-color-below-ring",
+      "cramer_v": 0.978
+    },
+    {
+      "paire": "class / odor",
+      "flux1": "class",
+      "flux2": "odor",
+      "cramer_v": 0.971
+    },
+    {
+      "paire": "gill-attachment / veil-color",
+      "flux1": "gill-attachment",
+      "flux2": "veil-color",
+      "cramer_v": 0.955
+    },
+    {
+      "paire": "gill-attachment / spore-print-color",
+      "flux1": "gill-attachment",
+      "flux2": "spore-print-color",
+      "cramer_v": 0.827
+    },
+    {
+      "paire": "stalk-color-above-ring / veil-color",
+      "flux1": "stalk-color-above-ring",
+      "flux2": "veil-color",
+      "cramer_v": 0.816
+    },
+    {
+      "paire": "gill-size / gill-color",
+      "flux1": "gill-size",
+      "flux2": "gill-color",
+      "cramer_v": 0.784
+    },
+    {
+      "paire": "gill-attachment / gill-color",
+      "flux1": "gill-attachment",
+      "flux2": "gill-color",
+      "cramer_v": 0.78
+    },
+    {
+      "paire": "stalk-color-below-ring / ring-number",
+      "flux1": "stalk-color-below-ring",
+      "flux2": "ring-number",
+      "cramer_v": 0.772
+    },
+    {
+      "paire": "stalk-color-above-ring / ring-number",
+      "flux1": "stalk-color-above-ring",
+      "flux2": "ring-number",
+      "cramer_v": 0.771
+    },
+    {
+      "paire": "bruises / ring-type",
+      "flux1": "bruises",
+      "flux2": "ring-type",
+      "cramer_v": 0.768
+    },
+    {
+      "paire": "odor / gill-size",
+      "flux1": "odor",
+      "flux2": "gill-size",
+      "cramer_v": 0.761
+    },
+    {
+      "paire": "class / spore-print-color",
+      "flux1": "class",
+      "flux2": "spore-print-color",
+      "cramer_v": 0.753
+    },
+    {
+      "paire": "odor / ring-number",
+      "flux1": "odor",
+      "flux2": "ring-number",
+      "cramer_v": 0.743
+    },
+    {
+      "paire": "ring-number / ring-type",
+      "flux1": "ring-number",
+      "flux2": "ring-type",
+      "cramer_v": 0.714
+    }
+  ],
+  "focus_trio": {
+    "spearman_trio": {
+      "stalk-color-above-ring/stalk-color-below-ring": 0.622,
+      "stalk-color-above-ring/ring-type": 0.43,
+      "stalk-color-below-ring/ring-type": 0.359
+    },
+    "cramer_trio": {
+      "stalk-color-above-ring/stalk-color-below-ring": 0.635,
+      "stalk-color-above-ring/ring-type": 0.673,
+      "stalk-color-below-ring/ring-type": 0.665
+    },
+    "accord_exact_stalk_color_pct": 62.38,
+    "n_lignes": 8124
+  }
+}
