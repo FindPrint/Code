@@ -1,0 +1,139 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 174
+Nombre de Points: 960
+Seuil Critique (utilisé): 9.501187648456057%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.824
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 9.5%
+  Seuil par défaut: 12.9%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 10.0%
+  Seuil par défaut: 12.9%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 422
+  resolution: 0.238%
+  w_size: 174
+  min_grp: 4
+  loupe autorisée: 21 à 787 seuils
+  témoin grille 1001 (même fenêtre): 9.5%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - magnetization_CorrelationD2: 5.466
+  - magnetization_GrassbergerProcaccia: 5.466
+  - localvar_CorrelationD2: 3.694
+
+Q2_Tension_Seuil:
+  - localvar_Hurst2mH: 11.413
+  - localvar_Hurst: 11.413
+  - susceptibility_BoxCounting: 10.335
+
+Q3_Agressivite:
+  - magnetization_CorrelationD2: 5.466
+  - magnetization_GrassbergerProcaccia: 5.466
+  - localvar_CorrelationD2: 3.694
+
+Q4_Persistence:
+  - susceptibility_Higuchi: 0.630
+  - susceptibility_DFA: 0.630
+  - susceptibility_Katz: 0.630
+
+Q5_Actif_Receptif:
+  - fliprate_SpectralBeta: 16.435
+  - flip_SpectralBeta: 16.435
+  - fliprate_Hurst: 13.880
+
+Q6_Actif_Receptif_Echelle:
+  - fliprate_SingularityFmax: 1726.992
+  - flip_SingularityFmax: 1726.992
+  - susceptibility_SingularityFmax: 1008.040
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle
+Score moyen proxy: 0.7921666666666667
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 6 flux
+
+Score moyen de proxy de variance: 0.792 (échelle 0-1)
+Score maximum: 0.956, Score minimum: 0.737
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. susceptibility (score: 0.956)
+     - Q5 ratio: 699.12 vs bruit blanc 0.03
+     - Hurst max: 1.038, Pente FFT: -0.390
+  2. fliprate (score: 0.788)
+     - Q5 ratio: 64.16 vs bruit blanc 0.03
+     - Hurst max: 1.146, Pente FFT: -0.467
+  3. flip (score: 0.788)
+     - Q5 ratio: 64.16 vs bruit blanc 0.03
+     - Hurst max: 1.146, Pente FFT: -0.467
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. magnetization (score: 0.747)
+     - Hurst moyen: 0.945
+  2. energy (score: 0.737)
+     - Hurst moyen: 1.009
+  3. localvar (score: 0.737)
+     - Hurst moyen: 1.003
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+fliprate:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+flip:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+energy:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+magnetization:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+localvar:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+susceptibility:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: VERY STABLE
+Moyenne: 12.114014251781473%
+Écart-type: 2.088821212711468
+
+================================================================================
+Rapport généré le: 2026-10-28 12:28:07
+================================================================================

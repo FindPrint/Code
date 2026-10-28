@@ -1,0 +1,255 @@
+{
+  "pipeline": "v3.5.4-H1 Tlog_v3_5_4_harmonic_v1.py (Q6-A)",
+  "pipeline_sha256": "b54fcf66a0f0e90941108e1a2b11a1f0c2679044eda1be2b0a875e4ed4bd165d",
+  "dataset": "ising_derived.csv (flux derives depuis CSV Ising L=32 graine 42, voir PROTOCOLE_DERIVED.md)",
+  "dataset_sha256": "10563d4d1405d09dac4eb468c1e44b59a27a028036ba1f6f729389fc55809c7b",
+  "temperature_sha256": "4863b1de84e358c77faeae2a1e227474b0115e38805bf499df24d3efbc84c5e4",
+  "control": "rollvar_energy_40",
+  "famille": "",
+  "construction": "",
+  "controle_derived": true,
+  "nul": false,
+  "status": "OK",
+  "mode": "stable",
+  "fluxes_analyses": [
+    "fliprate",
+    "flip",
+    "energy",
+    "magnetization",
+    "localvar",
+    "susceptibility"
+  ],
+  "active_keys": [
+    "fliprate",
+    "flip"
+  ],
+  "reactive_keys": [
+    "energy",
+    "magnetization"
+  ],
+  "ni_actif_ni_reactif": [
+    "localvar",
+    "susceptibility"
+  ],
+  "n_pts": 960,
+  "n_flux": 6,
+  "n_valides_controle": 960,
+  "duration_s": 178.4,
+  "opt_threshold_pct": 9.501187648456057,
+  "mc_threshold_pct": 9.501187648456057,
+  "mc_score": 0.8243274376934038,
+  "mc_w_size": 174,
+  "mc_n_candidates": 422,
+  "mc_min_grp": 4,
+  "default_threshold_pct": 12.926829268292682,
+  "raw_mc_threshold_pct": 10.043668122270741,
+  "raw_default_threshold_pct": 12.926829268292682,
+  "rigid_1001_threshold_pct": 9.5,
+  "theiler": {
+    "factor": 0.6180339887498949,
+    "mode": "floored",
+    "source": "fixed",
+    "b_score": null,
+    "best_b_score": null,
+    "best_b_theiler_factor": null
+  },
+  "threshold_source": "monte_carlo",
+  "threshold_warnings": [],
+  "scan_fast_fallback_log": [],
+  "stability_rating": "VERY STABLE",
+  "stability_mean": 12.114014251781473,
+  "stability_std": 2.088821212711468,
+  "noise_label": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+  "scores_moyens_par_Q": {
+    "Q1_Calme_vs_Chaos": 1.147,
+    "Q2_Tension_Seuil": 2.573,
+    "Q3_Agressivite": 1.147,
+    "Q4_Persistence": 0.502,
+    "Q5_Active_Reactive": 7.036,
+    "Q5_Actif_Receptif": 7.036,
+    "Q6_Active_Reactive_Scaled": 93.148,
+    "Q6_Actif_Receptif_Echelle": 93.148
+  },
+  "per_flux": [
+    {
+      "flux": "fliprate",
+      "seuil_propre_pct": 9.5,
+      "temperature_mediane_au_seuil": 1.8391,
+      "score_max": 2.114,
+      "top3_candidats": [
+        9.5,
+        11.6,
+        9.7
+      ]
+    },
+    {
+      "flux": "flip",
+      "seuil_propre_pct": 9.5,
+      "temperature_mediane_au_seuil": 1.8391,
+      "score_max": 2.114,
+      "top3_candidats": [
+        9.5,
+        11.6,
+        9.7
+      ]
+    },
+    {
+      "flux": "energy",
+      "seuil_propre_pct": 9.5,
+      "temperature_mediane_au_seuil": 1.8391,
+      "score_max": 2.203,
+      "top3_candidats": [
+        9.5,
+        11.6,
+        9.7
+      ]
+    },
+    {
+      "flux": "magnetization",
+      "seuil_propre_pct": 9.5,
+      "temperature_mediane_au_seuil": 1.8391,
+      "score_max": 2.112,
+      "top3_candidats": [
+        9.5,
+        11.6,
+        11.9
+      ]
+    },
+    {
+      "flux": "localvar",
+      "seuil_propre_pct": 9.5,
+      "temperature_mediane_au_seuil": 1.8391,
+      "score_max": 2.228,
+      "top3_candidats": [
+        9.5,
+        11.6,
+        11.9
+      ]
+    },
+    {
+      "flux": "susceptibility",
+      "seuil_propre_pct": 90.02,
+      "temperature_mediane_au_seuil": 2.4652,
+      "score_max": 1.339,
+      "top3_candidats": [
+        90.0,
+        89.8,
+        90.5
+      ]
+    }
+  ],
+  "landscape_peaks": [
+    {
+      "candidat_pct": 10.45,
+      "score": 1.694,
+      "rel_au_max": 0.875,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 10.93,
+      "score": 1.674,
+      "rel_au_max": 0.864,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 11.64,
+      "score": 1.773,
+      "rel_au_max": 0.916,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 12.35,
+      "score": 1.699,
+      "rel_au_max": 0.878,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 13.06,
+      "score": 1.66,
+      "rel_au_max": 0.857,
+      "temperature_mediane": 1.8739
+    },
+    {
+      "candidat_pct": 13.78,
+      "score": 1.562,
+      "rel_au_max": 0.807,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 15.2,
+      "score": 1.567,
+      "rel_au_max": 0.809,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 15.91,
+      "score": 1.631,
+      "rel_au_max": 0.842,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 16.63,
+      "score": 1.501,
+      "rel_au_max": 0.775,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 17.34,
+      "score": 1.482,
+      "rel_au_max": 0.765,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 18.29,
+      "score": 1.425,
+      "rel_au_max": 0.736,
+      "temperature_mediane": 1.9435
+    },
+    {
+      "candidat_pct": 19.0,
+      "score": 1.404,
+      "rel_au_max": 0.725,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 19.71,
+      "score": 1.351,
+      "rel_au_max": 0.698,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 21.14,
+      "score": 1.26,
+      "rel_au_max": 0.65,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 21.85,
+      "score": 1.201,
+      "rel_au_max": 0.62,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 22.8,
+      "score": 1.203,
+      "rel_au_max": 0.621,
+      "temperature_mediane": 3.1609
+    },
+    {
+      "candidat_pct": 23.52,
+      "score": 1.105,
+      "rel_au_max": 0.57,
+      "temperature_mediane": 3.1609
+    }
+  ],
+  "scan_max_score": 1.937,
+  "scan_argmax_pct": 9.5,
+  "temperature_mediane_au_argmax": 1.8391,
+  "temperature_mediane_au_seuil_mc": 1.8391,
+  "controle_valeur_au_seuil_mc": {
+    "mediane": 0.001,
+    "moyenne": 0.001,
+    "std": 0.0
+  },
+  "n_F1F2": 203
+}
