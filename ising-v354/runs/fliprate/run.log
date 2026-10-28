@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.762
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.762
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-v354/runs/fliprate/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-v354/runs/fliprate/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-v354/runs/fliprate/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-v354/runs/fliprate/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-v354/runs/fliprate/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v354/runs/fliprate/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v354/runs/fliprate/noise_diagnostic.png
+{
+  "control": "fliprate",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 36.50190114068441,
+  "mc_threshold_pct": 36.50190114068441,
+  "default_threshold_pct": 38.048780487804876,
+  "raw_mc_threshold_pct": 36.50190114068441,
+  "stability_rating": "VERY STABLE",
+  "stability_std": 2.7042217130843977,
+  "duration_s": 126.9
+}
+DUREE 126.9s -> /home/hatch/workspace/ising-v354/runs/fliprate

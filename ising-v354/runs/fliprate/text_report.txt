@@ -1,0 +1,135 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 100
+Nombre de Points: 960
+Seuil Critique (utilisé): 36.50190114068441%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.762
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 36.5%
+  Seuil par défaut: 38.0%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 36.5%
+  Seuil par défaut: 38.0%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 790
+  resolution: 0.127%
+  w_size: 100
+  min_grp: 5
+  loupe autorisée: 21 à 801 seuils
+  témoin grille 1001 (même fenêtre): 36.5%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - magnetization_Hurst: 4.914
+  - magnetization_Hurst2mH: 4.914
+  - magnetization_DFA: 4.449
+
+Q2_Tension_Seuil:
+  - flip_Fisher: 130.713
+  - flip_DANCo: 17.477
+  - flip_Lyapunov: 16.942
+
+Q3_Agressivite:
+  - magnetization_Hurst: 4.914
+  - magnetization_Hurst2mH: 4.914
+  - magnetization_DFA: 4.449
+
+Q4_Persistence:
+  - flip_Higuchi: 3.365
+  - flip_DFA: 3.365
+  - flip_Katz: 3.365
+
+Q5_Actif_Receptif:
+  - flip_PermutationEntropy: 18.198
+  - flip_SampleEn: 18.130
+  - localvar_MultifractalDeltaAlpha: 17.644
+
+Q6_Actif_Receptif_Echelle:
+  - energy_SingularityFmax: 6465.840
+  - flip_Petrosian: 5270.406
+  - flip_Katz: 1879.756
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle
+Score moyen proxy: 0.7402
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 5 flux
+
+Score moyen de proxy de variance: 0.740 (échelle 0-1)
+Score maximum: 0.750, Score minimum: 0.701
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. flip (score: 0.750)
+     - Q5 ratio: 13.31 vs bruit blanc 0.09
+     - Hurst max: 1.108, Pente FFT: -1.777
+  2. energy (score: 0.750)
+     - Q5 ratio: 10.96 vs bruit blanc 0.09
+     - Hurst max: 0.932, Pente FFT: -0.829
+  3. magnetization (score: 0.750)
+     - Q5 ratio: 17.31 vs bruit blanc 0.09
+     - Hurst max: 0.881, Pente FFT: -0.537
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. magnetization (score: 0.750)
+     - Hurst moyen: 0.720
+  2. localvar (score: 0.750)
+     - Hurst moyen: 0.814
+  3. susceptibility (score: 0.701)
+     - Hurst moyen: 0.896
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+flip:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+energy:
+  Divergence moyenne: 0.1%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+magnetization:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+localvar:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+susceptibility:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: VERY STABLE
+Moyenne: 35.14394350896252%
+Écart-type: 2.7042217130843977
+
+================================================================================
+Rapport généré le: 2026-10-28 10:09:57
+================================================================================
