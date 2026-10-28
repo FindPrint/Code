@@ -1,0 +1,25 @@
+2026-10-28T17:01:09Z DÉBUT expmean_fliprate
+2026-10-28T17:01:09Z DÉBUT expmean_localvar
+2026-10-28T17:04:57Z FIN expmean_fliprate (code 0) 
+2026-10-28T17:04:57Z DÉBUT rollvar_fliprate_40
+2026-10-28T17:05:01Z FIN expmean_localvar (code 0) 
+2026-10-28T17:05:01Z DÉBUT rollvar_localvar_40
+2026-10-28T17:08:45Z FIN rollvar_fliprate_40 (code 0) 
+2026-10-28T17:08:46Z DÉBUT rollmean_energy_40
+2026-10-28T17:08:46Z FIN rollvar_localvar_40 (code 0) 
+2026-10-28T17:08:46Z DÉBUT rollmean_magnetization_40
+2026-10-28T17:12:18Z FIN rollmean_magnetization_40 (code 0) 
+2026-10-28T17:12:18Z DÉBUT rollmean_fliprate_40
+2026-10-28T17:12:23Z FIN rollmean_energy_40 (code 0) 
+2026-10-28T17:12:23Z DÉBUT rollmean_localvar_40
+2026-10-28T17:15:58Z FIN rollmean_fliprate_40 (code 0) 
+2026-10-28T17:15:58Z DÉBUT null_expmean_fliprate
+2026-10-28T17:16:02Z FIN rollmean_localvar_40 (code 0) 
+2026-10-28T17:16:02Z DÉBUT null_rollvar_fliprate
+2026-10-28T17:19:39Z FIN null_expmean_fliprate (code 0) 
+2026-10-28T17:19:39Z DÉBUT null_rollmean_mag
+2026-10-28T17:19:43Z FIN null_rollvar_fliprate (code 0) 
+2026-10-28T17:19:43Z DÉBUT null_rollmean_localvar
+2026-10-28T17:23:24Z FIN null_rollmean_mag (code 0) 
+2026-10-28T17:23:25Z FIN null_rollmean_localvar (code 0) 
+2026-10-28T17:23:25Z LOT TERMINÉ

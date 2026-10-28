@@ -1,0 +1,2133 @@
+{
+  "controles": [
+    {
+      "controle": "expmean_fliprate",
+      "statut": "OK",
+      "famille": "expmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 35.6,
+      "score_mc": 0.7659,
+      "seuil_defaut_pct": 38.29,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 36.28,
+      "stab_std": 2.25,
+      "duree_s": 220.4,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.73,
+        5.73,
+        1.93,
+        1.68,
+        1.57,
+        7.53
+      ],
+      "n_pics": 110,
+      "n_pics_forts": 21,
+      "fortes": [
+        2.187,
+        2.2565,
+        2.3261
+      ],
+      "groupes_pics_forts": [
+        [
+          2.187,
+          2.2565,
+          2.3261
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.3261
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.6,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 163,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.895,
+        "Q2_Tension_Seuil": 1.664,
+        "Q3_Agressivite": 0.895,
+        "Q4_Persistence": 1.5,
+        "Q5_Active_Reactive": 8.474,
+        "Q5_Actif_Receptif": 8.474,
+        "Q6_Active_Reactive_Scaled": 37.422,
+        "Q6_Actif_Receptif_Echelle": 37.422
+      },
+      "mat_pct": {
+        "fliprate": 39.9,
+        "flip": 39.9,
+        "energy": 35.6,
+        "magnetization": 35.6,
+        "localvar": 35.6,
+        "susceptibility": 28.97
+      },
+      "mat_temp": {
+        "fliprate": 2.3261,
+        "flip": 2.3261,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "expmean_localvar",
+      "statut": "OK",
+      "famille": "expmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 35.6,
+      "score_mc": 0.7636,
+      "seuil_defaut_pct": 38.29,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 35.86,
+      "stab_std": 2.53,
+      "duree_s": 225.4,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.13,
+        5.13,
+        1.91,
+        1.48,
+        1.58,
+        7.88
+      ],
+      "n_pics": 107,
+      "n_pics_forts": 24,
+      "fortes": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.6,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 134,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.1,
+        "Q2_Tension_Seuil": 1.556,
+        "Q3_Agressivite": 1.1,
+        "Q4_Persistence": 1.377,
+        "Q5_Active_Reactive": 7.625,
+        "Q5_Actif_Receptif": 7.625,
+        "Q6_Active_Reactive_Scaled": 47.05,
+        "Q6_Actif_Receptif_Echelle": 47.05
+      },
+      "mat_pct": {
+        "fliprate": 35.76,
+        "flip": 35.76,
+        "energy": 35.6,
+        "magnetization": 35.6,
+        "localvar": 35.6,
+        "susceptibility": 28.97
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "rollvar_fliprate_40",
+      "statut": "OK",
+      "famille": "rollvar",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 9.5,
+      "score_mc": 0.7721,
+      "seuil_defaut_pct": 5.12,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 7.7,
+      "stab_std": 3.49,
+      "duree_s": 219.8,
+      "temp_mc": 1.8391,
+      "delta_T_vs_Tc": -0.4301,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        7.48,
+        7.48,
+        4.83,
+        4.11,
+        4.85,
+        7.4
+      ],
+      "n_pics": 23,
+      "n_pics_forts": 2,
+      "fortes": [
+        1.8391
+      ],
+      "groupes_pics_forts": [
+        [
+          1.8391
+        ]
+      ],
+      "groupe_principal": [
+        1.8391
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 9.5,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 112,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.892,
+        "Q2_Tension_Seuil": 3.454,
+        "Q3_Agressivite": 0.892,
+        "Q4_Persistence": 0.373,
+        "Q5_Active_Reactive": 8.009,
+        "Q5_Actif_Receptif": 8.009,
+        "Q6_Active_Reactive_Scaled": 46.726,
+        "Q6_Actif_Receptif_Echelle": 46.726
+      },
+      "mat_pct": {
+        "fliprate": 9.5,
+        "flip": 9.5,
+        "energy": 9.5,
+        "magnetization": 9.5,
+        "localvar": 9.5,
+        "susceptibility": 90.02
+      },
+      "mat_temp": {
+        "fliprate": 1.8391,
+        "flip": 1.8391,
+        "energy": 1.8391,
+        "magnetization": 1.8391,
+        "localvar": 1.8391,
+        "susceptibility": 2.2565
+      }
+    },
+    {
+      "controle": "rollvar_localvar_40",
+      "statut": "OK",
+      "famille": "rollvar",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 5.83,
+      "score_mc": 0.871,
+      "seuil_defaut_pct": 7.56,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 18.59,
+      "stab_std": 27.18,
+      "duree_s": 218.5,
+      "temp_mc": 1.7696,
+      "delta_T_vs_Tc": -0.4996,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.03,
+        6.03,
+        5.68,
+        4.29,
+        5.38,
+        8.76
+      ],
+      "n_pics": 17,
+      "n_pics_forts": 5,
+      "fortes": [
+        1.7696
+      ],
+      "groupes_pics_forts": [
+        [
+          1.7696
+        ]
+      ],
+      "groupe_principal": [
+        1.7696
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 5.83,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 148,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.699,
+        "Q2_Tension_Seuil": 0.0,
+        "Q3_Agressivite": 0.699,
+        "Q4_Persistence": 0.555,
+        "Q5_Active_Reactive": 7.21,
+        "Q5_Actif_Receptif": 7.21,
+        "Q6_Active_Reactive_Scaled": 42.447,
+        "Q6_Actif_Receptif_Echelle": 42.447
+      },
+      "mat_pct": {
+        "fliprate": 5.83,
+        "flip": 5.83,
+        "energy": 5.83,
+        "magnetization": 7.6,
+        "localvar": 5.83,
+        "susceptibility": 93.41
+      },
+      "mat_temp": {
+        "fliprate": 1.7696,
+        "flip": 1.7696,
+        "energy": 1.7696,
+        "magnetization": 1.7696,
+        "localvar": 1.7696,
+        "susceptibility": 2.3261
+      }
+    },
+    {
+      "controle": "rollmean_energy_40",
+      "statut": "OK",
+      "famille": "rollmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 35.17,
+      "score_mc": 0.7607,
+      "seuil_defaut_pct": 38.05,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 35.72,
+      "stab_std": 2.58,
+      "duree_s": 211.0,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.74,
+        5.74,
+        1.93,
+        1.67,
+        1.64,
+        7.67
+      ],
+      "n_pics": 134,
+      "n_pics_forts": 31,
+      "fortes": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.2913,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.17,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 145,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.095,
+        "Q2_Tension_Seuil": 1.565,
+        "Q3_Agressivite": 1.095,
+        "Q4_Persistence": 1.579,
+        "Q5_Active_Reactive": 7.653,
+        "Q5_Actif_Receptif": 7.653,
+        "Q6_Active_Reactive_Scaled": 48.289,
+        "Q6_Actif_Receptif_Echelle": 48.289
+      },
+      "mat_pct": {
+        "fliprate": 37.26,
+        "flip": 37.26,
+        "energy": 37.26,
+        "magnetization": 34.87,
+        "localvar": 37.26,
+        "susceptibility": 27.12
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "rollmean_magnetization_40",
+      "statut": "OK",
+      "famille": "rollmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 63.37,
+      "score_mc": 0.7618,
+      "seuil_defaut_pct": 63.17,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 64.2,
+      "stab_std": 2.06,
+      "duree_s": 204.5,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+      "drift_mediane_flux": [
+        5.78,
+        5.78,
+        1.95,
+        1.89,
+        1.64,
+        7.67
+      ],
+      "n_pics": 162,
+      "n_pics_forts": 30,
+      "fortes": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 63.37,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 157,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.166,
+        "Q2_Tension_Seuil": 1.624,
+        "Q3_Agressivite": 1.166,
+        "Q4_Persistence": 1.093,
+        "Q5_Active_Reactive": 7.144,
+        "Q5_Actif_Receptif": 7.144,
+        "Q6_Active_Reactive_Scaled": 92.957,
+        "Q6_Actif_Receptif_Echelle": 92.957
+      },
+      "mat_pct": {
+        "fliprate": 63.37,
+        "flip": 63.37,
+        "energy": 63.37,
+        "magnetization": 63.24,
+        "localvar": 63.37,
+        "susceptibility": 71.99
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "rollmean_fliprate_40",
+      "statut": "OK",
+      "famille": "rollmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 35.17,
+      "score_mc": 0.7667,
+      "seuil_defaut_pct": 38.29,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 34.85,
+      "stab_std": 2.37,
+      "duree_s": 212.7,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.74,
+        5.74,
+        1.89,
+        1.74,
+        1.74,
+        7.6
+      ],
+      "n_pics": 134,
+      "n_pics_forts": 30,
+      "fortes": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.2913,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.17,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 159,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.989,
+        "Q2_Tension_Seuil": 1.464,
+        "Q3_Agressivite": 0.989,
+        "Q4_Persistence": 1.587,
+        "Q5_Active_Reactive": 7.51,
+        "Q5_Actif_Receptif": 7.51,
+        "Q6_Active_Reactive_Scaled": 39.319,
+        "Q6_Actif_Receptif_Echelle": 39.319
+      },
+      "mat_pct": {
+        "fliprate": 35.17,
+        "flip": 35.17,
+        "energy": 35.17,
+        "magnetization": 35.17,
+        "localvar": 35.17,
+        "susceptibility": 29.81
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.187
+      }
+    },
+    {
+      "controle": "rollmean_localvar_40",
+      "statut": "OK",
+      "famille": "rollmean",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 35.17,
+      "score_mc": 0.7601,
+      "seuil_defaut_pct": 38.05,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 34.96,
+      "stab_std": 2.45,
+      "duree_s": 208.9,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.76,
+        5.76,
+        2.0,
+        1.67,
+        1.69,
+        7.72
+      ],
+      "n_pics": 133,
+      "n_pics_forts": 30,
+      "fortes": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.2913,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.2913,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.17,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 151,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.103,
+        "Q2_Tension_Seuil": 1.376,
+        "Q3_Agressivite": 1.103,
+        "Q4_Persistence": 1.585,
+        "Q5_Active_Reactive": 7.696,
+        "Q5_Actif_Receptif": 7.696,
+        "Q6_Active_Reactive_Scaled": 53.216,
+        "Q6_Actif_Receptif_Echelle": 53.216
+      },
+      "mat_pct": {
+        "fliprate": 40.69,
+        "flip": 40.69,
+        "energy": 35.17,
+        "magnetization": 35.92,
+        "localvar": 35.92,
+        "susceptibility": 27.12
+      },
+      "mat_temp": {
+        "fliprate": 2.3261,
+        "flip": 2.3261,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "null_expmean_fliprate",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 88.12,
+      "score_mc": 0.7218,
+      "seuil_defaut_pct": 86.83,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 85.84,
+      "stab_std": 3.8,
+      "duree_s": 213.9,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Mixte - Coexistence de bruit blanc et de proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        8.08,
+        8.08,
+        5.18,
+        4.71,
+        5.33,
+        8.42
+      ],
+      "n_pics": 48,
+      "n_pics_forts": 9,
+      "fortes": [
+        1.9783,
+        2.187,
+        2.2565,
+        2.2913,
+        2.4652,
+        2.5696
+      ],
+      "groupes_pics_forts": [
+        [
+          1.9783
+        ],
+        [
+          2.187,
+          2.2565,
+          2.2913
+        ],
+        [
+          2.4652,
+          2.5696
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.2913
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            1.9783
+          ],
+          "distance_groupe_principal": 0.2087
+        }
+      ],
+      "scan_argmax_pct": 88.12,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 176,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.34,
+        "Q2_Tension_Seuil": 1.117,
+        "Q3_Agressivite": 0.34,
+        "Q4_Persistence": 0.155,
+        "Q5_Active_Reactive": 8.925,
+        "Q5_Actif_Receptif": 8.925,
+        "Q6_Active_Reactive_Scaled": 58.097,
+        "Q6_Actif_Receptif_Echelle": 58.097
+      },
+      "mat_pct": {
+        "fliprate": 84.02,
+        "flip": 84.02,
+        "energy": 84.02,
+        "magnetization": 84.02,
+        "localvar": 84.02,
+        "susceptibility": 90.91
+      },
+      "mat_temp": {
+        "fliprate": 2.5696,
+        "flip": 2.5696,
+        "energy": 2.5696,
+        "magnetization": 2.5696,
+        "localvar": 2.5696,
+        "susceptibility": 1.9783
+      }
+    },
+    {
+      "controle": "null_rollvar_fliprate",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 38.5,
+      "score_mc": 0.5642,
+      "seuil_defaut_pct": 36.34,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 46.98,
+      "stab_std": 20.53,
+      "duree_s": 214.0,
+      "temp_mc": 2.3957,
+      "delta_T_vs_Tc": 0.1265,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        8.31,
+        8.31,
+        6.06,
+        4.71,
+        5.89,
+        8.4
+      ],
+      "n_pics": 86,
+      "n_pics_forts": 6,
+      "fortes": [
+        2.3957,
+        2.4652,
+        2.5348,
+        2.7435
+      ],
+      "groupes_pics_forts": [
+        [
+          2.3957,
+          2.4652,
+          2.5348
+        ],
+        [
+          2.7435
+        ]
+      ],
+      "groupe_principal": [
+        2.3957,
+        2.4652,
+        2.5348
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.7435
+          ],
+          "distance_groupe_principal": 0.2087
+        }
+      ],
+      "scan_argmax_pct": 38.5,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 175,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.393,
+        "Q2_Tension_Seuil": 1.945,
+        "Q3_Agressivite": 0.393,
+        "Q4_Persistence": 0.112,
+        "Q5_Active_Reactive": 10.406,
+        "Q5_Actif_Receptif": 10.406,
+        "Q6_Active_Reactive_Scaled": 63.44,
+        "Q6_Actif_Receptif_Echelle": 63.44
+      },
+      "mat_pct": {
+        "fliprate": 38.5,
+        "flip": 38.5,
+        "energy": 59.55,
+        "magnetization": 59.55,
+        "localvar": 59.55,
+        "susceptibility": 89.32
+      },
+      "mat_temp": {
+        "fliprate": 2.3957,
+        "flip": 2.3957,
+        "energy": 2.4652,
+        "magnetization": 2.4652,
+        "localvar": 2.4652,
+        "susceptibility": 2.7783
+      }
+    },
+    {
+      "controle": "null_rollmean_mag",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 21.69,
+      "score_mc": 0.5965,
+      "seuil_defaut_pct": 17.8,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 20.7,
+      "stab_std": 5.0,
+      "duree_s": 218.3,
+      "temp_mc": 2.5348,
+      "delta_T_vs_Tc": 0.2656,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        8.76,
+        8.76,
+        5.42,
+        4.65,
+        5.61,
+        8.42
+      ],
+      "n_pics": 47,
+      "n_pics_forts": 3,
+      "fortes": [
+        2.2565,
+        2.5,
+        2.5348
+      ],
+      "groupes_pics_forts": [
+        [
+          2.2565
+        ],
+        [
+          2.5,
+          2.5348
+        ]
+      ],
+      "groupe_principal": [
+        2.5,
+        2.5348
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.2565
+          ],
+          "distance_groupe_principal": 0.2435
+        }
+      ],
+      "scan_argmax_pct": 21.69,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 170,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.38,
+        "Q2_Tension_Seuil": 1.805,
+        "Q3_Agressivite": 0.38,
+        "Q4_Persistence": 0.147,
+        "Q5_Active_Reactive": 8.862,
+        "Q5_Actif_Receptif": 8.862,
+        "Q6_Active_Reactive_Scaled": 77.351,
+        "Q6_Actif_Receptif_Echelle": 77.351
+      },
+      "mat_pct": {
+        "fliprate": 15.56,
+        "flip": 15.56,
+        "energy": 25.99,
+        "magnetization": 21.69,
+        "localvar": 21.69,
+        "susceptibility": 11.75
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.5,
+        "magnetization": 2.5348,
+        "localvar": 2.5348,
+        "susceptibility": 2.4652
+      }
+    },
+    {
+      "controle": "null_rollmean_localvar",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs_ext",
+      "seuil_mc_pct": 87.34,
+      "score_mc": 0.7095,
+      "seuil_defaut_pct": 83.17,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 84.87,
+      "stab_std": 4.74,
+      "duree_s": 215.1,
+      "temp_mc": 2.187,
+      "delta_T_vs_Tc": -0.0822,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        8.35,
+        8.35,
+        5.82,
+        4.6,
+        6.31,
+        8.43
+      ],
+      "n_pics": 57,
+      "n_pics_forts": 7,
+      "fortes": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.3261
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.3261
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.3261
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 87.34,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 171,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.326,
+        "Q2_Tension_Seuil": 1.113,
+        "Q3_Agressivite": 0.326,
+        "Q4_Persistence": 0.168,
+        "Q5_Active_Reactive": 9.249,
+        "Q5_Actif_Receptif": 9.249,
+        "Q6_Active_Reactive_Scaled": 56.109,
+        "Q6_Actif_Receptif_Echelle": 56.109
+      },
+      "mat_pct": {
+        "fliprate": 87.34,
+        "flip": 87.34,
+        "energy": 87.34,
+        "magnetization": 87.34,
+        "localvar": 87.34,
+        "susceptibility": 86.51
+      },
+      "mat_temp": {
+        "fliprate": 2.187,
+        "flip": 2.187,
+        "energy": 2.187,
+        "magnetization": 2.187,
+        "localvar": 2.187,
+        "susceptibility": 2.3261
+      }
+    }
+  ],
+  "lot1_controles": [
+    {
+      "controle": "expvar_energy",
+      "statut": "OK",
+      "famille": "expvar",
+      "lot": "runs",
+      "seuil_mc_pct": 19.82,
+      "score_mc": 0.706,
+      "seuil_defaut_pct": 10.0,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 13.03,
+      "stab_std": 2.62,
+      "duree_s": 220.1,
+      "temp_mc": 1.9783,
+      "delta_T_vs_Tc": -0.2909,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        7.38,
+        7.38,
+        5.75,
+        5.07,
+        5.71,
+        7.99
+      ],
+      "n_pics": 47,
+      "n_pics_forts": 2,
+      "fortes": [
+        1.9783,
+        2.6739
+      ],
+      "groupes_pics_forts": [
+        [
+          1.9783
+        ],
+        [
+          2.6739
+        ]
+      ],
+      "groupe_principal": [
+        1.9783
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.6739
+          ],
+          "distance_groupe_principal": 0.6956
+        }
+      ],
+      "scan_argmax_pct": 19.82,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 127,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 2.223,
+        "Q2_Tension_Seuil": 14.275,
+        "Q3_Agressivite": 2.223,
+        "Q4_Persistence": 0.648,
+        "Q5_Active_Reactive": 11.629,
+        "Q5_Actif_Receptif": 11.629,
+        "Q6_Active_Reactive_Scaled": 77.092,
+        "Q6_Actif_Receptif_Echelle": 77.092
+      },
+      "mat_pct": {
+        "fliprate": 19.82,
+        "flip": 19.82,
+        "energy": 19.82,
+        "magnetization": 19.82,
+        "localvar": 19.82,
+        "susceptibility": 76.65
+      },
+      "mat_temp": {
+        "fliprate": 1.9783,
+        "flip": 1.9783,
+        "energy": 1.9783,
+        "magnetization": 1.9783,
+        "localvar": 1.9783,
+        "susceptibility": 2.4652
+      }
+    },
+    {
+      "controle": "expvar_magnetization",
+      "statut": "OK",
+      "famille": "expvar",
+      "lot": "runs",
+      "seuil_mc_pct": 18.63,
+      "score_mc": 0.7131,
+      "seuil_defaut_pct": 20.0,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 18.07,
+      "stab_std": 1.86,
+      "duree_s": 191.5,
+      "temp_mc": 1.9087,
+      "delta_T_vs_Tc": -0.3605,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.83,
+        6.83,
+        4.55,
+        3.95,
+        4.79,
+        7.3
+      ],
+      "n_pics": 62,
+      "n_pics_forts": 12,
+      "fortes": [
+        1.8391,
+        1.8739,
+        1.9087,
+        1.9783
+      ],
+      "groupes_pics_forts": [
+        [
+          1.8391,
+          1.8739,
+          1.9087,
+          1.9783
+        ]
+      ],
+      "groupe_principal": [
+        1.8391,
+        1.8739,
+        1.9087,
+        1.9783
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.63,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 121,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.761,
+        "Q2_Tension_Seuil": 1.427,
+        "Q3_Agressivite": 0.761,
+        "Q4_Persistence": 0.506,
+        "Q5_Active_Reactive": 7.27,
+        "Q5_Actif_Receptif": 7.27,
+        "Q6_Active_Reactive_Scaled": 39.226,
+        "Q6_Actif_Receptif_Echelle": 39.226
+      },
+      "mat_pct": {
+        "fliprate": 18.63,
+        "flip": 18.63,
+        "energy": 18.63,
+        "magnetization": 18.63,
+        "localvar": 18.63,
+        "susceptibility": 90.98
+      },
+      "mat_temp": {
+        "fliprate": 1.9087,
+        "flip": 1.9087,
+        "energy": 1.9087,
+        "magnetization": 1.9087,
+        "localvar": 1.9087,
+        "susceptibility": 2.4652
+      }
+    },
+    {
+      "controle": "expvar_fliprate",
+      "statut": "OK",
+      "famille": "expvar",
+      "lot": "runs",
+      "seuil_mc_pct": 16.39,
+      "score_mc": 0.6722,
+      "seuil_defaut_pct": 11.46,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 14.52,
+      "stab_std": 3.21,
+      "duree_s": 183.3,
+      "temp_mc": 1.9087,
+      "delta_T_vs_Tc": -0.3605,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.64,
+        6.64,
+        5.17,
+        4.42,
+        5.17,
+        7.99
+      ],
+      "n_pics": 47,
+      "n_pics_forts": 4,
+      "fortes": [
+        1.8391,
+        1.9087
+      ],
+      "groupes_pics_forts": [
+        [
+          1.8391,
+          1.9087
+        ]
+      ],
+      "groupe_principal": [
+        1.8391,
+        1.9087
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 16.39,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 132,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.78,
+        "Q2_Tension_Seuil": 2.534,
+        "Q3_Agressivite": 0.78,
+        "Q4_Persistence": 0.421,
+        "Q5_Active_Reactive": 7.074,
+        "Q5_Actif_Receptif": 7.074,
+        "Q6_Active_Reactive_Scaled": 91.999,
+        "Q6_Actif_Receptif_Echelle": 91.999
+      },
+      "mat_pct": {
+        "fliprate": 16.39,
+        "flip": 16.39,
+        "energy": 16.39,
+        "magnetization": 16.39,
+        "localvar": 16.39,
+        "susceptibility": 91.21
+      },
+      "mat_temp": {
+        "fliprate": 1.9087,
+        "flip": 1.9087,
+        "energy": 1.9087,
+        "magnetization": 1.9087,
+        "localvar": 1.9087,
+        "susceptibility": 2.3957
+      }
+    },
+    {
+      "controle": "expvar_localvar",
+      "statut": "OK",
+      "famille": "expvar",
+      "lot": "runs",
+      "seuil_mc_pct": 10.53,
+      "score_mc": 0.8153,
+      "seuil_defaut_pct": 9.76,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 20.37,
+      "stab_std": 26.38,
+      "duree_s": 178.6,
+      "temp_mc": 1.8391,
+      "delta_T_vs_Tc": -0.4301,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.53,
+        6.53,
+        5.51,
+        4.65,
+        5.68,
+        8.28
+      ],
+      "n_pics": 88,
+      "n_pics_forts": 6,
+      "fortes": [
+        1.7696,
+        1.8391
+      ],
+      "groupes_pics_forts": [
+        [
+          1.7696,
+          1.8391
+        ]
+      ],
+      "groupe_principal": [
+        1.7696,
+        1.8391
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 10.53,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 102,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.17,
+        "Q2_Tension_Seuil": 3.204,
+        "Q3_Agressivite": 1.17,
+        "Q4_Persistence": 0.367,
+        "Q5_Active_Reactive": 6.668,
+        "Q5_Actif_Receptif": 6.668,
+        "Q6_Active_Reactive_Scaled": 42.203,
+        "Q6_Actif_Receptif_Echelle": 42.203
+      },
+      "mat_pct": {
+        "fliprate": 10.53,
+        "flip": 10.53,
+        "energy": 10.53,
+        "magnetization": 10.53,
+        "localvar": 10.53,
+        "susceptibility": 87.67
+      },
+      "mat_temp": {
+        "fliprate": 1.8391,
+        "flip": 1.8391,
+        "energy": 1.8391,
+        "magnetization": 1.8391,
+        "localvar": 1.8391,
+        "susceptibility": 2.3957
+      }
+    },
+    {
+      "controle": "expmean_energy",
+      "statut": "OK",
+      "famille": "expmean",
+      "lot": "runs",
+      "seuil_mc_pct": 35.6,
+      "score_mc": 0.7619,
+      "seuil_defaut_pct": 38.29,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 35.08,
+      "stab_std": 2.71,
+      "duree_s": 170.0,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.06,
+        5.06,
+        1.97,
+        1.42,
+        1.74,
+        7.49
+      ],
+      "n_pics": 117,
+      "n_pics_forts": 31,
+      "fortes": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.6,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 135,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.145,
+        "Q2_Tension_Seuil": 1.813,
+        "Q3_Agressivite": 1.145,
+        "Q4_Persistence": 1.361,
+        "Q5_Active_Reactive": 8.298,
+        "Q5_Actif_Receptif": 8.298,
+        "Q6_Active_Reactive_Scaled": 40.989,
+        "Q6_Actif_Receptif_Echelle": 40.989
+      },
+      "mat_pct": {
+        "fliprate": 35.6,
+        "flip": 35.6,
+        "energy": 34.44,
+        "magnetization": 34.44,
+        "localvar": 34.44,
+        "susceptibility": 27.48
+      },
+      "mat_temp": {
+        "fliprate": 2.2565,
+        "flip": 2.2565,
+        "energy": 2.2565,
+        "magnetization": 2.2565,
+        "localvar": 2.2565,
+        "susceptibility": 2.1174
+      }
+    },
+    {
+      "controle": "expmean_magnetization",
+      "statut": "OK",
+      "famille": "expmean",
+      "lot": "runs",
+      "seuil_mc_pct": 63.24,
+      "score_mc": 0.763,
+      "seuil_defaut_pct": 63.66,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 63.68,
+      "stab_std": 2.12,
+      "duree_s": 171.7,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+      "drift_mediane_flux": [
+        5.24,
+        5.24,
+        2.0,
+        1.52,
+        2.01,
+        7.71
+      ],
+      "n_pics": 162,
+      "n_pics_forts": 34,
+      "fortes": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "groupes_pics_forts": [
+        [
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 63.24,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 133,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.375,
+        "Q2_Tension_Seuil": 1.757,
+        "Q3_Agressivite": 1.375,
+        "Q4_Persistence": 1.047,
+        "Q5_Active_Reactive": 7.063,
+        "Q5_Actif_Receptif": 7.063,
+        "Q6_Active_Reactive_Scaled": 75.602,
+        "Q6_Actif_Receptif_Echelle": 75.602
+      },
+      "mat_pct": {
+        "fliprate": 60.08,
+        "flip": 60.08,
+        "energy": 62.1,
+        "magnetization": 61.22,
+        "localvar": 63.24,
+        "susceptibility": 70.72
+      },
+      "mat_temp": {
+        "fliprate": 2.3261,
+        "flip": 2.3261,
+        "energy": 2.3261,
+        "magnetization": 2.3261,
+        "localvar": 2.2565,
+        "susceptibility": 2.187
+      }
+    },
+    {
+      "controle": "rollvar_magnetization_40",
+      "statut": "OK",
+      "famille": "rollvar",
+      "lot": "runs",
+      "seuil_mc_pct": 20.38,
+      "score_mc": 0.7415,
+      "seuil_defaut_pct": 21.71,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 19.65,
+      "stab_std": 3.36,
+      "duree_s": 165.3,
+      "temp_mc": 1.9783,
+      "delta_T_vs_Tc": -0.2909,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.81,
+        5.81,
+        3.77,
+        4.07,
+        3.81,
+        6.51
+      ],
+      "n_pics": 63,
+      "n_pics_forts": 19,
+      "fortes": [
+        1.9087,
+        1.9783,
+        2.0478
+      ],
+      "groupes_pics_forts": [
+        [
+          1.9087,
+          1.9783,
+          2.0478
+        ]
+      ],
+      "groupe_principal": [
+        1.9087,
+        1.9783,
+        2.0478
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 20.38,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 130,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.415,
+        "Q2_Tension_Seuil": 1.662,
+        "Q3_Agressivite": 0.415,
+        "Q4_Persistence": 0.738,
+        "Q5_Active_Reactive": 8.094,
+        "Q5_Actif_Receptif": 8.094,
+        "Q6_Active_Reactive_Scaled": 220.694,
+        "Q6_Actif_Receptif_Echelle": 220.694
+      },
+      "mat_pct": {
+        "fliprate": 20.38,
+        "flip": 20.38,
+        "energy": 20.38,
+        "magnetization": 20.38,
+        "localvar": 20.38,
+        "susceptibility": 93.55
+      },
+      "mat_temp": {
+        "fliprate": 1.9783,
+        "flip": 1.9783,
+        "energy": 1.9783,
+        "magnetization": 1.9783,
+        "localvar": 1.9783,
+        "susceptibility": 2.3957
+      }
+    },
+    {
+      "controle": "rollvar_energy_40",
+      "statut": "OK",
+      "famille": "rollvar",
+      "lot": "runs",
+      "seuil_mc_pct": 9.5,
+      "score_mc": 0.8243,
+      "seuil_defaut_pct": 12.93,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 12.11,
+      "stab_std": 2.09,
+      "duree_s": 178.4,
+      "temp_mc": 1.8391,
+      "delta_T_vs_Tc": -0.4301,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.08,
+        6.08,
+        4.85,
+        4.02,
+        4.81,
+        7.29
+      ],
+      "n_pics": 17,
+      "n_pics_forts": 1,
+      "fortes": [
+        1.8391
+      ],
+      "groupes_pics_forts": [
+        [
+          1.8391
+        ]
+      ],
+      "groupe_principal": [
+        1.8391
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 9.5,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 127,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.147,
+        "Q2_Tension_Seuil": 2.573,
+        "Q3_Agressivite": 1.147,
+        "Q4_Persistence": 0.502,
+        "Q5_Active_Reactive": 7.036,
+        "Q5_Actif_Receptif": 7.036,
+        "Q6_Active_Reactive_Scaled": 93.148,
+        "Q6_Actif_Receptif_Echelle": 93.148
+      },
+      "mat_pct": {
+        "fliprate": 9.5,
+        "flip": 9.5,
+        "energy": 9.5,
+        "magnetization": 9.5,
+        "localvar": 9.5,
+        "susceptibility": 90.02
+      },
+      "mat_temp": {
+        "fliprate": 1.8391,
+        "flip": 1.8391,
+        "energy": 1.8391,
+        "magnetization": 1.8391,
+        "localvar": 1.8391,
+        "susceptibility": 2.4652
+      }
+    },
+    {
+      "controle": "null_susceptibility",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs",
+      "seuil_mc_pct": 79.48,
+      "score_mc": 0.567,
+      "seuil_defaut_pct": 61.46,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 58.68,
+      "stab_std": 25.24,
+      "duree_s": 177.7,
+      "temp_mc": 2.5348,
+      "delta_T_vs_Tc": 0.2656,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        8.87,
+        8.87,
+        6.43,
+        4.86,
+        6.39,
+        10.53
+      ],
+      "n_pics": 93,
+      "n_pics_forts": 6,
+      "fortes": [
+        2.1174,
+        2.3957,
+        2.4652,
+        2.5348,
+        2.7435,
+        2.813
+      ],
+      "groupes_pics_forts": [
+        [
+          2.1174
+        ],
+        [
+          2.3957,
+          2.4652,
+          2.5348
+        ],
+        [
+          2.7435,
+          2.813
+        ]
+      ],
+      "groupe_principal": [
+        2.3957,
+        2.4652,
+        2.5348
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.1174
+          ],
+          "distance_groupe_principal": 0.2783
+        },
+        {
+          "temps": [
+            2.7435,
+            2.813
+          ],
+          "distance_groupe_principal": 0.2087
+        }
+      ],
+      "scan_argmax_pct": 79.48,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 158,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.527,
+        "Q2_Tension_Seuil": 1.141,
+        "Q3_Agressivite": 0.527,
+        "Q4_Persistence": 0.14,
+        "Q5_Active_Reactive": 15.897,
+        "Q5_Actif_Receptif": 15.897,
+        "Q6_Active_Reactive_Scaled": 88.782,
+        "Q6_Actif_Receptif_Echelle": 88.782
+      },
+      "mat_pct": {
+        "fliprate": 79.48,
+        "flip": 79.48,
+        "energy": 79.48,
+        "magnetization": 54.68,
+        "localvar": 79.48,
+        "susceptibility": 21.17
+      },
+      "mat_temp": {
+        "fliprate": 2.5348,
+        "flip": 2.5348,
+        "energy": 2.5348,
+        "magnetization": 2.1174,
+        "localvar": 2.5348,
+        "susceptibility": 2.6043
+      }
+    },
+    {
+      "controle": "null_expvar_mag",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs",
+      "seuil_mc_pct": 18.05,
+      "score_mc": 0.5558,
+      "seuil_defaut_pct": 90.24,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 15.97,
+      "stab_std": 7.97,
+      "duree_s": 176.5,
+      "temp_mc": 2.3261,
+      "delta_T_vs_Tc": 0.0569,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        9.15,
+        9.15,
+        6.54,
+        4.73,
+        6.55,
+        9.52
+      ],
+      "n_pics": 85,
+      "n_pics_forts": 3,
+      "fortes": [
+        2.3261,
+        2.3609
+      ],
+      "groupes_pics_forts": [
+        [
+          2.3261,
+          2.3609
+        ]
+      ],
+      "groupe_principal": [
+        2.3261,
+        2.3609
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.05,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 162,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.57,
+        "Q2_Tension_Seuil": 0.956,
+        "Q3_Agressivite": 0.57,
+        "Q4_Persistence": 0.118,
+        "Q5_Active_Reactive": 15.404,
+        "Q5_Actif_Receptif": 15.404,
+        "Q6_Active_Reactive_Scaled": 118.783,
+        "Q6_Actif_Receptif_Echelle": 118.783
+      },
+      "mat_pct": {
+        "fliprate": 17.27,
+        "flip": 17.27,
+        "energy": 17.27,
+        "magnetization": 33.38,
+        "localvar": 17.27,
+        "susceptibility": 14.29
+      },
+      "mat_temp": {
+        "fliprate": 2.3261,
+        "flip": 2.3261,
+        "energy": 2.3261,
+        "magnetization": 2.3261,
+        "localvar": 2.3261,
+        "susceptibility": 2.813
+      }
+    },
+    {
+      "controle": "null_rollvar_mag",
+      "statut": "OK",
+      "famille": "nul",
+      "lot": "runs",
+      "seuil_mc_pct": 18.2,
+      "score_mc": 0.5653,
+      "seuil_defaut_pct": 59.76,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 57.53,
+      "stab_std": 27.23,
+      "duree_s": 127.8,
+      "temp_mc": 2.6043,
+      "delta_T_vs_Tc": 0.3351,
+      "bruit": "Mixte - Coexistence de bruit blanc et de proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        8.36,
+        8.36,
+        6.17,
+        4.87,
+        6.08,
+        8.39
+      ],
+      "n_pics": 154,
+      "n_pics_forts": 13,
+      "fortes": [
+        2.3261,
+        2.3957,
+        2.4652,
+        2.5348,
+        2.6043,
+        2.6739
+      ],
+      "groupes_pics_forts": [
+        [
+          2.3261,
+          2.3957,
+          2.4652,
+          2.5348,
+          2.6043,
+          2.6739
+        ]
+      ],
+      "groupe_principal": [
+        2.3261,
+        2.3957,
+        2.4652,
+        2.5348,
+        2.6043,
+        2.6739
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.2,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 160,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.513,
+        "Q2_Tension_Seuil": 1.047,
+        "Q3_Agressivite": 0.513,
+        "Q4_Persistence": 0.139,
+        "Q5_Active_Reactive": 11.12,
+        "Q5_Actif_Receptif": 11.12,
+        "Q6_Active_Reactive_Scaled": 86.789,
+        "Q6_Actif_Receptif_Echelle": 86.789
+      },
+      "mat_pct": {
+        "fliprate": 32.93,
+        "flip": 32.93,
+        "energy": 62.11,
+        "magnetization": 62.11,
+        "localvar": 62.11,
+        "susceptibility": 89.02
+      },
+      "mat_temp": {
+        "fliprate": 2.6739,
+        "flip": 2.6739,
+        "energy": 2.4652,
+        "magnetization": 2.4652,
+        "localvar": 2.4652,
+        "susceptibility": 2.2565
+      }
+    }
+  ],
+  "matrice_seuils_propres_pct": {
+    "expmean_fliprate": {
+      "fliprate": 39.9,
+      "flip": 39.9,
+      "energy": 35.6,
+      "magnetization": 35.6,
+      "localvar": 35.6,
+      "susceptibility": 28.97
+    },
+    "expmean_localvar": {
+      "fliprate": 35.76,
+      "flip": 35.76,
+      "energy": 35.6,
+      "magnetization": 35.6,
+      "localvar": 35.6,
+      "susceptibility": 28.97
+    },
+    "rollvar_fliprate_40": {
+      "fliprate": 9.5,
+      "flip": 9.5,
+      "energy": 9.5,
+      "magnetization": 9.5,
+      "localvar": 9.5,
+      "susceptibility": 90.02
+    },
+    "rollvar_localvar_40": {
+      "fliprate": 5.83,
+      "flip": 5.83,
+      "energy": 5.83,
+      "magnetization": 7.6,
+      "localvar": 5.83,
+      "susceptibility": 93.41
+    },
+    "rollmean_energy_40": {
+      "fliprate": 37.26,
+      "flip": 37.26,
+      "energy": 37.26,
+      "magnetization": 34.87,
+      "localvar": 37.26,
+      "susceptibility": 27.12
+    },
+    "rollmean_magnetization_40": {
+      "fliprate": 63.37,
+      "flip": 63.37,
+      "energy": 63.37,
+      "magnetization": 63.24,
+      "localvar": 63.37,
+      "susceptibility": 71.99
+    },
+    "rollmean_fliprate_40": {
+      "fliprate": 35.17,
+      "flip": 35.17,
+      "energy": 35.17,
+      "magnetization": 35.17,
+      "localvar": 35.17,
+      "susceptibility": 29.81
+    },
+    "rollmean_localvar_40": {
+      "fliprate": 40.69,
+      "flip": 40.69,
+      "energy": 35.17,
+      "magnetization": 35.92,
+      "localvar": 35.92,
+      "susceptibility": 27.12
+    },
+    "null_expmean_fliprate": {
+      "fliprate": 84.02,
+      "flip": 84.02,
+      "energy": 84.02,
+      "magnetization": 84.02,
+      "localvar": 84.02,
+      "susceptibility": 90.91
+    },
+    "null_rollvar_fliprate": {
+      "fliprate": 38.5,
+      "flip": 38.5,
+      "energy": 59.55,
+      "magnetization": 59.55,
+      "localvar": 59.55,
+      "susceptibility": 89.32
+    },
+    "null_rollmean_mag": {
+      "fliprate": 15.56,
+      "flip": 15.56,
+      "energy": 25.99,
+      "magnetization": 21.69,
+      "localvar": 21.69,
+      "susceptibility": 11.75
+    },
+    "null_rollmean_localvar": {
+      "fliprate": 87.34,
+      "flip": 87.34,
+      "energy": 87.34,
+      "magnetization": 87.34,
+      "localvar": 87.34,
+      "susceptibility": 86.51
+    }
+  },
+  "matrice_temperatures_seuils_propres": {
+    "expmean_fliprate": {
+      "fliprate": 2.3261,
+      "flip": 2.3261,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.1174
+    },
+    "expmean_localvar": {
+      "fliprate": 2.2565,
+      "flip": 2.2565,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.1174
+    },
+    "rollvar_fliprate_40": {
+      "fliprate": 1.8391,
+      "flip": 1.8391,
+      "energy": 1.8391,
+      "magnetization": 1.8391,
+      "localvar": 1.8391,
+      "susceptibility": 2.2565
+    },
+    "rollvar_localvar_40": {
+      "fliprate": 1.7696,
+      "flip": 1.7696,
+      "energy": 1.7696,
+      "magnetization": 1.7696,
+      "localvar": 1.7696,
+      "susceptibility": 2.3261
+    },
+    "rollmean_energy_40": {
+      "fliprate": 2.2565,
+      "flip": 2.2565,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.1174
+    },
+    "rollmean_magnetization_40": {
+      "fliprate": 2.2565,
+      "flip": 2.2565,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.1174
+    },
+    "rollmean_fliprate_40": {
+      "fliprate": 2.2565,
+      "flip": 2.2565,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.187
+    },
+    "rollmean_localvar_40": {
+      "fliprate": 2.3261,
+      "flip": 2.3261,
+      "energy": 2.2565,
+      "magnetization": 2.2565,
+      "localvar": 2.2565,
+      "susceptibility": 2.1174
+    },
+    "null_expmean_fliprate": {
+      "fliprate": 2.5696,
+      "flip": 2.5696,
+      "energy": 2.5696,
+      "magnetization": 2.5696,
+      "localvar": 2.5696,
+      "susceptibility": 1.9783
+    },
+    "null_rollvar_fliprate": {
+      "fliprate": 2.3957,
+      "flip": 2.3957,
+      "energy": 2.4652,
+      "magnetization": 2.4652,
+      "localvar": 2.4652,
+      "susceptibility": 2.7783
+    },
+    "null_rollmean_mag": {
+      "fliprate": 2.2565,
+      "flip": 2.2565,
+      "energy": 2.5,
+      "magnetization": 2.5348,
+      "localvar": 2.5348,
+      "susceptibility": 2.4652
+    },
+    "null_rollmean_localvar": {
+      "fliprate": 2.187,
+      "flip": 2.187,
+      "energy": 2.187,
+      "magnetization": 2.187,
+      "localvar": 2.187,
+      "susceptibility": 2.3261
+    }
+  },
+  "pics_forts_par_run": {
+    "expmean_fliprate": [
+      2.187,
+      2.2565,
+      2.3261
+    ],
+    "expmean_localvar": [
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "rollvar_fliprate_40": [
+      1.8391
+    ],
+    "rollvar_localvar_40": [
+      1.7696
+    ],
+    "rollmean_energy_40": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.2913,
+      2.3261,
+      2.3957
+    ],
+    "rollmean_magnetization_40": [
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "rollmean_fliprate_40": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.2913,
+      2.3261,
+      2.3957
+    ],
+    "rollmean_localvar_40": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.2913,
+      2.3261,
+      2.3957
+    ],
+    "null_expmean_fliprate": [
+      1.9783,
+      2.187,
+      2.2565,
+      2.2913,
+      2.4652,
+      2.5696
+    ],
+    "null_rollvar_fliprate": [
+      2.3957,
+      2.4652,
+      2.5348,
+      2.7435
+    ],
+    "null_rollmean_mag": [
+      2.2565,
+      2.5,
+      2.5348
+    ],
+    "null_rollmean_localvar": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.3261
+    ],
+    "expvar_energy": [
+      1.9783,
+      2.6739
+    ],
+    "expvar_magnetization": [
+      1.8391,
+      1.8739,
+      1.9087,
+      1.9783
+    ],
+    "expvar_fliprate": [
+      1.8391,
+      1.9087
+    ],
+    "expvar_localvar": [
+      1.7696,
+      1.8391
+    ],
+    "expmean_energy": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "expmean_magnetization": [
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "rollvar_magnetization_40": [
+      1.9087,
+      1.9783,
+      2.0478
+    ],
+    "rollvar_energy_40": [
+      1.8391
+    ],
+    "null_susceptibility": [
+      2.1174,
+      2.3957,
+      2.4652,
+      2.5348,
+      2.7435,
+      2.813
+    ],
+    "null_expvar_mag": [
+      2.3261,
+      2.3609
+    ],
+    "null_rollvar_mag": [
+      2.3261,
+      2.3957,
+      2.4652,
+      2.5348,
+      2.6043,
+      2.6739
+    ]
+  },
+  "attribution_candidats": [
+    {
+      "temps_candidats": [
+        2.6739
+      ],
+      "runs_derives": [
+        "expvar_energy"
+      ],
+      "n_runs_derives": 1,
+      "present_dans_nuls": [
+        "null_rollvar_fliprate",
+        "null_susceptibility",
+        "null_rollvar_mag"
+      ],
+      "present_sous_glissant_meme_base": {
+        "expvar_energy": false
+      },
+      "verdict_R1": false,
+      "verdict_R2_construction": true,
+      "verdict_R3_pipeline": true
+    }
+  ],
+  "Tc_Onsager": 2.269185314213,
+  "n_termines": 12
+}
