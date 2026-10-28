@@ -53,3 +53,18 @@
 - Synthèse + attribution (règles R1–R5 gelées) : `RAPPORT_DERIVED.md`
   (après les runs). PDF + zip + publication GitHub selon la règle
   permanente.
+
+## Livrables vérifiés (28 oct. 2026)
+
+- PDF `Ising_derived_v35H1_Resultats_complets.pdf` — 15 pages A4,
+  6 429 409 octets, SHA-256
+  `0dcbdd685017b1f530f5999712b6657d06171ce019a0ca2f9a7a9c8f66367cde`
+  (construit par `build_pdf_zip_derived.py` depuis la synthèse vérifiée).
+- Zip `ising_derived_resultats.zip` — 158 fichiers, 11,5 Mo, SHA-256
+  `a7e49e707c172ec03b6e68d9547e166466f3b8fa183a366f0a2612c9bc989865`
+  (arbre complet hors PDF/zip/__pycache__, testzip OK).
+- Publication : dépôt privé FindPrint/Code, branche main, dossier
+  `ising-derived/` — texte par snapshot (14 commits + addendum),
+  binaires par téléversement web
+  (PDF + zip + 24 figures aux noms préfixés par contrôle, dossier
+  `ising-derived/figures/`).
