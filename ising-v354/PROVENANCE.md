@@ -56,5 +56,42 @@ maximum de sources et d'informations.**
 - 6 runs en rotation (contrôle exclu des flux), mode stable, w80,
   cohen_d, graine 42, HARMONIC_PROB 0,45, max 2 en parallèle.
   Journaux : `runs/<controle>/run.log`, journal maître `run_lot.log`.
-- Synthèse vérifiée : `RAPPORT.md` (après les runs). PDF + zip +
-  publication GitHub selon la règle permanente.
+- Synthèse vérifiée : `RAPPORT.md` (après les runs, 28 oct. 2026),
+  produite par `synthese.py` (traduction température recalculée
+  indépendamment, exclusion du contrôle vérifiée, identité
+  flip/fliprate vérifiée) et relue contre les sorties brutes.
+
+## Publication (28 oct. 2026)
+
+- **Dépôt :** FindPrint/Code (privé), branche `main`, dossier
+  `ising-v354/`. Entrée ajoutée en tête de `PROJECTS.md`.
+- **PDF :** `Ising_v354_v35H1_Resultats_complets.pdf`, SHA-256
+  `6bf5f07297e4e35e7d214b5bb4c62b6d9bbee3674811c24c8872dc12a81f7413`,
+  2,8 Mo (rapport + 2 figures de synthèse + 12 figures du pipeline).
+- **Zip :** `ising_v354_resultats.zip`, SHA-256
+  `3b1ef0d37dec542019562741ec3dd93e4ed49faa33ab88666f1513e243e50238`,
+  95 fichiers (arbre complet : protocole, provenance, rapport,
+  données, générateur, code pipeline + conception Q6, harnais,
+  synthèse, sorties des 6 runs ; hors PDF, hors figures préfixées
+  temporaires).
+- **Texte (7 commits snapshot, 82 fichiers) :** tête avant
+  `b6b1ce30…` ; docs `902584b1…`, fliprate `e7c54d52…`, flip
+  `00927394…`, energy `7bb7c40f…`, magnetization `0593608a…`,
+  localvar `6d4681fe…`, susceptibility `0d1397ce…`. Incident :
+  une première tentative à 10,05 Mo a été rejetée (HTTP 413) —
+  les lots ont été refaits à ≤ 3,3 Mo. Vérifié par relecture
+  (`get_file_contents` : RAPPORT.md, run_summary.json susceptibility).
+- **Binaires (4 commits via l'interface web GitHub, vérifiés par
+  listage) :** dossier figures `5ddf0b17…`, PDF + zip `da91051d…`,
+  figures `0402ccf…`, restauration préfixée `1aa52f17…`.
+  Incident : le premier téléversement des figures a écrasé les
+  fichiers de même nom (6 `threshold_scan.png` et 6
+  `noise_diagnostic.png` partageant les mêmes chemins) — seule la
+  paire susceptibility subsistait. Les 12 figures ont été
+  restaurées sous noms préfixés (`<contrôle>_threshold_scan.png`,
+  `<contrôle>_noise_diagnostic.png`), vérifiées une à une dans le
+  listage (17 fichiers dans `figures/`, dont les 2 fichiers sans
+  préfixe laissés en place — doublons de la paire susceptibility
+  préfixée). Les figures restent aussi dans le zip.
+- Cet addendum a été poussé au dépôt dans un commit snapshot séparé
+  le 28 oct. 2026, après les 11 commits ci-dessus.
