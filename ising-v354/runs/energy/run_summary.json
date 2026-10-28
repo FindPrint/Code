@@ -1,0 +1,790 @@
+{
+  "pipeline": "v3.5.4-H1 Tlog_v3_5_4_harmonic_v1.py (Q6-A)",
+  "pipeline_sha256": "b54fcf66a0f0e90941108e1a2b11a1f0c2679044eda1be2b0a875e4ed4bd165d",
+  "dataset": "ising_classic_v354.csv (Ising 2D simulé L=32, graine 42, voir PROTOCOLE.md)",
+  "dataset_sha256": "9027dfd53767845049b07c458c8713104f7288d8d6ac7b7c50a0ae972627066d",
+  "temperature_sha256": "4863b1de84e358c77faeae2a1e227474b0115e38805bf499df24d3efbc84c5e4",
+  "control": "energy",
+  "status": "OK",
+  "mode": "stable",
+  "fluxes_analyses": [
+    "fliprate",
+    "flip",
+    "magnetization",
+    "localvar",
+    "susceptibility"
+  ],
+  "active_keys": [
+    "fliprate",
+    "flip"
+  ],
+  "reactive_keys": [
+    "magnetization",
+    "localvar"
+  ],
+  "ni_actif_ni_reactif": [
+    "susceptibility"
+  ],
+  "n_pts": 960,
+  "n_flux": 5,
+  "n_valides_controle": 960,
+  "duration_s": 124.9,
+  "opt_threshold_pct": 35.76158940397351,
+  "mc_threshold_pct": 35.76158940397351,
+  "mc_score": 0.7582808945655549,
+  "mc_w_size": 118,
+  "mc_n_candidates": 605,
+  "mc_min_grp": 9,
+  "default_threshold_pct": 38.292682926829265,
+  "raw_mc_threshold_pct": 35.76158940397351,
+  "raw_default_threshold_pct": 38.292682926829265,
+  "rigid_1001_threshold_pct": 35.7,
+  "theiler": {
+    "factor": 0.6180339887498949,
+    "mode": "floored",
+    "source": "fixed",
+    "b_score": null,
+    "best_b_score": null,
+    "best_b_theiler_factor": null
+  },
+  "threshold_source": "monte_carlo",
+  "threshold_warnings": [],
+  "scan_fast_fallback_log": [],
+  "stability_rating": "VERY STABLE",
+  "stability_mean": 36.35288552507096,
+  "stability_std": 1.6579926365489024,
+  "noise_label": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+  "scores_moyens_par_Q": {
+    "Q1_Calme_vs_Chaos": 1.479,
+    "Q2_Tension_Seuil": 1.421,
+    "Q3_Agressivite": 1.479,
+    "Q4_Persistence": 1.26,
+    "Q5_Active_Reactive": 6.327,
+    "Q5_Actif_Receptif": 6.327,
+    "Q6_Active_Reactive_Scaled": 63.007,
+    "Q6_Actif_Receptif_Echelle": 63.007
+  },
+  "per_flux": [
+    {
+      "flux": "fliprate",
+      "seuil_propre_pct": 37.91,
+      "temperature_mediane_au_seuil": 2.2565,
+      "score_max": 4.148,
+      "top3_candidats": [
+        37.9,
+        40.1,
+        39.9
+      ]
+    },
+    {
+      "flux": "flip",
+      "seuil_propre_pct": 37.91,
+      "temperature_mediane_au_seuil": 2.2565,
+      "score_max": 4.148,
+      "top3_candidats": [
+        37.9,
+        40.1,
+        39.9
+      ]
+    },
+    {
+      "flux": "magnetization",
+      "seuil_propre_pct": 36.26,
+      "temperature_mediane_au_seuil": 2.2565,
+      "score_max": 4.996,
+      "top3_candidats": [
+        36.3,
+        36.4,
+        37.3
+      ]
+    },
+    {
+      "flux": "localvar",
+      "seuil_propre_pct": 35.6,
+      "temperature_mediane_au_seuil": 2.2565,
+      "score_max": 4.676,
+      "top3_candidats": [
+        35.6,
+        35.8,
+        36.3
+      ]
+    },
+    {
+      "flux": "susceptibility",
+      "seuil_propre_pct": 26.49,
+      "temperature_mediane_au_seuil": 2.1174,
+      "score_max": 0.912,
+      "top3_candidats": [
+        26.5,
+        25.3,
+        25.0
+      ]
+    }
+  ],
+  "landscape_peaks": [
+    {
+      "candidat_pct": 9.6,
+      "score": 2.012,
+      "rel_au_max": 0.551,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 10.1,
+      "score": 2.028,
+      "rel_au_max": 0.555,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 10.76,
+      "score": 2.051,
+      "rel_au_max": 0.562,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 11.26,
+      "score": 2.057,
+      "rel_au_max": 0.563,
+      "temperature_mediane": 1.8391
+    },
+    {
+      "candidat_pct": 12.25,
+      "score": 2.116,
+      "rel_au_max": 0.58,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 12.58,
+      "score": 2.12,
+      "rel_au_max": 0.581,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 12.91,
+      "score": 2.112,
+      "rel_au_max": 0.579,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 13.25,
+      "score": 2.124,
+      "rel_au_max": 0.582,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 13.58,
+      "score": 2.14,
+      "rel_au_max": 0.586,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 13.91,
+      "score": 2.159,
+      "rel_au_max": 0.591,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 14.24,
+      "score": 2.166,
+      "rel_au_max": 0.593,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 14.74,
+      "score": 2.188,
+      "rel_au_max": 0.599,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 15.4,
+      "score": 2.326,
+      "rel_au_max": 0.637,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 15.73,
+      "score": 2.353,
+      "rel_au_max": 0.644,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 16.23,
+      "score": 2.375,
+      "rel_au_max": 0.651,
+      "temperature_mediane": 1.9087
+    },
+    {
+      "candidat_pct": 16.89,
+      "score": 2.413,
+      "rel_au_max": 0.661,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 17.38,
+      "score": 2.43,
+      "rel_au_max": 0.666,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 18.21,
+      "score": 2.452,
+      "rel_au_max": 0.672,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 18.71,
+      "score": 2.483,
+      "rel_au_max": 0.68,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 19.04,
+      "score": 2.52,
+      "rel_au_max": 0.69,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 19.54,
+      "score": 2.541,
+      "rel_au_max": 0.696,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 19.87,
+      "score": 2.555,
+      "rel_au_max": 0.7,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 20.36,
+      "score": 2.573,
+      "rel_au_max": 0.705,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 21.85,
+      "score": 2.688,
+      "rel_au_max": 0.736,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 22.35,
+      "score": 2.717,
+      "rel_au_max": 0.744,
+      "temperature_mediane": 1.9783
+    },
+    {
+      "candidat_pct": 22.85,
+      "score": 2.766,
+      "rel_au_max": 0.758,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 23.18,
+      "score": 2.778,
+      "rel_au_max": 0.761,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 23.51,
+      "score": 2.804,
+      "rel_au_max": 0.768,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 24.01,
+      "score": 2.841,
+      "rel_au_max": 0.778,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 24.67,
+      "score": 2.871,
+      "rel_au_max": 0.787,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 25.0,
+      "score": 2.909,
+      "rel_au_max": 0.797,
+      "temperature_mediane": 2.0478
+    },
+    {
+      "candidat_pct": 25.5,
+      "score": 2.897,
+      "rel_au_max": 0.794,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 25.83,
+      "score": 2.935,
+      "rel_au_max": 0.804,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 26.66,
+      "score": 3.045,
+      "rel_au_max": 0.834,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 27.98,
+      "score": 3.164,
+      "rel_au_max": 0.867,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 28.31,
+      "score": 3.19,
+      "rel_au_max": 0.874,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 28.64,
+      "score": 3.194,
+      "rel_au_max": 0.875,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 29.3,
+      "score": 3.264,
+      "rel_au_max": 0.894,
+      "temperature_mediane": 2.1174
+    },
+    {
+      "candidat_pct": 29.97,
+      "score": 3.318,
+      "rel_au_max": 0.909,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 30.3,
+      "score": 3.357,
+      "rel_au_max": 0.92,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 30.79,
+      "score": 3.365,
+      "rel_au_max": 0.922,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 31.29,
+      "score": 3.395,
+      "rel_au_max": 0.93,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 31.79,
+      "score": 3.421,
+      "rel_au_max": 0.937,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 32.62,
+      "score": 3.531,
+      "rel_au_max": 0.967,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 33.11,
+      "score": 3.535,
+      "rel_au_max": 0.968,
+      "temperature_mediane": 2.187
+    },
+    {
+      "candidat_pct": 33.61,
+      "score": 3.531,
+      "rel_au_max": 0.967,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 33.94,
+      "score": 3.531,
+      "rel_au_max": 0.967,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 34.27,
+      "score": 3.59,
+      "rel_au_max": 0.983,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 34.93,
+      "score": 3.574,
+      "rel_au_max": 0.979,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 35.76,
+      "score": 3.65,
+      "rel_au_max": 1.0,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 36.26,
+      "score": 3.634,
+      "rel_au_max": 0.995,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 36.59,
+      "score": 3.574,
+      "rel_au_max": 0.979,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 36.92,
+      "score": 3.579,
+      "rel_au_max": 0.98,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 37.42,
+      "score": 3.595,
+      "rel_au_max": 0.985,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 37.91,
+      "score": 3.588,
+      "rel_au_max": 0.983,
+      "temperature_mediane": 2.2565
+    },
+    {
+      "candidat_pct": 38.25,
+      "score": 3.541,
+      "rel_au_max": 0.97,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 38.58,
+      "score": 3.541,
+      "rel_au_max": 0.97,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 38.91,
+      "score": 3.501,
+      "rel_au_max": 0.959,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 39.4,
+      "score": 3.458,
+      "rel_au_max": 0.947,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 39.9,
+      "score": 3.49,
+      "rel_au_max": 0.956,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 40.4,
+      "score": 3.452,
+      "rel_au_max": 0.946,
+      "temperature_mediane": 2.3261
+    },
+    {
+      "candidat_pct": 41.23,
+      "score": 3.379,
+      "rel_au_max": 0.926,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 41.89,
+      "score": 3.365,
+      "rel_au_max": 0.922,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 42.22,
+      "score": 3.311,
+      "rel_au_max": 0.907,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 42.88,
+      "score": 3.274,
+      "rel_au_max": 0.897,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 43.38,
+      "score": 3.209,
+      "rel_au_max": 0.879,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 43.71,
+      "score": 3.186,
+      "rel_au_max": 0.873,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 44.21,
+      "score": 3.149,
+      "rel_au_max": 0.863,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 44.87,
+      "score": 3.092,
+      "rel_au_max": 0.847,
+      "temperature_mediane": 2.3957
+    },
+    {
+      "candidat_pct": 45.53,
+      "score": 3.048,
+      "rel_au_max": 0.835,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 46.19,
+      "score": 2.985,
+      "rel_au_max": 0.818,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 46.69,
+      "score": 2.977,
+      "rel_au_max": 0.815,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 47.19,
+      "score": 2.951,
+      "rel_au_max": 0.808,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 47.85,
+      "score": 2.895,
+      "rel_au_max": 0.793,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 48.18,
+      "score": 2.839,
+      "rel_au_max": 0.778,
+      "temperature_mediane": 2.4652
+    },
+    {
+      "candidat_pct": 48.68,
+      "score": 2.878,
+      "rel_au_max": 0.788,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 49.83,
+      "score": 2.748,
+      "rel_au_max": 0.753,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 50.17,
+      "score": 2.676,
+      "rel_au_max": 0.733,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 50.5,
+      "score": 2.703,
+      "rel_au_max": 0.74,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 50.83,
+      "score": 2.668,
+      "rel_au_max": 0.731,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 51.16,
+      "score": 2.67,
+      "rel_au_max": 0.731,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 51.49,
+      "score": 2.616,
+      "rel_au_max": 0.717,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 51.82,
+      "score": 2.596,
+      "rel_au_max": 0.711,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 52.15,
+      "score": 2.577,
+      "rel_au_max": 0.706,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 52.65,
+      "score": 2.585,
+      "rel_au_max": 0.708,
+      "temperature_mediane": 2.5348
+    },
+    {
+      "candidat_pct": 53.15,
+      "score": 2.521,
+      "rel_au_max": 0.69,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 53.48,
+      "score": 2.53,
+      "rel_au_max": 0.693,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 53.97,
+      "score": 2.51,
+      "rel_au_max": 0.688,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 54.47,
+      "score": 2.438,
+      "rel_au_max": 0.668,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 54.8,
+      "score": 2.44,
+      "rel_au_max": 0.668,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 55.46,
+      "score": 2.42,
+      "rel_au_max": 0.663,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 56.29,
+      "score": 2.347,
+      "rel_au_max": 0.643,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 56.79,
+      "score": 2.349,
+      "rel_au_max": 0.644,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 57.28,
+      "score": 2.314,
+      "rel_au_max": 0.634,
+      "temperature_mediane": 2.6043
+    },
+    {
+      "candidat_pct": 57.78,
+      "score": 2.315,
+      "rel_au_max": 0.634,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 58.61,
+      "score": 2.254,
+      "rel_au_max": 0.618,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 59.27,
+      "score": 2.243,
+      "rel_au_max": 0.614,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 59.77,
+      "score": 2.193,
+      "rel_au_max": 0.601,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 60.26,
+      "score": 2.177,
+      "rel_au_max": 0.596,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 60.76,
+      "score": 2.182,
+      "rel_au_max": 0.598,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 61.59,
+      "score": 2.138,
+      "rel_au_max": 0.586,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 62.25,
+      "score": 2.116,
+      "rel_au_max": 0.58,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 62.58,
+      "score": 2.108,
+      "rel_au_max": 0.578,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 62.91,
+      "score": 2.13,
+      "rel_au_max": 0.583,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 63.25,
+      "score": 2.076,
+      "rel_au_max": 0.569,
+      "temperature_mediane": 2.6739
+    },
+    {
+      "candidat_pct": 63.58,
+      "score": 2.067,
+      "rel_au_max": 0.566,
+      "temperature_mediane": 2.7435
+    },
+    {
+      "candidat_pct": 63.91,
+      "score": 2.078,
+      "rel_au_max": 0.569,
+      "temperature_mediane": 2.7435
+    },
+    {
+      "candidat_pct": 64.4,
+      "score": 2.03,
+      "rel_au_max": 0.556,
+      "temperature_mediane": 2.813
+    },
+    {
+      "candidat_pct": 65.23,
+      "score": 2.012,
+      "rel_au_max": 0.551,
+      "temperature_mediane": 2.813
+    }
+  ],
+  "scan_max_score": 3.65,
+  "scan_argmax_pct": 35.76,
+  "temperature_mediane_au_argmax": 2.2565,
+  "temperature_mediane_au_seuil_mc": 2.2565,
+  "controle_valeur_au_seuil_mc": {
+    "mediane": -1.457,
+    "moyenne": -1.452,
+    "std": 0.021
+  },
+  "n_F1F2": 174
+}

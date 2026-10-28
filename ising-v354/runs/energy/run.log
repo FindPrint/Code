@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.758
+  règle: uniform
+  n_candidates: 605, resolution: 0.166%
+  w_size: 118, min_grp: 9
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.758
+  règle: uniform
+  n_candidates: 605, resolution: 0.166%
+  w_size: 118, min_grp: 9
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-v354/runs/energy/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-v354/runs/energy/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-v354/runs/energy/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-v354/runs/energy/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-v354/runs/energy/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v354/runs/energy/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v354/runs/energy/noise_diagnostic.png
+{
+  "control": "energy",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 35.76158940397351,
+  "mc_threshold_pct": 35.76158940397351,
+  "default_threshold_pct": 38.292682926829265,
+  "raw_mc_threshold_pct": 35.76158940397351,
+  "stability_rating": "VERY STABLE",
+  "stability_std": 1.6579926365489024,
+  "duration_s": 124.9
+}
+DUREE 124.9s -> /home/hatch/workspace/ising-v354/runs/energy
