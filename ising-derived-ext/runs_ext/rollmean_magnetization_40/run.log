@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.696
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.762
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40/noise_diagnostic.png
+{
+  "control": "rollmean_magnetization_40",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 63.37135614702155,
+  "mc_threshold_pct": 63.37135614702155,
+  "default_threshold_pct": 63.170731707317074,
+  "raw_mc_threshold_pct": 63.37135614702155,
+  "stability_rating": "VERY STABLE",
+  "stability_std": 2.0630364921377886,
+  "duration_s": 204.5
+}
+DUREE 204.5s -> /home/hatch/workspace/ising-derived/runs_ext/rollmean_magnetization_40
