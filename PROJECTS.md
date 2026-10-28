@@ -9,6 +9,16 @@ l'archive de trace, mémoire et preuve des travaux faits avec Muse.
 
 ## Projects / Projets
 
+- `ising-v354/` — Classical 2D Ising × pipeline Tlog v3.5.4-H1 (Q6-A),
+  28 Oct 2026, protocol frozen before runs. Simulated data (L=32,
+  seed 42, 960 snapshots, 6 fluxes, temperature in a separate CSV).
+  Full control rotation: 6/6 runs OK, 5/6 MC thresholds translate to
+  T = 2.2565 (Onsager Tc = 2.2692, ΔT = −0.013); susceptibility
+  control reads low (T = 2.1174, construction bias, named). Text
+  archive here: protocol, provenance, report, generator, pipeline
+  code copy + Q6 conception, synthesis, per-run text results. PDF
+  (2.8 MB) and results zip via browser upload / in chat; figures via
+  Release.
 - `mushroom-tests-diagnostics/` — 3 diagnostic tests on the mushroom
   lot (encoding / null / correlations), 27 Oct 2026, protocol frozen
   before runs. Test 1: 3/3 encoding-sensitive. Test 2: 3/3 null scores
