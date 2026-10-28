@@ -49,7 +49,21 @@ construction et runs).
 - Harnais : `run_one_derived_ext.py` (copie de `run_one_derived.py`,
   seuls les chemins changent : dataset étendu, sorties `runs_ext/`).
 
-## Exécutions
+## Livrables et publication (28 oct. 2026)
+
+- Rapport : `RAPPORT_DERIVED_EXT.md` ; synthèse : `synthese_derived_ext.json` ;
+  dossier diagnostique : `diagnostic_runs_ext.json`.
+- PDF 16 pages : `Ising_derived_EXT_v35H1_Resultats_complets.pdf`,
+  SHA-256 `98b142a0d9ce1ffc44a9ffb85ffcc69d360203a464278cea39b6bd49a3136cad`
+  (6,7 Mo).
+- Zip : `ising_derived_ext_resultats.zip`, 172 fichiers,
+  SHA-256 `6c7cde6b70eca9dcecd88ffbc5a695050362d5019f5fd7896fd6935c96f6d128`
+  (12,5 Mo).
+- Dépôt privé FindPrint/Code, branche main, dossier `ising-derived-ext/` :
+  texte 15 commits snapshot (tête `c5e563c0…`, registre sync vérifié) ;
+  figures 26 PNG préfixés, commit web `3e72b3f…` (dossier `figures/`,
+  vérifié par relecture) ; PDF + zip, commit web `8b85980a…` (vérifié par
+  relecture, sans Release).
 
 - 12 runs (8 contrôles dérivés + 4 nuls), mode stable, w80,
   cohen_d, graine 42, HARMONIC_PROB 0,45, max 2 en parallèle.
