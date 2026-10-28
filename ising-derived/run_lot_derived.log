@@ -1,0 +1,23 @@
+2026-10-28T16:15:00Z DÉBUT expvar_energy
+2026-10-28T16:15:00Z DÉBUT expvar_magnetization
+2026-10-28T16:18:19Z FIN expvar_magnetization (code 0) 
+2026-10-28T16:18:19Z DÉBUT expvar_fliprate
+2026-10-28T16:18:51Z FIN expvar_energy (code 0) 
+2026-10-28T16:18:51Z DÉBUT expvar_localvar
+2026-10-28T16:21:29Z FIN expvar_fliprate (code 0) 
+2026-10-28T16:21:29Z DÉBUT expmean_energy
+2026-10-28T16:22:04Z FIN expvar_localvar (code 0) 
+2026-10-28T16:22:04Z DÉBUT expmean_magnetization
+2026-10-28T16:24:25Z FIN expmean_energy (code 0) 
+2026-10-28T16:24:25Z DÉBUT rollvar_magnetization_40
+2026-10-28T16:25:06Z FIN expmean_magnetization (code 0) 
+2026-10-28T16:25:06Z DÉBUT rollvar_energy_40
+2026-10-28T16:27:17Z FIN rollvar_magnetization_40 (code 0) 
+2026-10-28T16:27:17Z DÉBUT null_susceptibility
+2026-10-28T16:28:12Z FIN rollvar_energy_40 (code 0) 
+2026-10-28T16:28:12Z DÉBUT null_expvar_mag
+2026-10-28T16:30:21Z FIN null_susceptibility (code 0) 
+2026-10-28T16:30:21Z DÉBUT null_rollvar_mag
+2026-10-28T16:31:17Z FIN null_expvar_mag (code 0) 
+2026-10-28T16:32:34Z FIN null_rollvar_mag (code 0) 
+2026-10-28T16:32:34Z LOT TERMINÉ

@@ -1,0 +1,872 @@
+{
+  "controles": [
+    {
+      "controle": "expvar_energy",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 19.82,
+      "score_mc": 0.706,
+      "seuil_defaut_pct": 10.0,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 13.03,
+      "stab_std": 2.62,
+      "duree_s": 220.1,
+      "temp_mc": 1.9783,
+      "delta_T_vs_Tc": -0.2909,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        7.38,
+        7.38,
+        5.75,
+        5.07,
+        5.71,
+        7.99
+      ],
+      "n_pics": 47,
+      "n_pics_forts": 2,
+      "groupes_pics_forts": [
+        [
+          1.9783
+        ],
+        [
+          2.6739
+        ]
+      ],
+      "groupe_principal": [
+        1.9783
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.6739
+          ],
+          "distance_groupe_principal": 0.6956
+        }
+      ],
+      "scan_argmax_pct": 19.82,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 127,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 2.223,
+        "Q2_Tension_Seuil": 14.275,
+        "Q3_Agressivite": 2.223,
+        "Q4_Persistence": 0.648,
+        "Q5_Active_Reactive": 11.629,
+        "Q5_Actif_Receptif": 11.629,
+        "Q6_Active_Reactive_Scaled": 77.092,
+        "Q6_Actif_Receptif_Echelle": 77.092
+      }
+    },
+    {
+      "controle": "expvar_magnetization",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 18.63,
+      "score_mc": 0.7131,
+      "seuil_defaut_pct": 20.0,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 18.07,
+      "stab_std": 1.86,
+      "duree_s": 191.5,
+      "temp_mc": 1.9087,
+      "delta_T_vs_Tc": -0.3605,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.83,
+        6.83,
+        4.55,
+        3.95,
+        4.79,
+        7.3
+      ],
+      "n_pics": 62,
+      "n_pics_forts": 12,
+      "groupes_pics_forts": [
+        [
+          1.8391,
+          1.8739,
+          1.9087,
+          1.9783
+        ]
+      ],
+      "groupe_principal": [
+        1.8391,
+        1.8739,
+        1.9087,
+        1.9783
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.63,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 121,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.761,
+        "Q2_Tension_Seuil": 1.427,
+        "Q3_Agressivite": 0.761,
+        "Q4_Persistence": 0.506,
+        "Q5_Active_Reactive": 7.27,
+        "Q5_Actif_Receptif": 7.27,
+        "Q6_Active_Reactive_Scaled": 39.226,
+        "Q6_Actif_Receptif_Echelle": 39.226
+      }
+    },
+    {
+      "controle": "expvar_fliprate",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 16.39,
+      "score_mc": 0.6722,
+      "seuil_defaut_pct": 11.46,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 14.52,
+      "stab_std": 3.21,
+      "duree_s": 183.3,
+      "temp_mc": 1.9087,
+      "delta_T_vs_Tc": -0.3605,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.64,
+        6.64,
+        5.17,
+        4.42,
+        5.17,
+        7.99
+      ],
+      "n_pics": 47,
+      "n_pics_forts": 4,
+      "groupes_pics_forts": [
+        [
+          1.8391,
+          1.9087
+        ]
+      ],
+      "groupe_principal": [
+        1.8391,
+        1.9087
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 16.39,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 132,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.78,
+        "Q2_Tension_Seuil": 2.534,
+        "Q3_Agressivite": 0.78,
+        "Q4_Persistence": 0.421,
+        "Q5_Active_Reactive": 7.074,
+        "Q5_Actif_Receptif": 7.074,
+        "Q6_Active_Reactive_Scaled": 91.999,
+        "Q6_Actif_Receptif_Echelle": 91.999
+      }
+    },
+    {
+      "controle": "expvar_localvar",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 10.53,
+      "score_mc": 0.8153,
+      "seuil_defaut_pct": 9.76,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 20.37,
+      "stab_std": 26.38,
+      "duree_s": 178.6,
+      "temp_mc": 1.8391,
+      "delta_T_vs_Tc": -0.4301,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.53,
+        6.53,
+        5.51,
+        4.65,
+        5.68,
+        8.28
+      ],
+      "n_pics": 88,
+      "n_pics_forts": 6,
+      "groupes_pics_forts": [
+        [
+          1.7696,
+          1.8391
+        ]
+      ],
+      "groupe_principal": [
+        1.7696,
+        1.8391
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 10.53,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 102,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.17,
+        "Q2_Tension_Seuil": 3.204,
+        "Q3_Agressivite": 1.17,
+        "Q4_Persistence": 0.367,
+        "Q5_Active_Reactive": 6.668,
+        "Q5_Actif_Receptif": 6.668,
+        "Q6_Active_Reactive_Scaled": 42.203,
+        "Q6_Actif_Receptif_Echelle": 42.203
+      }
+    },
+    {
+      "controle": "expmean_energy",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 35.6,
+      "score_mc": 0.7619,
+      "seuil_defaut_pct": 38.29,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 35.08,
+      "stab_std": 2.71,
+      "duree_s": 170.0,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.06,
+        5.06,
+        1.97,
+        1.42,
+        1.74,
+        7.49
+      ],
+      "n_pics": 117,
+      "n_pics_forts": 31,
+      "groupes_pics_forts": [
+        [
+          2.1174,
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.1174,
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 35.6,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 135,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.145,
+        "Q2_Tension_Seuil": 1.813,
+        "Q3_Agressivite": 1.145,
+        "Q4_Persistence": 1.361,
+        "Q5_Active_Reactive": 8.298,
+        "Q5_Actif_Receptif": 8.298,
+        "Q6_Active_Reactive_Scaled": 40.989,
+        "Q6_Actif_Receptif_Echelle": 40.989
+      }
+    },
+    {
+      "controle": "expmean_magnetization",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 63.24,
+      "score_mc": 0.763,
+      "seuil_defaut_pct": 63.66,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 63.68,
+      "stab_std": 2.12,
+      "duree_s": 171.7,
+      "temp_mc": 2.2565,
+      "delta_T_vs_Tc": -0.0127,
+      "bruit": "Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance",
+      "drift_mediane_flux": [
+        5.24,
+        5.24,
+        2.0,
+        1.52,
+        2.01,
+        7.71
+      ],
+      "n_pics": 162,
+      "n_pics_forts": 34,
+      "groupes_pics_forts": [
+        [
+          2.187,
+          2.2565,
+          2.3261,
+          2.3957
+        ]
+      ],
+      "groupe_principal": [
+        2.187,
+        2.2565,
+        2.3261,
+        2.3957
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 63.24,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 133,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.375,
+        "Q2_Tension_Seuil": 1.757,
+        "Q3_Agressivite": 1.375,
+        "Q4_Persistence": 1.047,
+        "Q5_Active_Reactive": 7.063,
+        "Q5_Actif_Receptif": 7.063,
+        "Q6_Active_Reactive_Scaled": 75.602,
+        "Q6_Actif_Receptif_Echelle": 75.602
+      }
+    },
+    {
+      "controle": "rollvar_magnetization_40",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 20.38,
+      "score_mc": 0.7415,
+      "seuil_defaut_pct": 21.71,
+      "stabilite": "MODERATELY STABLE",
+      "stab_moyenne": 19.65,
+      "stab_std": 3.36,
+      "duree_s": 165.3,
+      "temp_mc": 1.9783,
+      "delta_T_vs_Tc": -0.2909,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        5.81,
+        5.81,
+        3.77,
+        4.07,
+        3.81,
+        6.51
+      ],
+      "n_pics": 63,
+      "n_pics_forts": 19,
+      "groupes_pics_forts": [
+        [
+          1.9087,
+          1.9783,
+          2.0478
+        ]
+      ],
+      "groupe_principal": [
+        1.9087,
+        1.9783,
+        2.0478
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 20.38,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 130,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.415,
+        "Q2_Tension_Seuil": 1.662,
+        "Q3_Agressivite": 0.415,
+        "Q4_Persistence": 0.738,
+        "Q5_Active_Reactive": 8.094,
+        "Q5_Actif_Receptif": 8.094,
+        "Q6_Active_Reactive_Scaled": 220.694,
+        "Q6_Actif_Receptif_Echelle": 220.694
+      }
+    },
+    {
+      "controle": "rollvar_energy_40",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 9.5,
+      "score_mc": 0.8243,
+      "seuil_defaut_pct": 12.93,
+      "stabilite": "VERY STABLE",
+      "stab_moyenne": 12.11,
+      "stab_std": 2.09,
+      "duree_s": 178.4,
+      "temp_mc": 1.8391,
+      "delta_T_vs_Tc": -0.4301,
+      "bruit": "Proxy de variance modéré - Plusieurs flux agissent comme proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        6.08,
+        6.08,
+        4.85,
+        4.02,
+        4.81,
+        7.29
+      ],
+      "n_pics": 17,
+      "n_pics_forts": 1,
+      "groupes_pics_forts": [
+        [
+          1.8391
+        ]
+      ],
+      "groupe_principal": [
+        1.8391
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 9.5,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 127,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 1.147,
+        "Q2_Tension_Seuil": 2.573,
+        "Q3_Agressivite": 1.147,
+        "Q4_Persistence": 0.502,
+        "Q5_Active_Reactive": 7.036,
+        "Q5_Actif_Receptif": 7.036,
+        "Q6_Active_Reactive_Scaled": 93.148,
+        "Q6_Actif_Receptif_Echelle": 93.148
+      }
+    },
+    {
+      "controle": "null_susceptibility",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 79.48,
+      "score_mc": 0.567,
+      "seuil_defaut_pct": 61.46,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 58.68,
+      "stab_std": 25.24,
+      "duree_s": 177.7,
+      "temp_mc": 2.5348,
+      "delta_T_vs_Tc": 0.2656,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        8.87,
+        8.87,
+        6.43,
+        4.86,
+        6.39,
+        10.53
+      ],
+      "n_pics": 93,
+      "n_pics_forts": 6,
+      "groupes_pics_forts": [
+        [
+          2.1174
+        ],
+        [
+          2.3957,
+          2.4652,
+          2.5348
+        ],
+        [
+          2.7435,
+          2.813
+        ]
+      ],
+      "groupe_principal": [
+        2.3957,
+        2.4652,
+        2.5348
+      ],
+      "candidats_secondaires": [
+        {
+          "temps": [
+            2.1174
+          ],
+          "distance_groupe_principal": 0.2783
+        },
+        {
+          "temps": [
+            2.7435,
+            2.813
+          ],
+          "distance_groupe_principal": 0.2087
+        }
+      ],
+      "scan_argmax_pct": 79.48,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 158,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.527,
+        "Q2_Tension_Seuil": 1.141,
+        "Q3_Agressivite": 0.527,
+        "Q4_Persistence": 0.14,
+        "Q5_Active_Reactive": 15.897,
+        "Q5_Actif_Receptif": 15.897,
+        "Q6_Active_Reactive_Scaled": 88.782,
+        "Q6_Actif_Receptif_Echelle": 88.782
+      }
+    },
+    {
+      "controle": "null_expvar_mag",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 18.05,
+      "score_mc": 0.5558,
+      "seuil_defaut_pct": 90.24,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 15.97,
+      "stab_std": 7.97,
+      "duree_s": 176.5,
+      "temp_mc": 2.3261,
+      "delta_T_vs_Tc": 0.0569,
+      "bruit": "Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy",
+      "drift_mediane_flux": [
+        9.15,
+        9.15,
+        6.54,
+        4.73,
+        6.55,
+        9.52
+      ],
+      "n_pics": 85,
+      "n_pics_forts": 3,
+      "groupes_pics_forts": [
+        [
+          2.3261,
+          2.3609
+        ]
+      ],
+      "groupe_principal": [
+        2.3261,
+        2.3609
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.05,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 162,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.57,
+        "Q2_Tension_Seuil": 0.956,
+        "Q3_Agressivite": 0.57,
+        "Q4_Persistence": 0.118,
+        "Q5_Active_Reactive": 15.404,
+        "Q5_Actif_Receptif": 15.404,
+        "Q6_Active_Reactive_Scaled": 118.783,
+        "Q6_Actif_Receptif_Echelle": 118.783
+      }
+    },
+    {
+      "controle": "null_rollvar_mag",
+      "statut": "OK",
+      "famille": "",
+      "seuil_mc_pct": 18.2,
+      "score_mc": 0.5653,
+      "seuil_defaut_pct": 59.76,
+      "stabilite": "UNSTABLE",
+      "stab_moyenne": 57.53,
+      "stab_std": 27.23,
+      "duree_s": 127.8,
+      "temp_mc": 2.6043,
+      "delta_T_vs_Tc": 0.3351,
+      "bruit": "Mixte - Coexistence de bruit blanc et de proxies de variance résiduelle",
+      "drift_mediane_flux": [
+        8.36,
+        8.36,
+        6.17,
+        4.87,
+        6.08,
+        8.39
+      ],
+      "n_pics": 154,
+      "n_pics_forts": 13,
+      "groupes_pics_forts": [
+        [
+          2.3261,
+          2.3957,
+          2.4652,
+          2.5348,
+          2.6043,
+          2.6739
+        ]
+      ],
+      "groupe_principal": [
+        2.3261,
+        2.3957,
+        2.4652,
+        2.5348,
+        2.6043,
+        2.6739
+      ],
+      "candidats_secondaires": [],
+      "scan_argmax_pct": 18.2,
+      "n_F1F2": 203,
+      "F1F2_sign_change": 160,
+      "Q_moyens": {
+        "Q1_Calme_vs_Chaos": 0.513,
+        "Q2_Tension_Seuil": 1.047,
+        "Q3_Agressivite": 0.513,
+        "Q4_Persistence": 0.139,
+        "Q5_Active_Reactive": 11.12,
+        "Q5_Actif_Receptif": 11.12,
+        "Q6_Active_Reactive_Scaled": 86.789,
+        "Q6_Actif_Receptif_Echelle": 86.789
+      }
+    }
+  ],
+  "matrice_seuils_propres_pct": {
+    "fliprate": {
+      "expvar_energy": 19.82,
+      "expvar_magnetization": 18.63,
+      "expvar_fliprate": 16.39,
+      "expvar_localvar": 10.53,
+      "expmean_energy": 35.6,
+      "expmean_magnetization": 60.08,
+      "rollvar_magnetization_40": 20.38,
+      "rollvar_energy_40": 9.5,
+      "null_susceptibility": 79.48,
+      "null_expvar_mag": 17.27,
+      "null_rollvar_mag": 32.93
+    },
+    "flip": {
+      "expvar_energy": 19.82,
+      "expvar_magnetization": 18.63,
+      "expvar_fliprate": 16.39,
+      "expvar_localvar": 10.53,
+      "expmean_energy": 35.6,
+      "expmean_magnetization": 60.08,
+      "rollvar_magnetization_40": 20.38,
+      "rollvar_energy_40": 9.5,
+      "null_susceptibility": 79.48,
+      "null_expvar_mag": 17.27,
+      "null_rollvar_mag": 32.93
+    },
+    "energy": {
+      "expvar_energy": 19.82,
+      "expvar_magnetization": 18.63,
+      "expvar_fliprate": 16.39,
+      "expvar_localvar": 10.53,
+      "expmean_energy": 34.44,
+      "expmean_magnetization": 62.1,
+      "rollvar_magnetization_40": 20.38,
+      "rollvar_energy_40": 9.5,
+      "null_susceptibility": 79.48,
+      "null_expvar_mag": 17.27,
+      "null_rollvar_mag": 62.11
+    },
+    "magnetization": {
+      "expvar_energy": 19.82,
+      "expvar_magnetization": 18.63,
+      "expvar_fliprate": 16.39,
+      "expvar_localvar": 10.53,
+      "expmean_energy": 34.44,
+      "expmean_magnetization": 61.22,
+      "rollvar_magnetization_40": 20.38,
+      "rollvar_energy_40": 9.5,
+      "null_susceptibility": 54.68,
+      "null_expvar_mag": 33.38,
+      "null_rollvar_mag": 62.11
+    },
+    "localvar": {
+      "expvar_energy": 19.82,
+      "expvar_magnetization": 18.63,
+      "expvar_fliprate": 16.39,
+      "expvar_localvar": 10.53,
+      "expmean_energy": 34.44,
+      "expmean_magnetization": 63.24,
+      "rollvar_magnetization_40": 20.38,
+      "rollvar_energy_40": 9.5,
+      "null_susceptibility": 79.48,
+      "null_expvar_mag": 17.27,
+      "null_rollvar_mag": 62.11
+    },
+    "susceptibility": {
+      "expvar_energy": 76.65,
+      "expvar_magnetization": 90.98,
+      "expvar_fliprate": 91.21,
+      "expvar_localvar": 87.67,
+      "expmean_energy": 27.48,
+      "expmean_magnetization": 70.72,
+      "rollvar_magnetization_40": 93.55,
+      "rollvar_energy_40": 90.02,
+      "null_susceptibility": 21.17,
+      "null_expvar_mag": 14.29,
+      "null_rollvar_mag": 89.02
+    }
+  },
+  "matrice_temperatures_seuils_propres": {
+    "fliprate": {
+      "expvar_energy": 1.9783,
+      "expvar_magnetization": 1.9087,
+      "expvar_fliprate": 1.9087,
+      "expvar_localvar": 1.8391,
+      "expmean_energy": 2.2565,
+      "expmean_magnetization": 2.3261,
+      "rollvar_magnetization_40": 1.9783,
+      "rollvar_energy_40": 1.8391,
+      "null_susceptibility": 2.5348,
+      "null_expvar_mag": 2.3261,
+      "null_rollvar_mag": 2.6739
+    },
+    "flip": {
+      "expvar_energy": 1.9783,
+      "expvar_magnetization": 1.9087,
+      "expvar_fliprate": 1.9087,
+      "expvar_localvar": 1.8391,
+      "expmean_energy": 2.2565,
+      "expmean_magnetization": 2.3261,
+      "rollvar_magnetization_40": 1.9783,
+      "rollvar_energy_40": 1.8391,
+      "null_susceptibility": 2.5348,
+      "null_expvar_mag": 2.3261,
+      "null_rollvar_mag": 2.6739
+    },
+    "energy": {
+      "expvar_energy": 1.9783,
+      "expvar_magnetization": 1.9087,
+      "expvar_fliprate": 1.9087,
+      "expvar_localvar": 1.8391,
+      "expmean_energy": 2.2565,
+      "expmean_magnetization": 2.3261,
+      "rollvar_magnetization_40": 1.9783,
+      "rollvar_energy_40": 1.8391,
+      "null_susceptibility": 2.5348,
+      "null_expvar_mag": 2.3261,
+      "null_rollvar_mag": 2.4652
+    },
+    "magnetization": {
+      "expvar_energy": 1.9783,
+      "expvar_magnetization": 1.9087,
+      "expvar_fliprate": 1.9087,
+      "expvar_localvar": 1.8391,
+      "expmean_energy": 2.2565,
+      "expmean_magnetization": 2.3261,
+      "rollvar_magnetization_40": 1.9783,
+      "rollvar_energy_40": 1.8391,
+      "null_susceptibility": 2.1174,
+      "null_expvar_mag": 2.3261,
+      "null_rollvar_mag": 2.4652
+    },
+    "localvar": {
+      "expvar_energy": 1.9783,
+      "expvar_magnetization": 1.9087,
+      "expvar_fliprate": 1.9087,
+      "expvar_localvar": 1.8391,
+      "expmean_energy": 2.2565,
+      "expmean_magnetization": 2.2565,
+      "rollvar_magnetization_40": 1.9783,
+      "rollvar_energy_40": 1.8391,
+      "null_susceptibility": 2.5348,
+      "null_expvar_mag": 2.3261,
+      "null_rollvar_mag": 2.4652
+    },
+    "susceptibility": {
+      "expvar_energy": 2.4652,
+      "expvar_magnetization": 2.4652,
+      "expvar_fliprate": 2.3957,
+      "expvar_localvar": 2.3957,
+      "expmean_energy": 2.1174,
+      "expmean_magnetization": 2.187,
+      "rollvar_magnetization_40": 2.3957,
+      "rollvar_energy_40": 2.4652,
+      "null_susceptibility": 2.6043,
+      "null_expvar_mag": 2.813,
+      "null_rollvar_mag": 2.2565
+    }
+  },
+  "pics_forts_par_run": {
+    "expvar_energy": [
+      1.9783,
+      2.6739
+    ],
+    "expvar_magnetization": [
+      1.8391,
+      1.8739,
+      1.9087,
+      1.9783
+    ],
+    "expvar_fliprate": [
+      1.8391,
+      1.9087
+    ],
+    "expvar_localvar": [
+      1.7696,
+      1.8391
+    ],
+    "expmean_energy": [
+      2.1174,
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "expmean_magnetization": [
+      2.187,
+      2.2565,
+      2.3261,
+      2.3957
+    ],
+    "rollvar_magnetization_40": [
+      1.9087,
+      1.9783,
+      2.0478
+    ],
+    "rollvar_energy_40": [
+      1.8391
+    ],
+    "null_susceptibility": [
+      2.1174,
+      2.3957,
+      2.4652,
+      2.5348,
+      2.7435,
+      2.813
+    ],
+    "null_expvar_mag": [
+      2.3261,
+      2.3609
+    ],
+    "null_rollvar_mag": [
+      2.3261,
+      2.3957,
+      2.4652,
+      2.5348,
+      2.6043,
+      2.6739
+    ]
+  },
+  "attribution_candidats": [
+    {
+      "temps_candidats": [
+        2.6739
+      ],
+      "runs_derives": [
+        "expvar_energy"
+      ],
+      "n_runs_derives": 1,
+      "present_dans_nuls": [
+        "null_susceptibility",
+        "null_rollvar_mag"
+      ],
+      "present_sous_rollvar_meme_base": false,
+      "verdict_R1": false,
+      "verdict_R2_construction": true,
+      "verdict_R3_pipeline": true
+    },
+    {
+      "temps_candidats": [
+        2.1174
+      ],
+      "runs_derives": [
+        "null_susceptibility"
+      ],
+      "n_runs_derives": 1,
+      "present_dans_nuls": [
+        "null_susceptibility"
+      ],
+      "present_sous_rollvar_meme_base": null,
+      "verdict_R1": false,
+      "verdict_R2_construction": false,
+      "verdict_R3_pipeline": true
+    },
+    {
+      "temps_candidats": [
+        2.7435,
+        2.813
+      ],
+      "runs_derives": [
+        "null_susceptibility"
+      ],
+      "n_runs_derives": 1,
+      "present_dans_nuls": [
+        "null_susceptibility",
+        "null_rollvar_mag"
+      ],
+      "present_sous_rollvar_meme_base": null,
+      "verdict_R1": false,
+      "verdict_R2_construction": false,
+      "verdict_R3_pipeline": true
+    }
+  ],
+  "Tc_Onsager": 2.269185314213,
+  "n_termines": 11
+}
