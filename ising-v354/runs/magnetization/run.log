@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.760
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.760
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-v354/runs/magnetization/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-v354/runs/magnetization/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-v354/runs/magnetization/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-v354/runs/magnetization/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-v354/runs/magnetization/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v354/runs/magnetization/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v354/runs/magnetization/noise_diagnostic.png
+{
+  "control": "magnetization",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 63.75158428390368,
+  "mc_threshold_pct": 63.75158428390368,
+  "default_threshold_pct": 63.65853658536585,
+  "raw_mc_threshold_pct": 63.75158428390368,
+  "stability_rating": "VERY STABLE",
+  "stability_std": 1.201113901970861,
+  "duration_s": 122.7
+}
+DUREE 122.7s -> /home/hatch/workspace/ising-v354/runs/magnetization
