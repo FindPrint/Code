@@ -1,0 +1,139 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 152
+Nombre de Points: 960
+Seuil Critique (utilisé): 38.49624060150376%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.564
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 38.5%
+  Seuil par défaut: 36.3%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 25.6%
+  Seuil par défaut: 5.6%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 666
+  resolution: 0.150%
+  w_size: 152
+  min_grp: 7
+  loupe autorisée: 21 à 801 seuils
+  témoin grille 1001 (même fenêtre): 46.6%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - susceptibility_PersistentHomology: 2.317
+  - susceptibility_SampleEn: 1.919
+  - susceptibility_CorrelationD2: 1.903
+
+Q2_Tension_Seuil:
+  - energy_Lyapunov: 13.949
+  - localvar_Lyapunov: 13.208
+  - fliprate_Lyapunov: 11.136
+
+Q3_Agressivite:
+  - susceptibility_PersistentHomology: 2.317
+  - susceptibility_SampleEn: 1.919
+  - susceptibility_CorrelationD2: 1.903
+
+Q4_Persistence:
+  - susceptibility_Higuchi: 0.145
+  - susceptibility_DFA: 0.145
+  - susceptibility_Katz: 0.145
+
+Q5_Actif_Receptif:
+  - energy_MultifractalDeltaAlpha: 20.074
+  - susceptibility_SpectralBeta: 19.939
+  - magnetization_MultifractalDeltaAlpha: 19.914
+
+Q6_Actif_Receptif_Echelle:
+  - localvar_PermutationEntropy: 731.735
+  - energy_PermutationEntropy: 674.742
+  - fliprate_PermutationEntropy: 627.222
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Bruit blanc avec signaux faibles - Quelques flux montrent des signatures de proxy
+Score moyen proxy: 0.3721666666666666
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 6 flux
+
+Score moyen de proxy de variance: 0.372 (échelle 0-1)
+Score maximum: 0.404, Score minimum: 0.263
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. localvar (score: 0.404)
+     - Q5 ratio: 0.25 vs bruit blanc 0.16
+     - Hurst max: 1.133, Pente FFT: 0.125
+  2. energy (score: 0.402)
+     - Q5 ratio: 0.25 vs bruit blanc 0.16
+     - Hurst max: 1.153, Pente FFT: 0.130
+  3. fliprate (score: 0.398)
+     - Q5 ratio: 0.24 vs bruit blanc 0.16
+     - Hurst max: 1.086, Pente FFT: 0.129
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. flip (score: 0.398)
+     - Hurst moyen: 1.075
+  2. magnetization (score: 0.368)
+     - Hurst moyen: 0.998
+  3. susceptibility (score: 0.263)
+     - Hurst moyen: 0.964
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+fliprate:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+flip:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+energy:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+magnetization:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+localvar:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+susceptibility:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: UNSTABLE
+Moyenne: 46.98174006444683%
+Écart-type: 20.5287222405058
+
+================================================================================
+Rapport généré le: 2026-10-28 13:19:40
+================================================================================

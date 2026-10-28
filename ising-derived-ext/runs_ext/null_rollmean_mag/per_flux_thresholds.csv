@@ -1,0 +1,7 @@
+flux,seuil_propre_pct,temperature_mediane_au_seuil,score_max,top3_candidats
+fliprate,15.56,2.2565,0.276,"[15.6, 21.7, 20.7]"
+flip,15.56,2.2565,0.276,"[15.6, 21.7, 20.7]"
+energy,25.99,2.5,0.252,"[26.0, 15.6, 21.7]"
+magnetization,21.69,2.5348,0.27,"[21.7, 15.6, 17.4]"
+localvar,21.69,2.5348,0.259,"[21.7, 15.6, 26.0]"
+susceptibility,11.75,2.4652,0.196,"[11.8, 32.3, 92.1]"

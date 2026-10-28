@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.625
+  règle: sqrt2
+  n_candidates: 455, resolution: 0.220%
+  w_size: 339, min_grp: 9
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.564
+  règle: uniform
+  n_candidates: 666, resolution: 0.150%
+  w_size: 152, min_grp: 7
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate/noise_diagnostic.png
+{
+  "control": "null_rollvar_fliprate",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 38.49624060150376,
+  "mc_threshold_pct": 38.49624060150376,
+  "default_threshold_pct": 36.34146341463415,
+  "raw_mc_threshold_pct": 25.55066079295154,
+  "stability_rating": "UNSTABLE",
+  "stability_std": 20.5287222405058,
+  "duration_s": 214.0
+}
+DUREE 214.0s -> /home/hatch/workspace/ising-derived/runs_ext/null_rollvar_fliprate

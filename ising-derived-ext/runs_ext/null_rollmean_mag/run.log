@@ -1,0 +1,32 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.548
+  règle: uniform
+  n_candidates: 700, resolution: 0.143%
+  w_size: 148, min_grp: 3
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.597
+  règle: uniform
+  n_candidates: 605, resolution: 0.166%
+  w_size: 118, min_grp: 9
+✓ Résultats JSON exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag/noise_diagnostic.png
+{
+  "control": "null_rollmean_mag",
+  "status": "OK",
+  "n_pts": 960,
+  "opt_threshold_pct": 21.688741721854306,
+  "mc_threshold_pct": 21.688741721854306,
+  "default_threshold_pct": 17.804878048780488,
+  "raw_mc_threshold_pct": 29.470672389127326,
+  "stability_rating": "UNSTABLE",
+  "stability_std": 5.002630771436467,
+  "duration_s": 218.3
+}
+DUREE 218.3s -> /home/hatch/workspace/ising-derived/runs_ext/null_rollmean_mag
