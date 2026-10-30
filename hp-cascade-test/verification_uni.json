@@ -1,0 +1,78 @@
+{
+  "cascade_equal": true,
+  "cascade_chain": {
+    "status": "ok",
+    "T_-2_F2_pre_onset": 4.166666666666667,
+    "T_-1_F1_pre_inflection": 25.0,
+    "T_0_Monte_Carlo_Central": 41.666666666666664,
+    "T_+1_F1_post_deceleration": 54.166666666666664,
+    "T_+2_F2_post_attractor": 91.66666666666667,
+    "zones": [
+      4.166666666666667,
+      25.0,
+      41.666666666666664,
+      54.166666666666664,
+      91.66666666666667
+    ],
+    "max_F1_velocity": 0.021447454103758028,
+    "max_F2_curvature": 0.0007904009573256061,
+    "smooth_sigma": 3.0
+  },
+  "cascade_uni": {
+    "status": "ok",
+    "T_-2_F2_pre_onset": 4.166666666666667,
+    "T_-1_F1_pre_inflection": 25.0,
+    "T_0_Monte_Carlo_Central": 41.666666666666664,
+    "T_+1_F1_post_deceleration": 54.166666666666664,
+    "T_+2_F2_post_attractor": 91.66666666666667,
+    "zones": [
+      4.166666666666667,
+      25.0,
+      41.666666666666664,
+      54.166666666666664,
+      91.66666666666667
+    ],
+    "max_F1_velocity": 0.021447454103758028,
+    "max_F2_curvature": 0.0007904009573256061,
+    "smooth_sigma": 3.0
+  },
+  "noise_equal": true,
+  "noise_chain": {
+    "is_informative": false,
+    "verdict": "Unstructured White Noise",
+    "hurst_exponent": 0.5246,
+    "kurtosis": -0.4037,
+    "skewness": -0.181,
+    "jarque_bera_p_value": 0.293767744347849,
+    "fractal_length_ratio": 1.5861,
+    "spectral_entropy": 0.8958
+  },
+  "noise_uni": {
+    "is_informative": false,
+    "verdict": "Unstructured White Noise",
+    "hurst_exponent": 0.5246,
+    "kurtosis": -0.4037,
+    "skewness": -0.181,
+    "jarque_bera_p_value": 0.293767744347849,
+    "fractal_length_ratio": 1.5861,
+    "spectral_entropy": 0.8958
+  },
+  "presence_uni": {
+    "run_pipeline": true,
+    "decompress_energy_flux": true,
+    "detect_multi_thresholds": true,
+    "compute_time_aligned_progress": true,
+    "detect_order_saliency": true,
+    "fit_regime_attractor": true,
+    "predict_regime_attractor": true,
+    "complexity_guided_mc_paths": true,
+    "run_multilevel_v3": true,
+    "level_next_threshold_v3": true,
+    "compute_5_threshold_cascade": true,
+    "analyze_noise_information_content": true,
+    "main": true,
+    "main_v1": true,
+    "main_v2": true
+  },
+  "uni_VERSION": "v3.7.0-HP-uni-v1"
+}
