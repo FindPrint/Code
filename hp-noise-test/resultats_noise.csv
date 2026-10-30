@@ -1,0 +1,44 @@
+is_informative,verdict,hurst_exponent,kurtosis,skewness,jarque_bera_p_value,fractal_length_ratio,spectral_entropy,serie
+True,Informative Micro-Structure,0.4828,5.258,-0.2432,6.443517265610519e-243,1.4683,0.9613,R_all
+True,Informative Micro-Structure,0.412,7.2432,-1.6151,7.769355623341932e-183,1.5066,0.9165,R_pre
+True,Informative Micro-Structure,0.4751,1.7886,0.217,4.0714287393113026e-19,1.5141,0.9613,R_post
+True,Informative Micro-Structure,0.5556,5.258,-0.2432,6.443517265603181e-243,1.532,0.9754,perm_null_00
+True,Informative Micro-Structure,0.5083,5.258,-0.2432,6.443517265613454e-243,1.5409,0.9787,perm_null_01
+True,Informative Micro-Structure,0.4762,5.258,-0.2432,6.443517265603181e-243,1.5445,0.9779,perm_null_02
+True,Informative Micro-Structure,0.5191,5.258,-0.2432,6.443517265603181e-243,1.5416,0.9801,perm_null_03
+True,Informative Micro-Structure,0.5114,5.258,-0.2432,6.443517265613454e-243,1.5401,0.9834,perm_null_04
+True,Informative Micro-Structure,0.5291,5.258,-0.2432,6.443517265613454e-243,1.5377,0.98,perm_null_05
+True,Informative Micro-Structure,0.5336,5.258,-0.2432,6.443517265603181e-243,1.5396,0.9801,perm_null_06
+True,Informative Micro-Structure,0.5329,5.258,-0.2432,6.443517265603181e-243,1.5484,0.9835,perm_null_07
+True,Informative Micro-Structure,0.4761,5.258,-0.2432,6.443517265613454e-243,1.5618,0.9823,perm_null_08
+True,Informative Micro-Structure,0.5343,5.258,-0.2432,6.443517265613454e-243,1.5321,0.9773,perm_null_09
+True,Informative Micro-Structure,0.4962,5.258,-0.2432,6.443517265603181e-243,1.5556,0.9828,perm_null_10
+True,Informative Micro-Structure,0.4991,5.258,-0.2432,6.443517265613454e-243,1.5549,0.9834,perm_null_11
+True,Informative Micro-Structure,0.4762,5.258,-0.2432,6.443517265613454e-243,1.548,0.9844,perm_null_12
+True,Informative Micro-Structure,0.5072,5.258,-0.2432,6.443517265603181e-243,1.532,0.9821,perm_null_13
+True,Informative Micro-Structure,0.5086,5.258,-0.2432,6.443517265603181e-243,1.5442,0.9835,perm_null_14
+True,Informative Micro-Structure,0.4835,5.258,-0.2432,6.443517265612721e-243,1.5425,0.981,perm_null_15
+True,Informative Micro-Structure,0.5563,5.258,-0.2432,6.443517265603181e-243,1.5021,0.9827,perm_null_16
+True,Informative Micro-Structure,0.55,5.258,-0.2432,6.443517265613454e-243,1.5328,0.9823,perm_null_17
+True,Informative Micro-Structure,0.532,5.258,-0.2432,6.443517265613454e-243,1.5446,0.9819,perm_null_18
+True,Informative Micro-Structure,0.5705,5.258,-0.2432,6.443517265603181e-243,1.5477,0.9816,perm_null_19
+False,Unstructured White Noise,0.5511,-0.231,0.0381,0.3062135131280711,1.6132,0.9833,gauss_null_00
+False,Unstructured White Noise,0.5412,-0.3361,-0.0842,0.059210456499665054,1.5904,0.9866,gauss_null_01
+False,Unstructured White Noise,0.5456,-0.0851,0.0194,0.8393092918886884,1.6108,0.9771,gauss_null_02
+False,Unstructured White Noise,0.4905,-0.1518,0.1169,0.21141363775444202,1.5996,0.9831,gauss_null_03
+False,Unstructured White Noise,0.5402,-0.0928,-0.0783,0.5152277624319781,1.6073,0.9826,gauss_null_04
+False,Unstructured White Noise,0.4986,0.1357,0.0705,0.464619193686975,1.6342,0.9815,gauss_null_05
+False,Unstructured White Noise,0.4794,-0.0724,-0.1467,0.16116743210390264,1.6439,0.982,gauss_null_06
+False,Unstructured White Noise,0.4965,-0.1235,0.0573,0.5667650730886453,1.6395,0.979,gauss_null_07
+False,Unstructured White Noise,0.5428,-0.0538,0.0331,0.8646125419925529,1.6046,0.9757,gauss_null_08
+False,Unstructured White Noise,0.5026,-0.0655,-0.0669,0.6414344650823052,1.5983,0.9817,gauss_null_09
+False,Unstructured White Noise,0.5092,-0.189,0.0353,0.44299425437302087,1.5842,0.982,gauss_null_10
+False,Unstructured White Noise,0.4932,0.1495,-0.1385,0.1379561851312451,1.5836,0.9839,gauss_null_11
+False,Unstructured White Noise,0.5694,0.1244,-0.0055,0.7321509640492472,1.5989,0.9841,gauss_null_12
+False,Unstructured White Noise,0.5617,-0.2177,-0.0225,0.37217516305414555,1.6241,0.9813,gauss_null_13
+False,Unstructured White Noise,0.5059,0.1464,0.1649,0.0739082389333294,1.6037,0.9798,gauss_null_14
+False,Unstructured White Noise,0.5118,0.2202,0.0279,0.35613459254823626,1.645,0.978,gauss_null_15
+False,Unstructured White Noise,0.5138,0.4259,-0.0253,0.025266204761842253,1.5781,0.9817,gauss_null_16
+False,Unstructured White Noise,0.5069,0.2051,0.0547,0.3394352759388083,1.6026,0.9838,gauss_null_17
+False,Unstructured White Noise,0.5036,-0.1933,-0.0469,0.39718229067559446,1.623,0.9828,gauss_null_18
+False,Unstructured White Noise,0.4953,-0.0547,0.1315,0.23616457472531227,1.6141,0.9815,gauss_null_19
