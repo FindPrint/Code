@@ -1,0 +1,1219 @@
+{
+  "shas": {
+    "energy/numerical_results.csv": "d44f080104afb591f66554a62a7c68c773c7a9ff276168b302d160a7abb9e254",
+    "energy/pipeline_results.json": "188402c55b2c3aba8422b2cb9ce14ab9ba4d795389d311de430f7f3a8821eef0",
+    "flip/numerical_results.csv": "b1fdf6f377d5d891503d69103c6cb22af578c4f73fe93f9e947970ce9f886d1a",
+    "flip/pipeline_results.json": "a1f5be5b797060ce3fb66da67d70b2f959960cb2a0c1b604263d2e5b2aeb2ec9",
+    "fliprate/numerical_results.csv": "5617ab8a6941789eb7d549810e1f3fd29bb24413c63c03537363063bc74b4bab",
+    "fliprate/pipeline_results.json": "862390b785b0ae3ad8f70add90a012ffad590fdc397431440b966ca6c526ea74",
+    "localvar/numerical_results.csv": "21169906055323efc35bce0445705c69a7eff35e62cd879d30dd5390202502af",
+    "localvar/pipeline_results.json": "dbab49caf2d6da10ecc3d2542e0dacab68c863622317f7ed241e7b0ffb09deba",
+    "magnetization/numerical_results.csv": "b22b51095ce8b6f85cc425521fe6964f7e8be49254bcb9d974487c6726ebd3c7",
+    "magnetization/pipeline_results.json": "bebd6153ef762118e939f096555987ea7fac3cc631b5ecb07b72197264903a0a",
+    "susceptibility/numerical_results.csv": "c8032b110909e0a74317e80e57dd67157711666c0a5f8d7c323af68a37808e19",
+    "susceptibility/pipeline_results.json": "5ead45bfe9d28509c4c286d1b8a5e17b28e36bb843f8508f5229af8533dc3e05"
+  },
+  "estimators": [
+    "BoxCounting",
+    "CorrelationD2",
+    "DANCo",
+    "DFA",
+    "Fisher",
+    "GraphDimension",
+    "GrassbergerProcaccia",
+    "Higuchi",
+    "Hurst",
+    "Hurst2mH",
+    "InformationD1",
+    "Katz",
+    "KolmogorovLZ",
+    "LevinaBickel",
+    "LocalPCA",
+    "Lyapunov",
+    "MFA",
+    "MultifractalDeltaAlpha",
+    "PCAIntrinsic",
+    "PermutationEntropy",
+    "PersistentHomology",
+    "Petrosian",
+    "SampleEn",
+    "Sevcik",
+    "SingularityFmax",
+    "SpectralBeta",
+    "SpectralDimension",
+    "TwoNN",
+    "VisibilityGraph"
+  ],
+  "A_summary": {
+    "pairs_real_median_abs_rho": 0.3003584954261549,
+    "pairs_real_frac_ge_090": 0.017244224422442243,
+    "pairs_null_median_abs_rho": 0.13014460511679646,
+    "pairs_null_frac_ge_090": 0.0,
+    "consensus_pairs": [
+      [
+        "CorrelationD2",
+        "GrassbergerProcaccia"
+      ],
+      [
+        "Hurst",
+        "Hurst2mH"
+      ],
+      [
+        "SpectralBeta",
+        "SpectralDimension"
+      ]
+    ],
+    "consensus_groups": [
+      [
+        "CorrelationD2",
+        "GrassbergerProcaccia"
+      ],
+      [
+        "Hurst",
+        "Hurst2mH"
+      ],
+      [
+        "SpectralBeta",
+        "SpectralDimension"
+      ]
+    ]
+  },
+  "per_estimator": {
+    "BoxCounting": {
+      "median_abs_rho_real": 0.28227320972075165,
+      "max_median_abs_rho": 0.8233592880978865,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.6318456354861071,
+      "median_abs_d_null": 0.2698832191736237,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 15,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "CorrelationD2": {
+      "median_abs_rho_real": 0.3779755283648498,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 0.9751296078362736,
+      "median_abs_d_null": 0.28085669963309384,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 22,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "DANCo": {
+      "median_abs_rho_real": 0.24297611097528504,
+      "max_median_abs_rho": 0.4953554668761565,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.43595848690961125,
+      "median_abs_d_null": 0.28484340979464884,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 18,
+      "median_selection_step": 3.5,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "DFA": {
+      "median_abs_rho_real": 0.335706340378198,
+      "max_median_abs_rho": 0.8812013348164627,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.8016121197861148,
+      "median_abs_d_null": 0.27045289240854153,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 24,
+      "median_selection_step": 4.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Fisher": {
+      "median_abs_rho_real": 0.4384872080088987,
+      "max_median_abs_rho": 0.7136818687430478,
+      "consensus_singleton": true,
+      "median_abs_d_real": 1.1490670802660592,
+      "median_abs_d_null": 0.2746405508880434,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 9,
+      "median_selection_step": 5.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "GraphDimension": {
+      "median_abs_rho_real": 0.31470050440801633,
+      "max_median_abs_rho": 0.5841685683819444,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.5047911185498349,
+      "median_abs_d_null": 0.23780687243705334,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 4,
+      "median_selection_step": 5.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "GrassbergerProcaccia": {
+      "median_abs_rho_real": 0.38090993627852165,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 0.9751296078362736,
+      "median_abs_d_null": 0.28315823953251784,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 1,
+      "median_selection_step": 5.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Higuchi": {
+      "median_abs_rho_real": 0.35439377085650725,
+      "max_median_abs_rho": 0.7870967741935484,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.7508610989864937,
+      "median_abs_d_null": 0.288063679507918,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 10,
+      "median_selection_step": 1.5,
+      "median_gain_at_selection": 0.3083333333333333,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Hurst": {
+      "median_abs_rho_real": 0.36151279199110126,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 1.0801931029366723,
+      "median_abs_d_null": 0.2656495043888266,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 8,
+      "median_selection_step": 1.0,
+      "median_gain_at_selection": 0.35,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Hurst2mH": {
+      "median_abs_rho_real": 0.36151279199110126,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 1.080193102936669,
+      "median_abs_d_null": 0.26564950438882834,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "InformationD1": {
+      "median_abs_rho_real": 0.25253329548706566,
+      "max_median_abs_rho": 0.44449388209121243,
+      "consensus_singleton": true,
+      "median_abs_d_real": 1.1505308871233386,
+      "median_abs_d_null": 0.24560874170825595,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 1.0,
+      "median_gain_at_selection": 0.40833333333333344,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Katz": {
+      "median_abs_rho_real": 0.3352614015572859,
+      "max_median_abs_rho": 0.8527252502780867,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.6614826437333691,
+      "median_abs_d_null": 0.24538721017770992,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 1.0,
+      "median_gain_at_selection": 0.4458333333333334,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "KolmogorovLZ": {
+      "median_abs_rho_real": 0.40413795306599987,
+      "max_median_abs_rho": 0.7546206511326128,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.6781702309055084,
+      "median_abs_d_null": 0.19468439355328387,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 5.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "LevinaBickel": {
+      "median_abs_rho_real": 0.26941045606229147,
+      "max_median_abs_rho": 0.43842364532019695,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.35667353386782924,
+      "median_abs_d_null": 0.24530349272117194,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "LocalPCA": {
+      "median_abs_rho_real": 0.27252502780867627,
+      "max_median_abs_rho": 0.5511636027746374,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.42913962949643814,
+      "median_abs_d_null": 0.25172435656619296,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Lyapunov": {
+      "median_abs_rho_real": 0.23445537668313904,
+      "max_median_abs_rho": 0.4685729651807704,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.19292676946378118,
+      "median_abs_d_null": 0.21960013491649655,
+      "median_nan_cohorts": 1.0,
+      "selection_count": 1,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.050000000000000044,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "MFA": {
+      "median_abs_rho_real": 0.32355123073150344,
+      "max_median_abs_rho": 0.5511636027746374,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.5005691532802431,
+      "median_abs_d_null": 0.25488828095789573,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "MultifractalDeltaAlpha": {
+      "median_abs_rho_real": 0.44048943270300334,
+      "max_median_abs_rho": 0.6871921182266009,
+      "consensus_singleton": true,
+      "median_abs_d_real": 1.3595108449941713,
+      "median_abs_d_null": 0.25765031605718547,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 7,
+      "median_selection_step": 1.0,
+      "median_gain_at_selection": 0.41666666666666663,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "PCAIntrinsic": {
+      "median_abs_rho_real": 0.3808676307007786,
+      "max_median_abs_rho": 0.8665183537263625,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.9700505872300257,
+      "median_abs_d_null": 0.31308213173371763,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 4.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "PermutationEntropy": {
+      "median_abs_rho_real": 0.20156921746479695,
+      "max_median_abs_rho": 0.3054505005561735,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.5322761157804279,
+      "median_abs_d_null": 0.29271480099859937,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 5,
+      "median_selection_step": 2.0,
+      "median_gain_at_selection": 0.025000000000000022,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "PersistentHomology": {
+      "median_abs_rho_real": 0.22046718576195773,
+      "max_median_abs_rho": 0.5563959955506118,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.6322409653477896,
+      "median_abs_d_null": 0.25745161764735663,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 4,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.2041666666666666,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Petrosian": {
+      "median_abs_rho_real": 0.24867809416536035,
+      "max_median_abs_rho": 0.41677000591253466,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.344277213487875,
+      "median_abs_d_null": 0.2583571954851144,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.025000000000000022,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "SampleEn": {
+      "median_abs_rho_real": 0.2737638310923407,
+      "max_median_abs_rho": 0.49899888765294775,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.8023341665360186,
+      "median_abs_d_null": 0.27052645991318774,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 2.0,
+      "median_gain_at_selection": 0.05833333333333324,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "Sevcik": {
+      "median_abs_rho_real": 0.4036651856438355,
+      "max_median_abs_rho": 0.8233592880978865,
+      "consensus_singleton": true,
+      "median_abs_d_real": 1.2943299083578468,
+      "median_abs_d_null": 0.2545357948195961,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "SingularityFmax": {
+      "median_abs_rho_real": 0.20120968791904173,
+      "max_median_abs_rho": 0.3003584219219163,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.39432789520175704,
+      "median_abs_d_null": 0.28726660499993684,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 5.0,
+      "median_gain_at_selection": 0.0,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "SpectralBeta": {
+      "median_abs_rho_real": 0.34908334637256566,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 0.8872911716957553,
+      "median_abs_d_null": 0.2945006762911449,
+      "median_nan_cohorts": 3.5,
+      "selection_count": 4,
+      "median_selection_step": 3.0,
+      "median_gain_at_selection": 0.05416666666666675,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "SpectralDimension": {
+      "median_abs_rho_real": 0.34908334637256566,
+      "max_median_abs_rho": 1.0,
+      "consensus_singleton": false,
+      "median_abs_d_real": 0.8872911716957592,
+      "median_abs_d_null": 0.294500676291148,
+      "median_nan_cohorts": 3.5,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "TwoNN": {
+      "median_abs_rho_real": 0.2661855894096876,
+      "max_median_abs_rho": 0.43842364532019695,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.7000178601210876,
+      "median_abs_d_null": 0.30944426022834237,
+      "median_nan_cohorts": 1.0,
+      "selection_count": 0,
+      "median_selection_step": null,
+      "median_gain_at_selection": null,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    },
+    "VisibilityGraph": {
+      "median_abs_rho_real": 0.22583213115598422,
+      "max_median_abs_rho": 0.4593993325917686,
+      "consensus_singleton": true,
+      "median_abs_d_real": 0.7853682881547788,
+      "median_abs_d_null": 0.25020044764158866,
+      "median_nan_cohorts": 0.0,
+      "selection_count": 2,
+      "median_selection_step": 2.0,
+      "median_gain_at_selection": 0.06666666666666654,
+      "null_step1_gain_median": 0.23333333333333328,
+      "null_step1_gain_p95": 0.345
+    }
+  },
+  "C_real": {
+    "energy|fliprate": {
+      "selected": [
+        "PersistentHomology",
+        "DFA",
+        "MultifractalDeltaAlpha",
+        "Fisher",
+        "KolmogorovLZ"
+      ],
+      "aucs": [
+        0.875,
+        0.9,
+        0.95,
+        0.95,
+        0.95
+      ],
+      "gains": [
+        0.375,
+        0.025000000000000022,
+        0.04999999999999993,
+        0.0,
+        0.0
+      ]
+    },
+    "energy|flip": {
+      "selected": [
+        "PersistentHomology",
+        "DFA",
+        "MultifractalDeltaAlpha",
+        "Fisher",
+        "KolmogorovLZ"
+      ],
+      "aucs": [
+        0.875,
+        0.9,
+        0.95,
+        0.95,
+        0.95
+      ],
+      "gains": [
+        0.375,
+        0.025000000000000022,
+        0.04999999999999993,
+        0.0,
+        0.0
+      ]
+    },
+    "energy|magnetization": {
+      "selected": [
+        "CorrelationD2",
+        "DANCo",
+        "DFA",
+        "Fisher",
+        "GraphDimension"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "energy|localvar": {
+      "selected": [
+        "MultifractalDeltaAlpha",
+        "Fisher",
+        "BoxCounting",
+        "CorrelationD2",
+        "GrassbergerProcaccia"
+      ],
+      "aucs": [
+        0.9666666666666666,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.46666666666666656,
+        0.03333333333333344,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "energy|susceptibility": {
+      "selected": [
+        "Katz",
+        "CorrelationD2",
+        "BoxCounting",
+        "DANCo",
+        "DFA"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "flip|fliprate": {
+      "selected": [
+        "CorrelationD2",
+        "SampleEn",
+        "BoxCounting",
+        "DFA",
+        "GraphDimension"
+      ],
+      "aucs": [
+        0.9,
+        0.9583333333333333,
+        0.9583333333333333,
+        0.9583333333333333,
+        0.9583333333333333
+      ],
+      "gains": [
+        0.4,
+        0.05833333333333324,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "flip|energy": {
+      "selected": [
+        "Hurst",
+        "DANCo",
+        "Hurst2mH",
+        "PCAIntrinsic",
+        "SingularityFmax"
+      ],
+      "aucs": [
+        0.85,
+        0.85,
+        0.85,
+        0.85,
+        0.85
+      ],
+      "gains": [
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "flip|magnetization": {
+      "selected": [
+        "DFA",
+        "PermutationEntropy",
+        "Petrosian",
+        "DANCo",
+        "Fisher"
+      ],
+      "aucs": [
+        0.95,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.44999999999999996,
+        0.025000000000000022,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "flip|localvar": {
+      "selected": [
+        "Hurst",
+        "PermutationEntropy",
+        "SpectralBeta",
+        "CorrelationD2",
+        "PersistentHomology"
+      ],
+      "aucs": [
+        0.85,
+        0.8666666666666666,
+        0.925,
+        0.95,
+        0.9833333333333332
+      ],
+      "gains": [
+        0.35,
+        0.016666666666666607,
+        0.05833333333333346,
+        0.02499999999999991,
+        0.033333333333333215
+      ]
+    },
+    "flip|susceptibility": {
+      "selected": [
+        "MultifractalDeltaAlpha",
+        "Hurst",
+        "SpectralBeta",
+        "DFA",
+        "Higuchi"
+      ],
+      "aucs": [
+        0.9166666666666666,
+        0.95,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.41666666666666663,
+        0.033333333333333326,
+        0.050000000000000044,
+        0.0,
+        0.0
+      ]
+    },
+    "fliprate|flip": {
+      "selected": [
+        "CorrelationD2",
+        "SampleEn",
+        "BoxCounting",
+        "DFA",
+        "GraphDimension"
+      ],
+      "aucs": [
+        0.9,
+        0.9583333333333333,
+        0.9583333333333333,
+        0.9583333333333333,
+        0.9583333333333333
+      ],
+      "gains": [
+        0.4,
+        0.05833333333333324,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fliprate|energy": {
+      "selected": [
+        "Hurst",
+        "DANCo",
+        "Hurst2mH",
+        "PCAIntrinsic",
+        "SingularityFmax"
+      ],
+      "aucs": [
+        0.85,
+        0.85,
+        0.85,
+        0.85,
+        0.85
+      ],
+      "gains": [
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fliprate|magnetization": {
+      "selected": [
+        "DFA",
+        "PermutationEntropy",
+        "Petrosian",
+        "DANCo",
+        "Fisher"
+      ],
+      "aucs": [
+        0.95,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.44999999999999996,
+        0.025000000000000022,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "fliprate|localvar": {
+      "selected": [
+        "Hurst",
+        "PermutationEntropy",
+        "SpectralBeta",
+        "CorrelationD2",
+        "PersistentHomology"
+      ],
+      "aucs": [
+        0.85,
+        0.8666666666666666,
+        0.925,
+        0.95,
+        0.9833333333333332
+      ],
+      "gains": [
+        0.35,
+        0.016666666666666607,
+        0.05833333333333346,
+        0.02499999999999991,
+        0.033333333333333215
+      ]
+    },
+    "fliprate|susceptibility": {
+      "selected": [
+        "MultifractalDeltaAlpha",
+        "Hurst",
+        "SpectralBeta",
+        "DFA",
+        "Higuchi"
+      ],
+      "aucs": [
+        0.9166666666666666,
+        0.95,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.41666666666666663,
+        0.033333333333333326,
+        0.050000000000000044,
+        0.0,
+        0.0
+      ]
+    },
+    "localvar|fliprate": {
+      "selected": [
+        "Hurst",
+        "Higuchi",
+        "CorrelationD2",
+        "DFA",
+        "BoxCounting"
+      ],
+      "aucs": [
+        0.8583333333333334,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.3583333333333334,
+        0.11666666666666659,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "localvar|flip": {
+      "selected": [
+        "Hurst",
+        "Higuchi",
+        "CorrelationD2",
+        "DFA",
+        "BoxCounting"
+      ],
+      "aucs": [
+        0.8583333333333334,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.3583333333333334,
+        0.11666666666666659,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "localvar|energy": {
+      "selected": [
+        "PermutationEntropy",
+        "CorrelationD2",
+        "BoxCounting",
+        "DANCo",
+        "DFA"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "localvar|magnetization": {
+      "selected": [
+        "CorrelationD2",
+        "DANCo",
+        "DFA",
+        "BoxCounting",
+        "GraphDimension"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "localvar|susceptibility": {
+      "selected": [
+        "MultifractalDeltaAlpha",
+        "BoxCounting",
+        "DFA",
+        "CorrelationD2",
+        "DANCo"
+      ],
+      "aucs": [
+        0.9833333333333332,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.48333333333333317,
+        0.01666666666666683,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "magnetization|fliprate": {
+      "selected": [
+        "InformationD1",
+        "VisibilityGraph",
+        "DFA",
+        "CorrelationD2",
+        "DANCo"
+      ],
+      "aucs": [
+        0.9083333333333334,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.40833333333333344,
+        0.06666666666666654,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "magnetization|flip": {
+      "selected": [
+        "InformationD1",
+        "VisibilityGraph",
+        "DFA",
+        "CorrelationD2",
+        "DANCo"
+      ],
+      "aucs": [
+        0.9083333333333334,
+        0.975,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.40833333333333344,
+        0.06666666666666654,
+        0.025000000000000022,
+        0.0,
+        0.0
+      ]
+    },
+    "magnetization|energy": {
+      "selected": [
+        "DFA",
+        "BoxCounting",
+        "DANCo",
+        "Higuchi",
+        "CorrelationD2"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "magnetization|localvar": {
+      "selected": [
+        "CorrelationD2",
+        "DANCo",
+        "BoxCounting",
+        "DFA",
+        "Fisher"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "magnetization|susceptibility": {
+      "selected": [
+        "Katz",
+        "MultifractalDeltaAlpha",
+        "Lyapunov",
+        "BoxCounting",
+        "CorrelationD2"
+      ],
+      "aucs": [
+        0.8916666666666668,
+        0.95,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.39166666666666683,
+        0.058333333333333126,
+        0.050000000000000044,
+        0.0,
+        0.0
+      ]
+    },
+    "susceptibility|fliprate": {
+      "selected": [
+        "Higuchi",
+        "BoxCounting",
+        "CorrelationD2",
+        "DANCo",
+        "DFA"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "susceptibility|flip": {
+      "selected": [
+        "Higuchi",
+        "BoxCounting",
+        "CorrelationD2",
+        "DANCo",
+        "DFA"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "susceptibility|energy": {
+      "selected": [
+        "Higuchi",
+        "CorrelationD2",
+        "DANCo",
+        "DFA",
+        "Fisher"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "susceptibility|magnetization": {
+      "selected": [
+        "Higuchi",
+        "CorrelationD2",
+        "DANCo",
+        "BoxCounting",
+        "DFA"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "susceptibility|localvar": {
+      "selected": [
+        "Higuchi",
+        "CorrelationD2",
+        "DANCo",
+        "DFA",
+        "Fisher"
+      ],
+      "aucs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gains": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "E_tc_layer": {
+    "verified": true,
+    "median_abs_d_tc": {
+      "BoxCounting": 0.5931955762815715,
+      "CorrelationD2": 0.9751296078362736,
+      "DANCo": 0.40250072595065334,
+      "DFA": 0.8740244270252878,
+      "Fisher": 0.9504460014372749,
+      "GraphDimension": 0.39933772283298097,
+      "GrassbergerProcaccia": 0.9751296078362736,
+      "Higuchi": 0.7508610989864937,
+      "Hurst": 1.0801931029366723,
+      "Hurst2mH": 1.080193102936669,
+      "InformationD1": 0.8605716696409781,
+      "Katz": 0.6614826437333691,
+      "KolmogorovLZ": 0.5387176961587374,
+      "LevinaBickel": 0.3330575477908137,
+      "LocalPCA": 0.4495268231915506,
+      "Lyapunov": 0.2023879723065476,
+      "MFA": 0.4316639182247305,
+      "MultifractalDeltaAlpha": 1.3088081601139614,
+      "PCAIntrinsic": 0.9390108857417705,
+      "PermutationEntropy": 0.555922230235652,
+      "PersistentHomology": 0.6322409653477896,
+      "Petrosian": 0.2821293764905931,
+      "SampleEn": 0.8023341665360186,
+      "Sevcik": 1.080926083142982,
+      "SingularityFmax": 0.3933316397642346,
+      "SpectralBeta": 0.8872911716957553,
+      "SpectralDimension": 0.8872911716957592,
+      "TwoNN": 0.7000178601210876,
+      "VisibilityGraph": 0.9362993519625824
+    },
+    "nan_cells": {
+      "BoxCounting": 0,
+      "CorrelationD2": 0,
+      "DANCo": 0,
+      "DFA": 0,
+      "Fisher": 0,
+      "GraphDimension": 0,
+      "GrassbergerProcaccia": 0,
+      "Higuchi": 0,
+      "Hurst": 0,
+      "Hurst2mH": 0,
+      "InformationD1": 0,
+      "Katz": 0,
+      "KolmogorovLZ": 0,
+      "LevinaBickel": 0,
+      "LocalPCA": 0,
+      "Lyapunov": 0,
+      "MFA": 0,
+      "MultifractalDeltaAlpha": 0,
+      "PCAIntrinsic": 0,
+      "PermutationEntropy": 0,
+      "PersistentHomology": 0,
+      "Petrosian": 0,
+      "SampleEn": 0,
+      "Sevcik": 0,
+      "SingularityFmax": 0,
+      "SpectralBeta": 1,
+      "SpectralDimension": 1,
+      "TwoNN": 0,
+      "VisibilityGraph": 0
+    },
+    "spearman_absB_vs_absE_medians": 0.9522049765952205,
+    "note": "Médianes |d| par cellule puis nanmedian (correctif du 30 oct. 2026, 2e passe : le harnais propageait un NaN à tout l'estimateur, et une médiane signée annulait des contrastes forts de signes opposés entre runs à contrôles de monotonies inverses)."
+  }
+}
