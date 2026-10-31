@@ -1,0 +1,65 @@
+[2026-10-30 17:28:02] Lot réduit : 23 contrôles, ordre CSV : ['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor', 'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color', 'stalk-shape', 'stalk-root', 'stalk-surface-above-ring', 'stalk-surface-below-ring', 'stalk-color-above-ring', 'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number', 'ring-type', 'spore-print-color', 'population', 'habitat']
+[2026-10-30 17:28:02] SKIP class (déjà OK)
+[2026-10-30 17:28:02] SKIP cap-shape (déjà OK)
+[2026-10-30 17:28:02] SKIP cap-surface (déjà OK)
+[2026-10-30 17:28:02] SKIP cap-color (déjà OK)
+[2026-10-30 17:28:02] SKIP bruises (déjà OK)
+[2026-10-30 17:28:02] SKIP odor (déjà OK)
+[2026-10-30 17:28:02] SKIP gill-attachment (déjà OK)
+[2026-10-30 17:28:02] SKIP gill-spacing (déjà OK)
+[2026-10-30 17:28:02] SKIP gill-size (déjà OK)
+[2026-10-30 17:28:02] SKIP gill-color (déjà OK)
+[2026-10-30 17:28:02] SKIP stalk-shape (déjà OK)
+[2026-10-30 17:28:02] START stalk-root
+[2026-10-30 17:33:22] END stalk-root : OK en 319.9s
+[2026-10-30 17:33:22] START stalk-surface-above-ring
+[2026-10-30 17:41:31] END stalk-surface-above-ring : OK en 489.1s
+[2026-10-30 17:41:31] START stalk-surface-below-ring
+[2026-10-30 17:49:48] END stalk-surface-below-ring : OK en 496.8s
+[2026-10-30 17:49:48] START stalk-color-above-ring
+[2026-10-30 17:52:33] END stalk-color-above-ring : OK en 165.2s
+[2026-10-30 17:52:33] START stalk-color-below-ring
+[2026-10-30 17:55:23] END stalk-color-below-ring : OK en 169.3s
+[2026-10-30 17:55:23] START veil-type
+[2026-10-30 18:35:12] END veil-type : OK en 2389.1s
+[2026-10-30 18:35:12] START veil-color
+[2026-10-30 18:42:03] END veil-color : OK en 411.8s
+[2026-10-30 18:42:03] START ring-number
+[2026-10-30 18:55:51] END ring-number : OK en 827.4s
+[2026-10-30 18:55:51] START ring-type
+[2026-10-30 19:03:45] END ring-type : OK en 474.3s
+[2026-10-30 19:03:45] START spore-print-color
+[2026-10-30 19:06:34] END spore-print-color : OK en 169.2s
+[2026-10-30 19:06:34] START population
+[2026-10-30 19:11:35] END population : OK en 301.1s
+[2026-10-30 19:11:35] START habitat
+[2026-10-30 19:23:44] END habitat : OK en 728.3s
+[2026-10-30 19:23:44] Lot réduit terminé. Échecs : aucun
+{
+  "results": {
+    "class": "OK (déjà fait)",
+    "cap-shape": "OK (déjà fait)",
+    "cap-surface": "OK (déjà fait)",
+    "cap-color": "OK (déjà fait)",
+    "bruises": "OK (déjà fait)",
+    "odor": "OK (déjà fait)",
+    "gill-attachment": "OK (déjà fait)",
+    "gill-spacing": "OK (déjà fait)",
+    "gill-size": "OK (déjà fait)",
+    "gill-color": "OK (déjà fait)",
+    "stalk-shape": "OK (déjà fait)",
+    "stalk-root": "OK",
+    "stalk-surface-above-ring": "OK",
+    "stalk-surface-below-ring": "OK",
+    "stalk-color-above-ring": "OK",
+    "stalk-color-below-ring": "OK",
+    "veil-type": "OK",
+    "veil-color": "OK",
+    "ring-number": "OK",
+    "ring-type": "OK",
+    "spore-print-color": "OK",
+    "population": "OK",
+    "habitat": "OK"
+  },
+  "failed": []
+}

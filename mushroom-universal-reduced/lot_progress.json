@@ -1,0 +1,28 @@
+{
+  "results": {
+    "class": "OK (déjà fait)",
+    "cap-shape": "OK (déjà fait)",
+    "cap-surface": "OK (déjà fait)",
+    "cap-color": "OK (déjà fait)",
+    "bruises": "OK (déjà fait)",
+    "odor": "OK (déjà fait)",
+    "gill-attachment": "OK (déjà fait)",
+    "gill-spacing": "OK (déjà fait)",
+    "gill-size": "OK (déjà fait)",
+    "gill-color": "OK (déjà fait)",
+    "stalk-shape": "OK (déjà fait)",
+    "stalk-root": "OK",
+    "stalk-surface-above-ring": "OK",
+    "stalk-surface-below-ring": "OK",
+    "stalk-color-above-ring": "OK",
+    "stalk-color-below-ring": "OK",
+    "veil-type": "OK",
+    "veil-color": "OK",
+    "ring-number": "OK",
+    "ring-type": "OK",
+    "spore-print-color": "OK",
+    "population": "OK",
+    "habitat": "OK"
+  },
+  "failed": []
+}

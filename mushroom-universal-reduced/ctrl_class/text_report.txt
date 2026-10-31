@@ -1,0 +1,203 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 212
+Nombre de Points: 2000
+Seuil Critique (utilisé): 53.16901408450704%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.518
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 53.2%
+  Seuil par défaut: 46.1%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 53.2%
+  Seuil par défaut: 60.5%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 569
+  resolution: 0.176%
+  w_size: 212
+  min_grp: 2
+  loupe autorisée: 21 à 801 seuils
+  témoin grille 1001 (même fenêtre): 53.2%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - stalk-color-below-ring_SampleEn: 33.231
+  - stalk-surface-above-ring_SampleEn: 25.443
+  - stalk-surface-below-ring_SampleEn: 16.987
+
+Q2_Tension_Seuil:
+  - ring-type_PersistentHomology: 34.925
+  - habitat_KolmogorovLZ: 10.641
+  - population_Katz: 10.515
+
+Q3_Agressivite:
+  - stalk-color-below-ring_SampleEn: 33.231
+  - stalk-surface-above-ring_SampleEn: 25.443
+  - stalk-surface-below-ring_SampleEn: 16.987
+
+Q4_Persistence:
+  - spore-print-color_Higuchi: 0.192
+  - spore-print-color_DFA: 0.192
+  - spore-print-color_Katz: 0.192
+
+Q5_Actif_Receptif:
+  - ring-number_SpectralBeta: 17.325
+  - population_SpectralBeta: 17.283
+  - stalk-shape_SpectralBeta: 17.255
+
+Q6_Actif_Receptif_Echelle:
+  - gill-spacing_SingularityFmax: 25318.148
+  - habitat_SingularityFmax: 24099.000
+  - stalk-color-below-ring_SingularityFmax: 16125.221
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance
+Score moyen proxy: nan
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 22 flux
+
+Score moyen de proxy de variance: nan (échelle 0-1)
+Score maximum: nan, Score minimum: nan
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. cap-shape (score: nan)
+     - Q5 ratio: 0.53 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: 0.302
+  2. cap-surface (score: nan)
+     - Q5 ratio: 0.68 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: -0.019
+  3. cap-color (score: nan)
+     - Q5 ratio: 0.31 vs bruit blanc 0.02
+     - Hurst max: nan, Pente FFT: 0.077
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. spore-print-color (score: nan)
+     - Hurst moyen: nan
+  2. population (score: nan)
+     - Hurst moyen: nan
+  3. habitat (score: nan)
+     - Hurst moyen: nan
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+cap-shape:
+  Divergence moyenne: 0.4%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-surface:
+  Divergence moyenne: 0.8%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-color:
+  Divergence moyenne: 0.9%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+bruises:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+odor:
+  Divergence moyenne: 4.4%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-attachment:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-spacing:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-size:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-color:
+  Divergence moyenne: 0.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-shape:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-root:
+  Divergence moyenne: 0.1%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-surface-above-ring:
+  Divergence moyenne: 27.1%
+  Verdict: 🔴 Impact fort — la normalisation min-max altère significativement les signatures de complexité.
+
+stalk-surface-below-ring:
+  Divergence moyenne: 1.5%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-above-ring:
+  Divergence moyenne: 0.6%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-below-ring:
+  Divergence moyenne: 0.8%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-type:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-color:
+  Divergence moyenne: 0.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-number:
+  Divergence moyenne: 0.5%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-type:
+  Divergence moyenne: 1.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+spore-print-color:
+  Divergence moyenne: 1.1%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+population:
+  Divergence moyenne: 1.4%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+habitat:
+  Divergence moyenne: 0.6%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: UNSTABLE
+Moyenne: 54.954728370221325%
+Écart-type: 8.24614796001047
+
+================================================================================
+Rapport généré le: 2026-10-30 15:36:07
+================================================================================

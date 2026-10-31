@@ -1,0 +1,203 @@
+================================================================================
+RAPPORT D'ANALYSE DE COMPLEXITÉ - UNIVERSAL LOG v3.4-H3
+================================================================================
+
+MÉTADONNÉES
+----------------------------------------
+Domaine: custom
+Mode: stable
+Test Statistique: cohen_d
+Taille de Fenêtre: 254
+Nombre de Points: 2000
+Seuil Critique (utilisé): 55.49549549549549%
+
+OPTIMISATION MONTE CARLO DES PARAMÈTRES DE SEUIL
+----------------------------------------
+Itérations: 50
+Meilleur score: 0.603
+
+DONNÉES TRAITÉES:
+  Seuil Monte Carlo: 55.5%
+  Seuil par défaut: 78.3%
+
+DONNÉES BRUTES:
+  Seuil Monte Carlo: 55.5%
+  Seuil par défaut: 78.3%
+
+Paramètres optimisés (données traitées):
+  n_candidates: 556
+  resolution: 0.180%
+  w_size: 254
+  min_grp: 5
+  loupe autorisée: 21 à 801 seuils
+  témoin grille 1001 (même fenêtre): 55.5%
+
+  Note: 1001 n'est plus la grille par défaut. Le témoin sert seulement à mesurer l'effet de l'ancienne constante.
+
+SIGNATURES DOMINANTES
+----------------------------------------
+
+Q1_Calme_vs_Chaos:
+  - class_Higuchi: 0.000
+  - class_DFA: 0.000
+  - class_Katz: 0.000
+
+Q2_Tension_Seuil:
+  - cap-surface_PermutationEntropy: 20.310
+  - odor_PermutationEntropy: 14.379
+  - cap-color_PermutationEntropy: 13.929
+
+Q3_Agressivite:
+  - class_Higuchi: 0.000
+  - class_DFA: 0.000
+  - class_Katz: 0.000
+
+Q4_Persistence:
+  - stalk-color-below-ring_Higuchi: 0.127
+  - stalk-color-below-ring_DFA: 0.127
+  - stalk-color-below-ring_Katz: 0.127
+
+Q5_Actif_Receptif:
+  - cap-color_Hurst: 31.471
+  - cap-color_SpectralBeta: 30.934
+  - cap-surface_PermutationEntropy: 30.761
+
+Q6_Actif_Receptif_Echelle:
+  - class_Higuchi: 5178.691
+  - stalk-surface-above-ring_SingularityFmax: 3475.076
+  - odor_SingularityFmax: 2683.100
+
+
+DIAGNOSTIC DE BRUIT
+----------------------------------------
+Verdict: Proxy de variance résiduelle colorée (CSD) - Forte signature de mémoire et de variance
+Score moyen proxy: nan
+
+Résumé:
+DIAGNOSTIC MULTI-FLUX - Analyse sur 22 flux
+
+Score moyen de proxy de variance: nan (échelle 0-1)
+Score maximum: nan, Score minimum: nan
+
+TOP 3 FLUX AVEC SIGNATURE CSD:
+  1. class (score: nan)
+     - Q5 ratio: 1.39 vs bruit blanc 0.16
+     - Hurst max: nan, Pente FFT: -0.034
+  2. cap-shape (score: nan)
+     - Q5 ratio: 0.69 vs bruit blanc 0.16
+     - Hurst max: nan, Pente FFT: 0.479
+  3. cap-surface (score: nan)
+     - Q5 ratio: 2.10 vs bruit blanc 0.16
+     - Hurst max: nan, Pente FFT: -0.034
+
+BOTTOM 3 FLUX (BRUIT BLANC):
+  1. spore-print-color (score: nan)
+     - Hurst moyen: nan
+  2. population (score: nan)
+     - Hurst moyen: nan
+  3. habitat (score: nan)
+     - Hurst moyen: nan
+
+
+
+DIAGNOSTIC DE NORMALISATION
+----------------------------------------
+
+class:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-shape:
+  Divergence moyenne: 1.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-surface:
+  Divergence moyenne: 3.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+cap-color:
+  Divergence moyenne: 2.8%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+bruises:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+odor:
+  Divergence moyenne: 3.6%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-spacing:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-size:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+gill-color:
+  Divergence moyenne: 0.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-shape:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-root:
+  Divergence moyenne: 0.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-surface-above-ring:
+  Divergence moyenne: 11.9%
+  Verdict: ⚠️ Impact modéré de la double normalisation — certains estimateurs divergent sensiblement.
+
+stalk-surface-below-ring:
+  Divergence moyenne: 3.2%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-above-ring:
+  Divergence moyenne: 1.3%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+stalk-color-below-ring:
+  Divergence moyenne: 2.1%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-type:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+veil-color:
+  Divergence moyenne: 0.4%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-number:
+  Divergence moyenne: 0.0%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+ring-type:
+  Divergence moyenne: 2.6%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+spore-print-color:
+  Divergence moyenne: 2.6%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+population:
+  Divergence moyenne: 1.7%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+habitat:
+  Divergence moyenne: 0.4%
+  Verdict: ✅ Normalisation min-max sans impact significatif — les deux stratégies convergent.
+
+
+STABILITÉ DU SEUIL
+----------------------------------------
+Note: UNSTABLE
+Moyenne: 71.17117117117117%
+Écart-type: 12.76103150243299
+
+================================================================================
+Rapport généré le: 2026-10-30 16:39:37
+================================================================================

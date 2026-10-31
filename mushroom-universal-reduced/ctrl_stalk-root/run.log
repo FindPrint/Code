@@ -1,0 +1,39 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.536
+  règle: uniform
+  n_candidates: 666, resolution: 0.150%
+  w_size: 152, min_grp: 7
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+/usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/usr/lib/python3/dist-packages/scipy/stats/_stats_py.py:5445: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  warnings.warn(stats.ConstantInputWarning(warn_msg))
+✓ Optimisation terminée - Meilleur score: 0.536
+  règle: uniform
+  n_candidates: 666, resolution: 0.150%
+  w_size: 152, min_grp: 7
+✓ Résultats JSON exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/mushroom-universal-reduced/ctrl_stalk-root/noise_diagnostic.png
+{
+  "pipeline": "UNIVERSAL_LOG v3.5.5-HP-v1",
+  "code_sha256": "2f58d414e636976737ecb35ae9285aa60eb9102346262e1d882f308b659e4479",
+  "code_path": "/home/hatch/workspace/user/files/UNIVERSAL_LOG.py",
+  "dataset": "mushrooms_reduced_2000.csv (sous-échantillon stratifié class, graine 42, de mushrooms_pipeline.csv)",
+  "data_sha256": "dee932631ad36ac0f23cae5f744ee02165764ced49bf5e0f9d1fa21458a9cfe8",
+  "control": "stalk-root",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 1411,
+  "n_flux": 22,
+  "opt_threshold": 20.751879699248118,
+  "w_size_best": 152,
+  "duration_s": 315.3
+}
+OK stalk-root en 315.3s, seuil 20.751879699248118

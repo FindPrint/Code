@@ -1,0 +1,39 @@
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+✓ Optimisation terminée - Meilleur score: 0.608
+  règle: pi
+  n_candidates: 569, resolution: 0.176%
+  w_size: 212, min_grp: 2
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers
+/usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/usr/lib/python3/dist-packages/scipy/stats/_stats_py.py:5445: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  warnings.warn(stats.ConstantInputWarning(warn_msg))
+✓ Optimisation terminée - Meilleur score: 0.617
+  règle: pi
+  n_candidates: 569, resolution: 0.176%
+  w_size: 212, min_grp: 2
+✓ Résultats JSON exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/pipeline_results.json
+✓ Résultats numériques exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/numerical_results.csv
+✓ Scores de séparation exportés: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/numerical_results_separation_scores.csv
+✓ Diagnostic bruit multi-flux exporté: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/numerical_results_noise_diagnostic.csv
+✓ Rapport textuel exporté: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/text_report.txt
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/mushroom-universal-reduced/ctrl_veil-color/noise_diagnostic.png
+{
+  "pipeline": "UNIVERSAL_LOG v3.5.5-HP-v1",
+  "code_sha256": "2f58d414e636976737ecb35ae9285aa60eb9102346262e1d882f308b659e4479",
+  "code_path": "/home/hatch/workspace/user/files/UNIVERSAL_LOG.py",
+  "dataset": "mushrooms_reduced_2000.csv (sous-échantillon stratifié class, graine 42, de mushrooms_pipeline.csv)",
+  "data_sha256": "dee932631ad36ac0f23cae5f744ee02165764ced49bf5e0f9d1fa21458a9cfe8",
+  "control": "veil-color",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 2000,
+  "n_flux": 22,
+  "opt_threshold": 57.9225352112676,
+  "w_size_best": 212,
+  "duration_s": 407.1
+}
+OK veil-color en 407.1s, seuil 57.9225352112676

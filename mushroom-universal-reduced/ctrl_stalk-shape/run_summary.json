@@ -1,0 +1,15 @@
+{
+  "pipeline": "UNIVERSAL_LOG v3.5.5-HP-v1",
+  "code_sha256": "2f58d414e636976737ecb35ae9285aa60eb9102346262e1d882f308b659e4479",
+  "code_path": "/home/hatch/workspace/user/files/UNIVERSAL_LOG.py",
+  "dataset": "mushrooms_reduced_2000.csv (sous-échantillon stratifié class, graine 42, de mushrooms_pipeline.csv)",
+  "data_sha256": "dee932631ad36ac0f23cae5f744ee02165764ced49bf5e0f9d1fa21458a9cfe8",
+  "control": "stalk-shape",
+  "status": "OK",
+  "mode": "stable",
+  "n_pts": 2000,
+  "n_flux": 22,
+  "opt_threshold": 43.44827586206897,
+  "w_size_best": 707,
+  "duration_s": 955.3
+}

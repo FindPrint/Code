@@ -1,0 +1,81 @@
+Runs inclus : 22 ; exclus : [{'run': 'veil-type', 'status': 'OK', 'opt_threshold': nan, 'reason': 'seuil non fini ou statut non OK'}]
+Estimateurs vérifiés : 29 — cas (run, flux) : 484
+{
+  "runs_inclus": 22,
+  "n_cases": 484,
+  "A_summary": {
+    "pairs_real_median_abs_rho": 0.4497902820592016,
+    "pairs_real_frac_ge_090": 0.12077687222785645,
+    "pairs_null_median_abs_rho": 0.14262114537444934,
+    "pairs_null_frac_ge_090": 0.00386614146350614,
+    "consensus_pairs": [
+      [
+        "CorrelationD2",
+        "GrassbergerProcaccia"
+      ],
+      [
+        "Hurst",
+        "Hurst2mH"
+      ],
+      [
+        "Katz",
+        "Petrosian"
+      ],
+      [
+        "SpectralBeta",
+        "SpectralDimension"
+      ]
+    ],
+    "consensus_groups": [
+      [
+        "CorrelationD2",
+        "GrassbergerProcaccia"
+      ],
+      [
+        "Hurst",
+        "Hurst2mH"
+      ],
+      [
+        "Katz",
+        "Petrosian"
+      ],
+      [
+        "SpectralBeta",
+        "SpectralDimension"
+      ]
+    ]
+  },
+  "E_tc_layer": {
+    "applicable": false,
+    "reason": "Aucune vérité terrain sur mushroom ; couche supprimée, pas remplacée (voir PROTOCOLE_LOUPES_LOT.md)."
+  }
+}
+{'estimateur': 'BoxCounting', 'median_abs_rho_reel': 0.5095, 'max_median_abs_rho': 0.7275, 'singleton_consensus': True, 'median_abs_d_reel': 1.5463, 'median_abs_d_nul': 0.2763, 'median_nan_cohortes': 0.0, 'selections_sur_484': 362, 'pas_median_selection': 2.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'CorrelationD2', 'median_abs_rho_reel': 0.4483, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 0.9064, 'median_abs_d_nul': 0.1893, 'median_nan_cohortes': 0.0, 'selections_sur_484': 300, 'pas_median_selection': 3.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'DANCo', 'median_abs_rho_reel': 0.4169, 'max_median_abs_rho': 0.6558, 'singleton_consensus': True, 'median_abs_d_reel': 0.9813, 'median_abs_d_nul': 0.2905, 'median_nan_cohortes': 0.0, 'selections_sur_484': 284, 'pas_median_selection': 3.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'DFA', 'median_abs_rho_reel': 0.4371, 'max_median_abs_rho': 0.8854, 'singleton_consensus': True, 'median_abs_d_reel': 1.0411, 'median_abs_d_nul': 0.3149, 'median_nan_cohortes': 0.0, 'selections_sur_484': 340, 'pas_median_selection': 4.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Fisher', 'median_abs_rho_reel': 0.4843, 'max_median_abs_rho': 0.783, 'singleton_consensus': True, 'median_abs_d_reel': 1.0773, 'median_abs_d_nul': 0.3159, 'median_nan_cohortes': 0.0, 'selections_sur_484': 239, 'pas_median_selection': 5.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'GraphDimension', 'median_abs_rho_reel': 0.3733, 'max_median_abs_rho': 0.4788, 'singleton_consensus': True, 'median_abs_d_reel': 0.9004, 'median_abs_d_nul': 0.3292, 'median_nan_cohortes': 0.0, 'selections_sur_484': 71, 'pas_median_selection': 5.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'GrassbergerProcaccia', 'median_abs_rho_reel': 0.4502, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 0.9064, 'median_abs_d_nul': 0.1895, 'median_nan_cohortes': 0.0, 'selections_sur_484': 16, 'pas_median_selection': 5.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Higuchi', 'median_abs_rho_reel': 0.4417, 'max_median_abs_rho': 0.6664, 'singleton_consensus': True, 'median_abs_d_reel': 1.2593, 'median_abs_d_nul': 0.3155, 'median_nan_cohortes': 0.0, 'selections_sur_484': 76, 'pas_median_selection': 2.0, 'gain_median_selection': 0.0458, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Hurst', 'median_abs_rho_reel': 0.4586, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 1.2461, 'median_abs_d_nul': 0.3118, 'median_nan_cohortes': 0.0, 'selections_sur_484': 29, 'pas_median_selection': 4.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Hurst2mH', 'median_abs_rho_reel': 0.4951, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 1.2135, 'median_abs_d_nul': 0.3123, 'median_nan_cohortes': 0.0, 'selections_sur_484': 3, 'pas_median_selection': 5.0, 'gain_median_selection': 0.0, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'InformationD1', 'median_abs_rho_reel': 0.4048, 'max_median_abs_rho': 0.5463, 'singleton_consensus': True, 'median_abs_d_reel': 0.6574, 'median_abs_d_nul': 0.1454, 'median_nan_cohortes': 0.0, 'selections_sur_484': 15, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Katz', 'median_abs_rho_reel': 0.4756, 'max_median_abs_rho': 0.9168, 'singleton_consensus': False, 'median_abs_d_reel': 1.6828, 'median_abs_d_nul': 0.3233, 'median_nan_cohortes': 0.0, 'selections_sur_484': 27, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'KolmogorovLZ', 'median_abs_rho_reel': 0.5034, 'max_median_abs_rho': 0.7477, 'singleton_consensus': True, 'median_abs_d_reel': 0.9987, 'median_abs_d_nul': 0.2837, 'median_nan_cohortes': 0.0, 'selections_sur_484': 16, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'LevinaBickel', 'median_abs_rho_reel': 0.3858, 'max_median_abs_rho': 0.4746, 'singleton_consensus': True, 'median_abs_d_reel': 0.9912, 'median_abs_d_nul': 0.3018, 'median_nan_cohortes': 0.0, 'selections_sur_484': 8, 'pas_median_selection': 1.0, 'gain_median_selection': 0.4153, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'LocalPCA', 'median_abs_rho_reel': 0.5046, 'max_median_abs_rho': 0.7491, 'singleton_consensus': True, 'median_abs_d_reel': 1.6015, 'median_abs_d_nul': 0.3341, 'median_nan_cohortes': 0.0, 'selections_sur_484': 14, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Lyapunov', 'median_abs_rho_reel': 0.3324, 'max_median_abs_rho': 0.4041, 'singleton_consensus': True, 'median_abs_d_reel': 0.6936, 'median_abs_d_nul': 0.3347, 'median_nan_cohortes': 1.0, 'selections_sur_484': 4, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'MFA', 'median_abs_rho_reel': 0.3778, 'max_median_abs_rho': 0.539, 'singleton_consensus': True, 'median_abs_d_reel': 0.8142, 'median_abs_d_nul': 0.3006, 'median_nan_cohortes': 0.0, 'selections_sur_484': 0, 'pas_median_selection': None, 'gain_median_selection': None, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'MultifractalDeltaAlpha', 'median_abs_rho_reel': 0.4692, 'max_median_abs_rho': 0.6316, 'singleton_consensus': True, 'median_abs_d_reel': 1.1563, 'median_abs_d_nul': 0.3257, 'median_nan_cohortes': 0.0, 'selections_sur_484': 6, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'PCAIntrinsic', 'median_abs_rho_reel': 0.5206, 'max_median_abs_rho': 0.783, 'singleton_consensus': True, 'median_abs_d_reel': 1.2301, 'median_abs_d_nul': 0.3258, 'median_nan_cohortes': 0.0, 'selections_sur_484': 4, 'pas_median_selection': 1.0, 'gain_median_selection': 0.3833, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'PermutationEntropy', 'median_abs_rho_reel': 0.5479, 'max_median_abs_rho': 0.8487, 'singleton_consensus': True, 'median_abs_d_reel': 2.2768, 'median_abs_d_nul': 0.3226, 'median_nan_cohortes': 0.0, 'selections_sur_484': 22, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'PersistentHomology', 'median_abs_rho_reel': 0.3639, 'max_median_abs_rho': 0.4429, 'singleton_consensus': True, 'median_abs_d_reel': 0.1938, 'median_abs_d_nul': 0.088, 'median_nan_cohortes': 0.0, 'selections_sur_484': 5, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Petrosian', 'median_abs_rho_reel': 0.5035, 'max_median_abs_rho': 0.9168, 'singleton_consensus': False, 'median_abs_d_reel': 2.0507, 'median_abs_d_nul': 0.3211, 'median_nan_cohortes': 0.0, 'selections_sur_484': 1, 'pas_median_selection': 1.0, 'gain_median_selection': 0.38, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'SampleEn', 'median_abs_rho_reel': 0.514, 'max_median_abs_rho': 0.8487, 'singleton_consensus': True, 'median_abs_d_reel': 1.6642, 'median_abs_d_nul': 0.3193, 'median_nan_cohortes': 0.0, 'selections_sur_484': 8, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'Sevcik', 'median_abs_rho_reel': 0.5612, 'max_median_abs_rho': 0.7939, 'singleton_consensus': True, 'median_abs_d_reel': 1.8189, 'median_abs_d_nul': 0.3196, 'median_nan_cohortes': 0.0, 'selections_sur_484': 4, 'pas_median_selection': 1.0, 'gain_median_selection': 0.5, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'SingularityFmax', 'median_abs_rho_reel': 0.4007, 'max_median_abs_rho': 0.4808, 'singleton_consensus': True, 'median_abs_d_reel': 0.6283, 'median_abs_d_nul': 0.2873, 'median_nan_cohortes': 0.0, 'selections_sur_484': 1, 'pas_median_selection': 1.0, 'gain_median_selection': 0.35, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'SpectralBeta', 'median_abs_rho_reel': 0.4072, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 1.0407, 'median_abs_d_nul': 0.3327, 'median_nan_cohortes': 0.0, 'selections_sur_484': 6, 'pas_median_selection': 1.0, 'gain_median_selection': 0.4375, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'SpectralDimension', 'median_abs_rho_reel': 0.4616, 'max_median_abs_rho': 1.0, 'singleton_consensus': False, 'median_abs_d_reel': 1.0908, 'median_abs_d_nul': 0.3338, 'median_nan_cohortes': 0.0, 'selections_sur_484': 0, 'pas_median_selection': None, 'gain_median_selection': None, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'TwoNN', 'median_abs_rho_reel': 0.402, 'max_median_abs_rho': 0.5858, 'singleton_consensus': True, 'median_abs_d_reel': 0.7546, 'median_abs_d_nul': 0.2478, 'median_nan_cohortes': 0.0, 'selections_sur_484': 2, 'pas_median_selection': 1.0, 'gain_median_selection': 0.4458, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
+{'estimateur': 'VisibilityGraph', 'median_abs_rho_reel': 0.4361, 'max_median_abs_rho': 0.6182, 'singleton_consensus': True, 'median_abs_d_reel': 1.5287, 'median_abs_d_nul': 0.3119, 'median_nan_cohortes': 0.0, 'selections_sur_484': 7, 'pas_median_selection': 1.0, 'gain_median_selection': 0.475, 'nul_gain_pas1_median': 0.2444, 'nul_gain_pas1_p95': 0.4444}
