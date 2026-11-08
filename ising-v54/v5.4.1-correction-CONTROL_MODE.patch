@@ -1,0 +1,36 @@
+# Correction v5.4.1 — CONTROL_MODE par defaut remis a 'single'
+# Fichier d'origine (NE PAS modifier) : workspace/user/files/UNIVERSAL_x5f_LOG_x5f_v5.4_0_1c23.py
+#   SHA256 d'origine verifie : c1115e1c4803bc56d330e37e1adb7a6697ea5393c9a42678111dd76162fb05be
+# Application : copier l'original sous le nom UNIVERSAL_LOG_v5.4.0.py
+#   dans un dossier de travail, puis `patch -p0 < ce_fichier`, puis
+#   renommer le fichier corrige UNIVERSAL_LOG_v5.4.1.py (ou appliquer
+#   a la main les 2 blocs : 1 ligne de code + 1 entree de journal).
+# L'original reste intact ; le lot v5.4.0 en cours n'est pas touche
+# (ses lanceurs passent deja --control-mode single explicitement).
+--- UNIVERSAL_LOG_v5.4.0.py
++++ UNIVERSAL_LOG_v5.4.1.py
+@@ -130,6 +130,15 @@
+     (logistique generee puis detectee) et est desormais etiquetee comme telle
+     dans sa docstring. Aucun decoupage de fichier : tout reste dans ce seul
+     fichier, comme demande.
++23. v5.4.1 — DEFAUT CONTROL_MODE REMIS A 'single' :
++    Correction d'un oubli de la v5.4 : l'en-tete portait CONTROL_MODE = "all"
++    (ligne 268) alors que le commentaire de la ligne 267, l'aide du CLI
++    (--control-mode) et le repli du code disent tous 'single' comme defaut,
++    et que le journal v5.4 n'annoncait nulle part ce passage a "all".
++    'single' redevient le defaut : un appel sans --control-mode ne lance
++    plus une boucle sur tous les controles. Le mode 'all' reste disponible
++    sur demande explicite (--control-mode all). Aucun autre comportement
++    ne change.
+ """
+ 
+ # =============================================================================
+@@ -265,7 +274,7 @@
+ HARMONIC_VALIDATION_N_SPLITS = 5
+ 
+ # Mode de contrôle : 'single' (défaut, mode de base), 'multi' ou 'all'.
+-CONTROL_MODE = "all"
++CONTROL_MODE = "single"
+ # Mode single : nom de la colonne voulue, ou None (= DEFAULT_CONTROL_COLUMN,
+ # puis repli signalé sur la première colonne numérique si elle est absente).
+ CONTROL_COLUMN = None
