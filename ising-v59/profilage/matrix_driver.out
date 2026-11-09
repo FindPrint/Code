@@ -1,0 +1,21 @@
+2026-11-09T12:28:12+00:00 START m01_v540_base : python3 /home/hatch/workspace/ising-v59/profilage/v540.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation
+2026-11-09T12:29:15+00:00 END m01_v540_base rc=0 duree_s=63
+2026-11-09T12:29:15+00:00 START m02_v590_default : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light
+2026-11-09T12:30:56+00:00 END m02_v590_default rc=0 duree_s=101
+2026-11-09T12:30:56+00:00 START m03_v590_noawf : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --no-adaptive-walk-forward
+2026-11-09T12:32:35+00:00 END m03_v590_noawf rc=0 duree_s=99
+2026-11-09T12:32:35+00:00 START m04_v590_nol7b : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --no-l7b
+2026-11-09T12:34:16+00:00 END m04_v590_nol7b rc=0 duree_s=101
+2026-11-09T12:34:16+00:00 START m05_v590_nodash : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --no-dashboard
+2026-11-09T12:35:56+00:00 END m05_v590_nodash rc=0 duree_s=100
+2026-11-09T12:35:56+00:00 START m06_v590_notel : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --no-telemetry
+2026-11-09T12:37:36+00:00 END m06_v590_notel rc=0 duree_s=100
+2026-11-09T12:37:36+00:00 START m07_v590_noregime : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --no-regime-weights
+2026-11-09T12:39:16+00:00 END m07_v590_noregime rc=0 duree_s=100
+2026-11-09T12:39:16+00:00 START m08_v590_alloff : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --no-l7b --no-adaptive-walk-forward --no-dashboard --no-telemetry --no-regime-weights
+2026-11-09T12:40:56+00:00 END m08_v590_alloff rc=0 duree_s=100
+2026-11-09T12:40:56+00:00 START m09_v540_prof : python3 -m cProfile -o /home/hatch/workspace/ising-v59/profilage/prof540.out /home/hatch/workspace/ising-v59/profilage/v540.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation
+2026-11-09T12:42:42+00:00 END m09_v540_prof rc=0 duree_s=106
+2026-11-09T12:42:42+00:00 START m10_v590_prof : python3 -m cProfile -o /home/hatch/workspace/ising-v59/profilage/prof590.out /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light
+2026-11-09T12:45:26+00:00 END m10_v590_prof rc=0 duree_s=164
+2026-11-09T12:45:26+00:00 MATRIX DONE

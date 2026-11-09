@@ -1,0 +1,53 @@
+Rendu texte du dump binaire cProfile prof540.out (meme donnees, forme lisible).
+Le dump binaire original reste local (snapshot GitHub = UTF-8 seulement).
+
+Mon Nov  9 07:42:41 2026    prof540.out
+
+         80604591 function calls (76055208 primitive calls) in 104.332 seconds
+
+   Ordered by: cumulative time
+   List reduced from 8179 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   1365/1    0.064    0.000  104.408  104.408 {built-in method builtins.exec}
+        1    0.001    0.001  104.408  104.408 /home/hatch/workspace/ising-v59/profilage/v540.py:1(<module>)
+        1    0.001    0.001  101.947  101.947 /home/hatch/workspace/ising-v59/profilage/v540.py:10438(main)
+        1    0.002    0.002  101.942  101.942 /home/hatch/workspace/ising-v59/profilage/v540.py:10176(run_full_unified_pipeline)
+        1    0.009    0.009  101.927  101.927 /home/hatch/workspace/ising-v59/profilage/v540.py:9592(_run_full_unified_pipeline_single)
+        1    0.056    0.056   49.632   49.632 /home/hatch/workspace/ising-v59/profilage/v540.py:6088(run_pipeline)
+      503    0.039    0.000   42.095    0.084 /home/hatch/workspace/ising-v59/profilage/v540.py:1421(apply_complexity)
+      503    0.038    0.000   30.892    0.061 /home/hatch/workspace/ising-v59/profilage/v540.py:1545(_compute_extra_estimators)
+    10563    0.078    0.000   26.875    0.003 /home/hatch/workspace/ising-v59/profilage/v540.py:1890(_safe_call)
+       12    0.000    0.000   26.615    2.218 /usr/lib/python3/dist-packages/matplotlib/pyplot.py:956(savefig)
+       14    0.012    0.001   22.150    1.582 /usr/lib/python3/dist-packages/matplotlib/figure.py:3162(savefig)
+       14    0.002    0.000   22.138    1.581 /usr/lib/python3/dist-packages/matplotlib/backend_bases.py:2213(print_figure)
+       40    0.000    0.000   17.212    0.430 /usr/lib/python3/dist-packages/matplotlib/artist.py:72(draw_wrapper)
+ 33167/40    0.126    0.000   17.212    0.430 /usr/lib/python3/dist-packages/matplotlib/artist.py:33(draw_wrapper)
+       40    0.001    0.000   17.212    0.430 /usr/lib/python3/dist-packages/matplotlib/figure.py:3062(draw)
+   353/40    0.008    0.000   17.080    0.427 /usr/lib/python3/dist-packages/matplotlib/image.py:113(_draw_list_compositing_images)
+      313    0.010    0.000   16.846    0.054 /usr/lib/python3/dist-packages/matplotlib/axes/_base.py:3035(draw)
+     1345    0.050    0.000   13.542    0.010 /usr/lib/python3/dist-packages/matplotlib/axis.py:1237(get_tightbbox)
+      390    0.028    0.000   12.753    0.033 /usr/lib/python3/dist-packages/matplotlib/axes/_base.py:4365(get_tightbbox)
+        1    0.001    0.001   12.262   12.262 /home/hatch/workspace/ising-v59/profilage/v540.py:4657(compute_noise_diagnostic)
+       40    0.001    0.000   12.204    0.305 /usr/lib/python3/dist-packages/matplotlib/backends/backend_agg.py:397(draw)
+5116/2418    0.027    0.000   11.468    0.005 /usr/lib/python3/dist-packages/matplotlib/_api/deprecation.py:379(wrapper)
+        1    0.009    0.009   11.260   11.260 /home/hatch/workspace/ising-v59/profilage/v540.py:4957(plot_complexity_landscape_improved)
+       28    0.000    0.000   11.212    0.400 /usr/lib/python3/dist-packages/matplotlib/backend_bases.py:2204(<lambda>)
+       28    0.000    0.000   11.210    0.400 /usr/lib/python3/dist-packages/matplotlib/backends/backend_agg.py:468(print_png)
+       28    0.004    0.000   11.210    0.400 /usr/lib/python3/dist-packages/matplotlib/backends/backend_agg.py:458(_print_pil)
+  904/574    0.007    0.000   10.375    0.018 /usr/lib/python3/dist-packages/matplotlib/artist.py:1371(_get_tightbbox_for_layout_only)
+        1    0.005    0.005   10.272   10.272 /home/hatch/workspace/ising-v59/profilage/v540.py:4856(plot_complexity_landscape)
+    36487    0.373    0.000    9.317    0.000 /usr/lib/python3/dist-packages/matplotlib/text.py:874(get_window_extent)
+      584    0.017    0.000    9.175    0.016 /usr/lib/python3/dist-packages/matplotlib/axis.py:1296(draw)
+    39247    1.366    0.000    8.362    0.000 /usr/lib/python3/dist-packages/matplotlib/text.py:298(_get_layout)
+        1    0.000    0.000    8.282    8.282 /home/hatch/workspace/ising-v59/profilage/v540.py:4019(compute_csd_consensus_diagnostics)
+        3    0.019    0.006    8.259    2.753 /home/hatch/workspace/ising-v59/profilage/v540.py:3897(_csd_calibration)
+  2048359    8.208    0.000    8.208    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      503    0.007    0.000    8.179    0.016 /home/hatch/workspace/ising-v59/profilage/v540.py:1319(sample_entropy_individual)
+     1203    0.206    0.000    8.170    0.007 /home/hatch/workspace/ising-v59/profilage/v540.py:3801(_csd_window_statistics)
+     1006    2.362    0.002    8.123    0.008 /home/hatch/workspace/ising-v59/profilage/v540.py:1334(count_matches)
+     3858    0.240    0.000    8.082    0.002 /usr/lib/python3/dist-packages/matplotlib/axis.py:1185(_update_ticks)
+  1125991    1.699    0.000    8.046    0.000 /usr/lib/python3/dist-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+       13    0.000    0.000    7.862    0.605 /usr/lib/python3/dist-packages/matplotlib/figure.py:3418(tight_layout)
+
+

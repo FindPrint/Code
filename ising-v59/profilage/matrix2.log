@@ -1,0 +1,147 @@
+2026-11-09T12:46:06+00:00 START m11_v590_h7 : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --horizons 7
+/home/hatch/workspace/ising-v59/profilage/v590f.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+/home/hatch/workspace/ising-v59/profilage/v590f.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='Target' methode=first_numeric_outside_controls controles=['ControlA'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v425-all-options/data/synth.csv | Domain: generic | Mode: fast
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=ControlA cible_demandee='Target' -> cible_utilisee='Target' | Cible fixee conservee pour ce run.
+Target Observable: Target | Control Parameter: ControlA
+Execution Route: MODE 'FAST'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (12 itérations, P_harmonique=0.45)...
+  Sequentiel: workers=3 (parallelisme si workers>1 et iterations>=20)
+✓ Optimisation terminée - Meilleur score: 0.545
+  règle: uniform
+  n_candidates: 105, resolution: 0.962%
+  w_size: 33, min_grp: 6
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=ControlA direction=non_monotone monotone=False spearman_r=1.000 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=ControlA T0=49.42% -> valeur brute controle=48.8433 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=ControlA : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (43.16%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: PASS | Stabilite horizon >= 0.80 sur L1/L3/L5.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 49.42%
+✓ T_0 en valeur brute du controle 'ControlA': 48.8432646632329 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+✓ Cible: demandee=Target | utilisee=Target | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'ControlA' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: criticality|control=ControlA (Delta=2.54, D_vec=[1.335206, 2.559844, 3.877639, 2.269516])
+✓ Results exported to: /home/hatch/workspace/ising-v59/profilage/out/m11_v590_h7
+2026-11-09T12:47:11+00:00 END m11_v590_h7 rc=0 duree_s=65
+2026-11-09T12:47:11+00:00 START m12_v590_h13612 : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --l7b-light --horizons 1,3,6,12
+/home/hatch/workspace/ising-v59/profilage/v590f.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+/home/hatch/workspace/ising-v59/profilage/v590f.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='Target' methode=first_numeric_outside_controls controles=['ControlA'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v425-all-options/data/synth.csv | Domain: generic | Mode: fast
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=ControlA cible_demandee='Target' -> cible_utilisee='Target' | Cible fixee conservee pour ce run.
+Target Observable: Target | Control Parameter: ControlA
+Execution Route: MODE 'FAST'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (12 itérations, P_harmonique=0.45)...
+  Sequentiel: workers=2 (parallelisme si workers>1 et iterations>=20)
+✓ Optimisation terminée - Meilleur score: 0.545
+  règle: uniform
+  n_candidates: 105, resolution: 0.962%
+  w_size: 33, min_grp: 6
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=ControlA direction=non_monotone monotone=False spearman_r=1.000 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=ControlA T0=49.42% -> valeur brute controle=48.8433 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=ControlA : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (42.58%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: FAIL | Stabilite horizon entre 0.50 et 0.80 : fragile, ne pas trancher.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 49.42%
+✓ T_0 en valeur brute du controle 'ControlA': 48.8432646632329 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+✓ Cible: demandee=Target | utilisee=Target | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'ControlA' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: criticality|control=ControlA (Delta=2.54, D_vec=[1.335206, 2.559844, 3.877639, 2.269516])
+✓ Results exported to: /home/hatch/workspace/ising-v59/profilage/out/m12_v590_h13612
+2026-11-09T12:48:26+00:00 END m12_v590_h13612 rc=0 duree_s=75
+2026-11-09T12:48:26+00:00 START m13_v590_h7_alloff : python3 /home/hatch/workspace/ising-v59/profilage/v590f.py --input /home/hatch/workspace/ising-v425-all-options/data/synth.csv --mode fast --control-mode single --control ControlA --no-harmonic-validation --no-l7b --no-adaptive-walk-forward --no-dashboard --no-telemetry --no-regime-weights --horizons 7
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='Target' methode=first_numeric_outside_controls controles=['ControlA'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v425-all-options/data/synth.csv | Domain: generic | Mode: fast
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=ControlA cible_demandee='Target' -> cible_utilisee='Target' | Cible fixee conservee pour ce run.
+Target Observable: Target | Control Parameter: ControlA
+Execution Route: MODE 'FAST'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (12 itérations, P_harmonique=0.45)...
+  Sequentiel: workers=3 (parallelisme si workers>1 et iterations>=20)
+✓ Optimisation terminée - Meilleur score: 0.545
+  règle: uniform
+  n_candidates: 105, resolution: 0.962%
+  w_size: 33, min_grp: 6
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=ControlA direction=non_monotone monotone=False spearman_r=1.000 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=ControlA T0=49.42% -> valeur brute controle=48.8433 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=ControlA : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (41.92%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: INDETERMINE (mode=off) | L7b desactive (--no-l7b). Ne pas interpreter L7a seul.
+✓ 5-Threshold T_0: 49.42%
+✓ T_0 en valeur brute du controle 'ControlA': 48.8432646632329 (median_near=48.8432646632329, min_near=46.91850641779634, max_near=49.87309372736764, spread=2.954587309571302, ambiguous=True)
+✓ Cible: demandee=Target | utilisee=Target | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'ControlA' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: criticality|control=ControlA (Delta=2.54, D_vec=[1.335206, 2.559844, 3.877639, 2.269516])
+✓ Results exported to: /home/hatch/workspace/ising-v59/profilage/out/m13_v590_h7_alloff
+2026-11-09T12:49:28+00:00 END m13_v590_h7_alloff rc=0 duree_s=62
+2026-11-09T12:49:28+00:00 MATRIX2 DONE

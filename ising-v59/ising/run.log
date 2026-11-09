@@ -337,3 +337,426 @@ Target Observable: flip | Control Parameter: fliprate
 Execution Route: MODE 'FULL'
 Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
   Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+2026-11-08T21:53:13+00:00 START full/fliprate
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='flip' methode=first_numeric_outside_controls controles=['fliprate'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=fliprate cible_demandee='flip' -> cible_utilisee='flip' | Cible fixee conservee pour ce run.
+Target Observable: flip | Control Parameter: fliprate
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.436
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=fliprate direction=non_monotone monotone=False spearman_r=0.998 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=fliprate T0=33.32% -> valeur brute controle=0.162246 (median_near=0.16224609375, min_near=0.153671875, max_near=0.162578125, spread=0.008906249999999977, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=fliprate : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/fliprate/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/fliprate/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/fliprate/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/fliprate/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/fliprate/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/fliprate/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/fliprate/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/fliprate/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/fliprate/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/fliprate/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (45.96%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: PASS | Stabilite horizon >= 0.80 sur L1/L3/L5.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 33.32%
+✓ T_0 en valeur brute du controle 'fliprate': 0.16224609375 (median_near=0.16224609375, min_near=0.153671875, max_near=0.162578125, spread=0.008906249999999977, ambiguous=True)
+✓ Cible: demandee=flip | utilisee=flip | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'fliprate' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=fliprate (Delta=4.45, D_vec=[1.254167, 3.461761, 5.708959, 2.465941])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/fliprate
+2026-11-08T23:28:03+00:00 END full/fliprate rc=0 duree_s=5690
+2026-11-08T23:39:54+00:00 SKIP full/fliprate
+2026-11-08T23:39:54+00:00 START full/flip
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['flip'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=flip cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: flip
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+2026-11-09T00:08:45+00:00 SKIP full/fliprate
+2026-11-09T00:08:45+00:00 START full/flip
+2026-11-09T00:26:04+00:00 SKIP full/fliprate
+2026-11-09T00:26:04+00:00 START full/flip
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['flip'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=flip cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: flip
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.436
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=flip direction=non_monotone monotone=False spearman_r=0.998 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=flip T0=33.32% -> valeur brute controle=166.14 (median_near=166.14, min_near=157.36, max_near=166.48, spread=9.119999999999976, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=flip : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/flip/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/flip/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/flip/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/flip/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/flip/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/flip/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/flip/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/flip/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/flip/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/flip/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (44.62%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: PASS | Stabilite horizon >= 0.80 sur L1/L3/L5.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 33.32%
+✓ T_0 en valeur brute du controle 'flip': 166.14 (median_near=166.14, min_near=157.36, max_near=166.48, spread=9.119999999999976, ambiguous=True)
+✓ Cible: demandee=fliprate | utilisee=fliprate | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'flip' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=flip (Delta=4.45, D_vec=[1.254167, 3.461761, 5.708959, 2.465941])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/flip
+2026-11-09T01:58:57+00:00 END full/flip rc=0 duree_s=5573
+2026-11-09T01:58:57+00:00 START full/energy
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['energy'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=energy cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: energy
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+2026-11-09T02:22:32+00:00 SKIP full/fliprate
+2026-11-09T02:22:32+00:00 SKIP full/flip
+2026-11-09T02:22:32+00:00 START full/energy
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['energy'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=energy cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: energy
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+2026-11-09T04:32:04+00:00 SKIP full/fliprate
+2026-11-09T04:32:04+00:00 SKIP full/flip
+2026-11-09T04:32:04+00:00 START full/energy
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['energy'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=energy cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: energy
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.436
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=energy direction=non_monotone monotone=False spearman_r=0.978 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=energy T0=73.26% -> valeur brute controle=-0.871094 (median_near=-0.87109375, min_near=-0.87109375, max_near=-0.87109375, spread=0.0, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=energy : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/energy/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/energy/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/energy/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/energy/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/energy/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/energy/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/energy/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/energy/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/energy/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/energy/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (40.20%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: FAIL | Stabilite horizon entre 0.50 et 0.80 : fragile, ne pas trancher.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 73.26%
+✓ T_0 en valeur brute du controle 'energy': -0.87109375 (median_near=-0.87109375, min_near=-0.87109375, max_near=-0.87109375, spread=0.0, ambiguous=True)
+✓ Cible: demandee=fliprate | utilisee=fliprate | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'energy' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=energy (Delta=4.43, D_vec=[1.26889, 3.274768, 5.695831, 2.343654])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/energy
+2026-11-09T06:09:29+00:00 END full/energy rc=0 duree_s=5845
+2026-11-09T06:09:29+00:00 START full/magnetization
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['magnetization'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=magnetization cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: magnetization
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+2026-11-09T06:32:05+00:00 SKIP full/fliprate
+2026-11-09T06:32:06+00:00 SKIP full/flip
+2026-11-09T06:32:06+00:00 SKIP full/energy
+2026-11-09T06:32:06+00:00 START full/magnetization
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['magnetization'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=magnetization cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: magnetization
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.435
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=magnetization direction=non_monotone monotone=False spearman_r=-0.875 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=magnetization T0=13.05% -> valeur brute controle=0.0332031 (median_near=0.033203125, min_near=0.033203125, max_near=0.033203125, spread=0.0, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=magnetization : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/magnetization/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/magnetization/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/magnetization/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/magnetization/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/magnetization/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/magnetization/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/magnetization/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/magnetization/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/magnetization/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/magnetization/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: DOWN (40.19%) | cible=down regime=down disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: PASS | Stabilite horizon >= 0.80 sur L1/L3/L5.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 13.05%
+✓ T_0 en valeur brute du controle 'magnetization': 0.033203125 (median_near=0.033203125, min_near=0.033203125, max_near=0.033203125, spread=0.0, ambiguous=True)
+✓ Cible: demandee=fliprate | utilisee=fliprate | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'magnetization' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=magnetization (Delta=4.59, D_vec=[1.369613, 2.986083, 5.962309, 2.368797])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/magnetization
+2026-11-09T08:11:50+00:00 END full/magnetization rc=0 duree_s=5984
+2026-11-09T08:11:50+00:00 START full/localvar
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['localvar'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=localvar cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: localvar
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+2026-11-09T08:38:18+00:00 SKIP full/fliprate
+2026-11-09T08:38:18+00:00 SKIP full/flip
+2026-11-09T08:38:18+00:00 SKIP full/energy
+2026-11-09T08:38:18+00:00 SKIP full/magnetization
+2026-11-09T08:38:18+00:00 START full/localvar
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['localvar'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=localvar cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: localvar
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.436
+  règle: uniform
+  n_candidates: 790, resolution: 0.127%
+  w_size: 100, min_grp: 5
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=localvar direction=non_monotone monotone=False spearman_r=0.976 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=localvar T0=60.64% -> valeur brute controle=0.575135 (median_near=0.5751350308641976, min_near=0.5735918209876544, max_near=0.5753279320987654, spread=0.0017361111111110494, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=localvar : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/localvar/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/localvar/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/localvar/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/localvar/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/localvar/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/localvar/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/localvar/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/localvar/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/localvar/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/localvar/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: UP (39.83%) | cible=up regime=up disagreement=False | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: FAIL | Stabilite horizon entre 0.50 et 0.80 : fragile, ne pas trancher.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: PASS | Cible et regime alignes ou non-informes, pas de desaccord directionnel.
+✓ 5-Threshold T_0: 60.64%
+✓ T_0 en valeur brute du controle 'localvar': 0.5751350308641976 (median_near=0.5751350308641976, min_near=0.5735918209876544, max_near=0.5753279320987654, spread=0.0017361111111110494, ambiguous=True)
+✓ Cible: demandee=fliprate | utilisee=fliprate | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'localvar' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=localvar (Delta=4.48, D_vec=[1.271853, 3.36331, 5.749213, 2.402779])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/localvar
+2026-11-09T10:13:12+00:00 END full/localvar rc=0 duree_s=5694
+2026-11-09T10:13:12+00:00 START full/susceptibility
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['susceptibility'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=susceptibility cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: susceptibility
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 2 workers, chunksize=7, plafond_prudent=2, BLAS/worker=1
+2026-11-09T10:31:54+00:00 SKIP full/fliprate
+2026-11-09T10:31:54+00:00 SKIP full/flip
+2026-11-09T10:31:55+00:00 SKIP full/energy
+2026-11-09T10:31:55+00:00 SKIP full/magnetization
+2026-11-09T10:31:55+00:00 SKIP full/localvar
+2026-11-09T10:31:55+00:00 START full/susceptibility
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+
+[CIBLE-FIXE-GLOBALE] politique=fixed mode=single cible_demandee=None -> cible_globale='fliprate' methode=first_numeric_outside_controls controles=['susceptibility'] | Cette cible unique sera reutilisee pour TOUS les controles. Le run ou controle == cible sera signale explicitement comme diagonal, avec cible_demandee ET cible_utilisee.
+
+================================================================================
+UNIVERSAL_LOG v5.9.0-L7aL7b-CoherenceRobustesse — RUNNING MASTER PIPELINE
+File: /home/hatch/workspace/ising-v354/data/ising_classic_v354.csv | Domain: generic | Mode: full
+================================================================================
+
+[CIBLE-FIXE] politique=fixed controle=susceptibility cible_demandee='fliprate' -> cible_utilisee='fliprate' | Cible fixee conservee pour ce run.
+Target Observable: fliprate | Control Parameter: susceptibility
+Execution Route: MODE 'FULL'
+Optimisation Monte Carlo HARMONIQUE GUIDÉ v1 (50 itérations, P_harmonique=0.45)...
+  Parallélisation: 3 workers, chunksize=5, plafond_prudent=3, BLAS/worker=1
+/home/hatch/workspace/user/files/universal_x5f_log_x5f_L7a_x5f_L7b_x5f_v5.9.0f_0_j1p1.py:551: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ts': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+✓ Optimisation terminée - Meilleur score: 0.438
+  règle: uniform
+  n_candidates: 771, resolution: 0.130%
+  w_size: 185, min_grp: 10
+
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE] controle=susceptibility direction=non_monotone monotone=False spearman_r=0.389 | Le controle n'est PAS monotone dans l'ordre fourni. La progression n'est donc pas injective : un meme seuil en % peut correspondre a plusieurs valeurs brutes. Les valeurs brutes a cote des % sont exploratoires (voir min / max / spread). Ne pas lire T0 comme une valeur unique du controle.
+[T0-VALEUR-BRUTE] controle=susceptibility T0=2.60% -> valeur brute controle=0.0265496 (median_near=0.0265495715130023, min_near=0.0, max_near=0.0436550811592367, spread=0.0436550811592367, ambiguous=True)
+[AVERTISSEMENT-CONTROLE-NON-MONOTONE-RAPPEL] controle=susceptibility : T0 en % ne correspond pas a une valeur unique du controle. Voir cascade.thresholds_in_control_units pour min / max / spread.
+✓ Paysage des 29 estimateurs sauvegardé: /home/hatch/workspace/ising-v59/ising/full/susceptibility/landscape_complexity.png
+Paysage ameliore v4.4.3 sauvegarde: /home/hatch/workspace/ising-v59/ising/full/susceptibility/landscape_complexity_improved.png
+Clustermap separation v4.4.3: /home/hatch/workspace/ising-v59/ising/full/susceptibility/separation_clustermap.png
+Tension holographique sauvegardee: /home/hatch/workspace/ising-v59/ising/full/susceptibility/holographic_tension.png
+✓ Courbe de scan sauvegardée: /home/hatch/workspace/ising-v59/ising/full/susceptibility/threshold_scan.png
+✓ Graphique diagnostic bruit sauvegardé: /home/hatch/workspace/ising-v59/ising/full/susceptibility/noise_diagnostic.png
+✓ Graphique des flux sauvegardé: /home/hatch/workspace/ising-v59/ising/full/susceptibility/raw_fluxes.png
+✓ Heatmaps de séparation par classe sauvegardées: /home/hatch/workspace/ising-v59/ising/full/susceptibility/separation_heatmap.png
+✓ Graphique post-seuil sauvegardé: /home/hatch/workspace/ising-v59/ising/full/susceptibility/post_threshold.png
+✓ Graphique de corrélation CSD vs f' sauvegardé: /home/hatch/workspace/ising-v59/ising/full/susceptibility/csd_correlation.png
+
+✓ Pipeline Master completed successfully!
+✓ L7a-COHERENCE: DOWN (22.17%) | cible=down regime=up disagreement=True | L7a = vote interne, ne prouve rien.
+✓ L7b-ROBUSTESSE: FRAGILE (mode=light) | Au moins un check light FAIL. Ne pas utiliser L7a seul pour decider. Passer en --l7b-full pour confirmer.
+    L7b check stabilite_horizon: PASS | Stabilite horizon >= 0.80 sur L1/L3/L5.
+    L7b check stabilite_walkforward: FAIL | T0 tres variable en walk-forward (t0_std > 20).
+    L7b check coherence_interne: FAIL | Cible (L1) et regime (L3/L6) ne disent pas la meme chose. Reporter les deux, ne pas forcer un seul sens.
+✓ 5-Threshold T_0: 2.60%
+✓ T_0 en valeur brute du controle 'susceptibility': 0.0265495715130023 (median_near=0.0265495715130023, min_near=0.0, max_near=0.0436550811592367, spread=0.0436550811592367, ambiguous=True)
+✓ Cible: demandee=fliprate | utilisee=fliprate | politique=fixed | repli_diagonal=False
+✓ [AVERTISSEMENT] Controle 'susceptibility' NON MONOTONE (direction=non_monotone) : T0 en % n'est pas une valeur unique du controle, voir spread.
+✓ Tool Footprint: Pure Continuous Physical Phenomenon (No tool artifact)
+✓ Holographic Tension: divergence|control=susceptibility (Delta=3.78, D_vec=[1.29338, 2.099196, 5.075155, 2.400783])
+✓ Results exported to: /home/hatch/workspace/ising-v59/ising/full/susceptibility
+2026-11-09T12:21:14+00:00 END full/susceptibility rc=0 duree_s=6559
+2026-11-09T12:21:14+00:00 FULL DONE
